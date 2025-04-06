@@ -1,0 +1,143 @@
+
+.bundlecontainer {
+  background-image: url("../../assets/bundlebg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1405px;
+  margin: 70px auto;
+  box-sizing: border-box;
+  min-height: 140vh;
+}
+
+.bundlesection {
+  width: 100%;
+  max-width: 900px; 
+}
+
+.bundleheading {
+  width: 890px;
+  font-size: 42px;
+  line-height: 160%;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  color: #f6ffff;
+  margin-top: 170px;
+  text-align: center;
+}
+
+.bundleparagraph {
+  margin-top: 10px;
+  width: 800px; 
+  font-size: 15.5px;
+  color: #d1d1d1;
+  margin-bottom: 40px;
+  line-height: 180%;
+  font-family: 'Work Sans';
+  color: #f6ffff;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.bundleicon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 75%; 
+  margin: 0 auto;
+}
+
+.imagesec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.bundleimage {
+  width: 40%; 
+  height: 66px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.imagesec p {
+  font-family: 'Work Sans';
+  line-height: 160%;
+  width: 248px;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+  .bundleheading {
+      width: 100%;
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .bundleparagraph {
+    font-size: 14px;
+    line-height: 170%;
+    width: 90%;
+    text-align: center;
+  }
+  .bundleicon {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .bundleimage {
+    width: 50%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .bundleheading {
+    width: 100%;
+    font-size: 20px; 
+    margin-top: 80px; 
+    line-height: 140%;
+  }
+
+  .bundleparagraph {
+    font-size: 12px; 
+    line-height: 150%; 
+    width: 95%; 
+    margin: 10px auto; 
+  }
+
+  .bundleicon {
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px; 
+    width: 95%; 
+  }
+
+  .imagesec {
+    margin-bottom: 15px; 
+  }
+
+  .bundleimage {
+    width: 70%; 
+    margin-bottom: 5px; 
+  }
+
+  .imagesec p {
+    font-size: 12px; 
+    line-height: 140%;
+    width: 100%; 
+  }
+}
+

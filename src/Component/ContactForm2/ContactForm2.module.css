@@ -1,0 +1,412 @@
+
+
+
+.container {
+  display: flex;
+flex-direction: column;
+align-items: center;
+/* background-image: url("../../assets/cntct.png") !important; */
+
+background-position: center;
+
+border-radius: 10px;
+background: rgba(22, 38, 50, 0.70);
+background-image: url('../../assets/MWFormGrad.png');
+background-blend-mode:color-burn;
+background-repeat: no-repeat;
+background-position: -500px 100px;
+backdrop-filter: blur(100px);
+padding-top: 50px;
+max-width: 1400px;
+margin: 50px auto;
+padding-bottom: 50px;
+color: white;
+font-family: Arial, sans-serif;
+position: relative;
+border-radius: 10px; /* Rounded corners */
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: #1a374b;
+}
+
+
+.title {
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 30px;
+
+
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.inputGroup {
+  margin-top: 50px;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.inputGroup span {
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #1a374b;
+  color: white;
+  font-size: 1rem;
+}
+.input:hover {
+  width: 100%;
+  padding: 0.8rem;
+  /* border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #1a374b;
+  color: white; */
+  font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  /* background-color: #1a374b; */
+  color: white;
+  border-radius: 5px;
+border: 1px solid #5AFFFF !important;
+background: var(--Primary-Primary-300, #1A374B);
+  font-size: 16px;
+  border-radius: 5px;
+  background: var(--Primary-Primary-300, #1A374B);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.input2
+{
+max-width: 300px;
+padding: 0.8rem;
+border-radius: 5px;
+border: 1px solid #ccc;
+background-color: #1a374b;
+color: white;
+font-size: 1rem; 
+}
+.optionButton {
+  flex: 1;
+
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #1a374b;
+  color: white;
+  cursor: pointer;
+  width: 32%!important;
+  border: none;
+}
+.optionButton:hover {
+  flex: 1;
+
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #1a374b;
+  color: white;
+  cursor: pointer;
+  
+  border: none;
+}
+.optionButton2 {
+flex: 1;
+width: 32%;
+justify-content: center;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+background-color: #1a374b;
+color: white;
+cursor: pointer;
+
+border: none;
+}
+.options2 {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width: 100%; 
+max-width: 1100px; 
+}
+
+.options1 {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width: 100%; 
+max-width: 100%; 
+}
+
+.optionButton2 {
+flex: 1 1 calc(25% - 10px); 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+background-color: #1a374b;
+color: white;
+cursor: pointer;
+height: 70px;
+width: 24%;
+border: none;
+text-align: center;
+}
+.optionButton1 {
+flex: 1 1 calc(20% - 10px); 
+display: flex;
+max-width: 700px;
+height: 70px;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+background-color: #1a374b;
+color: white;
+cursor: pointer;
+border: none;
+text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+.optionButton {
+  flex: 1 1 100%; 
+}
+}
+
+.optionButton:hover {
+  background-color: #778da9;
+}
+
+.active {
+  background-color: #e0e1dd;
+  color: #1a374b;
+}
+.dateInputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between ;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dateInputs input {
+  width: 32% !important;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #1b263b;
+  color: white;
+  font-size: 1rem;
+}
+
+.fileUpload {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fileUpload input[type="file"] {
+  display: none;
+}
+
+.fileUpload label {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  background-color: #415a77;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.fileUpload label:hover {
+  background-color: #778da9;
+}
+.fileButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.fileButton img {
+  width: 24px; /* Adjust size as needed */
+  margin-right: 8px;
+}
+
+.hiddenInput {
+  display: none;
+}
+.imgUpload span {
+  background: #39FFFB;
+  border: solid 1px #39FFFB;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+.deleteButton i {
+  margin-top: 10px;
+font-size: 30px;
+}
+.downloadIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px; /* Increase width for a larger circle */
+  height: 50px; /* Increase height for a larger circle */
+  border-radius: 50%;
+
+  padding: 0; /* Remove padding to keep icon centered */
+  background-color: #00c9c9;
+  border: none; /* Optional: remove border for a cleaner look */
+  cursor: pointer;
+background: var(--Accent-Accent-400---Main, #39FFFB);
+box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+}
+
+
+
+
+.submitButton {
+  background-color: #00e3e3;
+  width: 180x;
+  /* height: 55px; */
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  align-self: flex-end;
+  transition: background-color 0.3s ease;
+  box-shadow: 1px 3px 10px #00e3e3;
+  
+}
+
+.submitButton:hover {
+  background-color: #00c9c9;
+}
+.imgUpload{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.deleteButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Increase width for a larger circle */
+  height: 40px; /* Increase height for a larger circle */
+  border-radius: 50%;
+  padding: 0; /* Remove padding to keep icon centered */
+  background-color: #00c9c9;
+  border: none; /* Optional: remove border for a cleaner look */
+  cursor: pointer;
+background: var(--Accent-Accent-400---Main, #39FFFB);
+box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+}
+.btnstyles{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width:1600px)
+{
+  .container
+  {
+   
+    zoom: 0.7;
+  }
+}
+@media (max-width:1000px)
+{
+  .container
+  {
+    padding: 40px;
+    margin: 20px;
+  }
+  .options2
+  {
+    flex-direction: column;
+  }
+
+  .optionButton2
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px)
+{
+  .options1
+  {
+    flex-direction: column;
+  }
+  .optionButton1
+  {
+    width: 100%;
+    max-width: 100%;
+  }
+  .options
+  {
+    flex-direction: column;
+  }
+  .optionButton
+  {
+    flex: none;
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .input2
+  {
+    max-width: 100%;
+    width: 100% !important;
+  }
+  .dateInputs
+  {
+    flex-direction: column;
+  }
+  .dateInputs input
+  {
+      width: 100% !important;
+  }
+
+  .options , .optionButton2, .options1, .optionButton
+  {
+    font-size: xx-small;
+  }
+
+}

@@ -1,0 +1,15 @@
+.container{
+    background-image: url("../../assets/JoinUsNewsGrad.png");
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: center -350px;
+}
+.topbg
+{
+    background-image: url('../../assets/MaflamBlog.png');
+    width: 100vw;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 60px;
+}

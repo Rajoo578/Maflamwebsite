@@ -1,0 +1,140 @@
+.carouselWrapper {
+  background: #030B11;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.carouselWrapper h2 {
+  color: #FFF;
+  padding-top: 130px;
+  text-align: center;
+  font-family: "Noto Kufi Arabic";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.overlay {
+  position: absolute;
+  right: -400px;
+  bottom: 0;
+  width: 50%;
+  height: 140%;
+  filter: blur(50px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 0.8;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+.roverlay {
+  position: absolute;
+  left: -400px;
+  bottom: 0;
+  width: 50%;
+  height: 140%;
+  filter: blur(50px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 0.9;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  /* padding: 20px 0px; */
+}
+
+.carouselSliderContainer {
+  width: 100%;
+  /* margin-top: 20px; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.carouselSliderContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.carouselSlider {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carouselCard {
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  height: 483px;
+  right: 350px;
+  min-width:609px !important;
+  color: #fff;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselCard video {
+  
+  position: relative;
+  width: 600px;
+  margin-top: 100px;
+  /* Full width of the card */
+  border-radius: 5px; /* Optional: To match the card's border radius */
+}
+
+.carouselArrowLeft,
+.carouselArrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+}
+
+.carouselArrowLeft {
+  left: 10px;
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px;
+  background-color: #4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselArrowRight {
+  right: 20px;
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px;
+  background-color: #4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselArrowLeft:hover,
+.carouselArrowRight:hover {
+  background-color: #4444;
+}
+
+@media (max-width:1250px)
+{
+  .carouselWrapper
+  {
+    zoom: 0.6;
+  }
+}

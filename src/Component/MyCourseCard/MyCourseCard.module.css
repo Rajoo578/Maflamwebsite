@@ -1,0 +1,238 @@
+
+.maincontainer{
+    background-color: #030b11;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .container {
+      padding: 20px;
+      margin-top: 30px !important;
+      text-align: center;
+  margin-left: 100px;
+  margin: 0 auto;
+  max-width: 1500px;
+  /* margin-right: 100px; */
+    
+  
+    }
+
+    
+.CertificatePageData
+{
+    margin: auto;
+    max-width: 1300px;
+}
+.profileHeader h1{
+  color:  white;
+}
+.activeTab {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+.profileHeader {
+    max-width: 1300px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+.profileHeader h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.activeTab a{
+    color: white;
+    text-decoration: none;
+}
+.activeTab1 a{
+    color: white;
+    text-decoration: none;
+}
+.profileTabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+    
+    .container h2 {
+      color: #fff;
+      font-size: 24px;
+      text-align: start;
+      margin-bottom: 20px;
+    }
+    
+    .profileTabs li {
+      cursor: pointer;
+      font-size: 18px;
+      padding: 10px 20px;
+      color: white;
+  }
+    .cardsGrid {
+      display: grid;
+  
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: -70px !important;
+    }
+    
+    .card {
+      /* background: linear-gradient(
+        0deg,
+        rgba(90, 255, 255, 0.4) 0%,
+        rgba(90, 255, 255, 0.4) 100%
+      ); */
+      background-color: #061C2B;
+      border-radius: 15px;
+      overflow: hidden;
+      display: flex;
+      height: 700px;
+      width: 400px;
+      gap: 60px;
+      flex-direction: column;
+      color: #fff;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .imageflex{
+      display: flex;
+      gap: 20px;
+    }
+    
+    .cardImage {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    .cardContent {
+      padding: 20px;
+      margin-top: -39px;
+    }
+    
+    .cardContent h3{
+      color: var(--Accent-Accent-50, #F6FFFF);
+  
+  font-family: "Noto Kufi Arabic";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; 
+  text-align: start;
+  
+    }
+    .cardContent p{
+      color: var(--Accent-Accent-50, #F6FFFF);
+  
+  font-family: "Noto Kufi Arabic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  text-align: start;
+  
+    }
+    .footer span{
+      color: var(--Accent-Accent-400---Main, #39FFFB);
+      text-align: right;
+      /* Headlines/Headline 7 */
+      font-family: "Noto Kufi Arabic";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 160%; 
+    }
+    .instructor {
+      font-size: 16px;
+      color: #d1d1d1;
+    }
+    
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    
+    .description {
+      font-size: 14px;
+      color: #cfcfcf;
+      margin-bottom: 20px;
+    }
+    
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer button {
+      color: var(--Primary-Primary-400, #061C2B);
+      text-align: right;
+      font-family: "Noto Kufi Arabic";
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 94.1%;
+      letter-spacing: -0.34px;
+    }
+    
+    .buyNow {
+    
+  
+      border-radius: 24px;
+      padding: 17px;
+  background: var(--Accent-Accent-400---Main, #39FFFB);
+  box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+    }
+    
+    .buyNow:hover {
+      background-color: rgba(90, 255, 234, 0.30);
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .cardsGrid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+    
+      .card {
+        height: auto;
+      }
+    
+      .cardImage {
+        height: 150px;
+      }
+    }
+    @media (max-width: 768px){
+      .footer{
+        flex-direction: column;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 18px;
+      }
+    
+      .card {
+        height: auto;
+      }
+    
+      .cardImage {
+        height: 120px;
+      }
+    
+      .title {
+        font-size: 18px;
+      }
+    
+      .description {
+        font-size: 12px;
+      }
+    }
+    

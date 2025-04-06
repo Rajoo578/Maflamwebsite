@@ -1,0 +1,73 @@
+.articleSection {
+    width: 100vw;
+    max-width: 1300px;
+    padding: 40px 0;
+    margin: auto;
+    text-align: start;
+  }
+  
+  .heading {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .articlesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .articleCard {
+    margin-top: 10px;
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 411px; 
+  } 
+  
+
+   .articleImage {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 261px;
+    object-fit: cover;
+    
+
+  }
+  
+  .articleContent {
+    font-size:17px;
+    padding: 10px;
+  }
+  
+  .readMore {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .readMore:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+
+@media (max-width:1250px)
+{
+  .articleSection
+  {
+    zoom: 0.8;
+  }
+}
+@media (max-width:768px)
+{
+  .articleSection
+  {
+    zoom: 0.7;
+  }
+}

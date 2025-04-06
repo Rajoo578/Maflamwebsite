@@ -1,0 +1,12 @@
+.JoinUsContainer
+{
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    background: url(../assets/JoinUsNewsGrad.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 63%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}

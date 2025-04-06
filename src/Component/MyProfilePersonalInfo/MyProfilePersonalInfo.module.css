@@ -1,0 +1,268 @@
+.profileContainer {
+    max-width: 1500px; 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(221, 229, 234, 0.07);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 100px;
+  }
+  .imageUploadContainer h2{
+    margin-bottom: 10px;
+    color: white;
+  }
+  .profileHeader {
+    /* text-align: center; */
+    margin-bottom: 20px;
+  }
+  
+  .profileHeader h1 {
+    font-size: 2em;
+    color: #fff; 
+  }
+  
+  .profileTabs {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profileTabs li  a{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white; 
+    text-decoration: none;
+  }
+  
+  .profileTabs .activeTab {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+  }
+  .activeTab a{
+    color: white;
+    outline: none;
+    text-decoration: none;
+
+  }
+  
+  .footerHr {
+    margin-top: 10px;
+    border: 0;
+    border-top: 1px solid #39FFFb;
+    opacity: 0.2;
+  }
+  
+  .profileForm {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(221, 229, 234, 0.07); 
+    border-radius: 8px;     
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+ 
+.imageUploadContainer {
+    display: flex; 
+    flex-direction: column; 
+    align-items: start; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.imagePreview {
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 2px solid #ffffff; 
+}
+
+.imagePreview img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.editIconContainer {
+    position: absolute; 
+    bottom: 1px; 
+    right: 10px; 
+    width: 60px; 
+    height: 40px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+}
+
+
+
+  
+  .fileInput {
+    display: none;
+  }
+  
+  .genderContainer {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 2%;
+    outline: none;
+  }
+  
+  .genderBox {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #3D5C72; 
+    width: 49%;
+    outline: none;
+    color: white;
+
+  }
+  
+  .genderBox:hover {
+    color: white;
+    outline: none;
+  }
+  
+  .genderBox.active {
+    color: black;
+    outline: none;
+    border: 1px solid #39FFFB
+  }
+  
+  .dobGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dobGroup select {
+    flex: 1;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #39FFFB;
+    border-radius: 4px;
+  }
+  
+  .formGroup {
+    margin-bottom: 0px;
+    padding: 20px 20px;
+
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: white; 
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #3D5C72;
+    color: white; 
+    border: none;
+    outline: nonesss;
+  }
+  
+  /* Placeholder styling */
+  .formGroup input::placeholder,
+  .formGroup select::placeholder {
+    color: #8BA1AF; 
+  }
+  .formGroup input:focus,
+.formGroup select:focus {
+    border: 1px solid #39FFFB; 
+    outline: none;
+}
+  
+  .formGroup select[name='profession'] {
+    width: 30%; 
+  }
+  
+  .linksGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linksGroup input {
+    margin-bottom: 10px;
+   
+  }
+  
+  .skillsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .skillsContainer select {
+    flex: 1;
+    margin-right: 5px;
+  }
+  
+  
+  .skillPreviewContainer {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    margin-top: 10px; 
+  }
+  
+  .skillPreview {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+  }
+
+  .closeIcon {
+    cursor: pointer;
+    margin-left: 5px;
+    color: black;
+  }
+
+  .formGroup select[name='interestedInLearning'] {
+    width: 30%; 
+  }
+  
+  .submitButton {
+    height: 64px;
+    padding: 10px 20px;
+    background-color: #39FFFB;
+    box-shadow: 0px 10px 30px rgba(90, 255, 234, 0.3);
+    color: #061C2b;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:'Work Sans';
+    border: none;
+    border-radius: 64px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+    
+  }
+  
+  .submitButton:hover {
+    background-color: #3D5C72;
+  }

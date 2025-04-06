@@ -1,0 +1,133 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "formattedCourseData": {
+    "id": "string",
+    "courseId": "string",
+    "title": "string",
+    "description": "string",
+    "whatyoulearn": "string",
+    "price": "string",
+    "lecturecount": "string",
+    "promoPhoto": "string",
+    "promoVideo": "string",
+    "banner": "string",
+    "lessions":[
+      {
+        "SectionTitle1": "مقدمة",
+        "Lessons": [
+          { "lesson_name": "مقدمة تقنية", "timing": "٠:٥٧" },
+          { "lesson_name": "ايش هو الفيديو", "timing": "٠:٤٣" },
+          { "lesson_name": "كيف تصنع الصورة", "timing": "٠:٥٧" }
+        ]
+      },
+      {
+        "SectionTitle1": "الكاميرا",
+        "Lessons": [
+          { "lesson_name": "أنواع الكاميرات الرقمية", "timing": "٤:٥٢" },
+          { "lesson_name": "متى تستخدم كل نوع للكاميرات", "timing": "٨:٣٥" },
+          { "lesson_name": "مكونات الكاميرا", "timing": "٠:٤٧" },
+          { "lesson_name": "مستشعر الكاميرا", "timing": "٣:٠٣" },
+          { "lesson_name": "أحجام المستشعرات", "timing": "٢:٣٨" },
+          { "lesson_name": "تأثير حجم المستشعر", "timing": "٣:٠٢" },
+          { "lesson_name": "كيفية التعريض", "timing": "٣:٢٧" },
+          { "lesson_name": "الآي إس أو", "timing": "٢:١٧" },
+          { "lesson_name": "(سرعة الغالق (الشتر سبيد", "timing": "٣:٣٥" },
+          { "lesson_name": "معدل التأطير (الفريم ريت)", "timing": "٨:٠٨" },
+          { "lesson_name": "الإف ستوب", "timing": "٣:٥١" },
+          { "lesson_name": "موازنة اللون الأبيض", "timing": "٥:١٧" },
+          { "lesson_name": "أبعاد الإطار (الآسبكت ريشيو)", "timing": "٤:٠٩" },
+          { "lesson_name": "الدقة (الريزلوشن)", "timing": "٣:٢٨" },
+          { "lesson_name": "البكتشر بروفايل", "timing": "١:٤٢" },
+          { "lesson_name": "ستاندرد أو Log", "timing": "٣:٢٩" },
+          { "lesson_name": "الكودك والبيتريت", "timing": "٣:٤٠" },
+          { "lesson_name": "كيف تنظف الكاميرا", "timing": "١:٥٦" },
+          { "lesson_name": "كل ما يتعلق ببطاقات الذاكرة", "timing": "٥:٤٨" },
+          { "lesson_name": "الأشياء إللي تنتبه لها لما تشتري كاميرا", "timing": "٣:٠٧" },
+          { "lesson_name": "كيفية عمل العدسات", "timing": "٠:٥٠" },
+          { "lesson_name": "أنواع العدسات المختلفة", "timing": "٦:٠٤" },
+          { "lesson_name": "الفلاتر", "timing": "٣:٣٨" },
+          { "lesson_name": "فلاتر الإن دي", "timing": "٣:١٢" },
+          { "lesson_name": "التصوير باستخدام فلتر ال ND", "timing": "٢:٣٥" },
+          { "lesson_name": "أي نوع فلتر أشتري", "timing": "٥:٥٨" },
+          { "lesson_name": "كيف أشتري عدسة؟", "timing": "٤:٥٢" },
+          { "lesson_name": "عناصر العمق الميداني", "timing": "١:٣٧" },
+          { "lesson_name": "استخدامات العمق الميداني", "timing": "٤:٠٣" }
+        ]
+      },
+      {
+        "SectionTitle1": "الجريب",
+        "Lessons": [
+          { "lesson_name": "ليش الحركة مهمة في الفيديو", "timing": "١:٥٤" },
+          { "lesson_name": "ايش هو الچريپ", "timing": "١:١٤" },
+          { "lesson_name": "أنواع حركات الكاميرا", "timing": "٢:٤٩" },
+          { "lesson_name": "تسخير حركة الكاميرا لرواية القصة", "timing": "٦:١٨" },
+          { "lesson_name": "نصائح لحمل الكاميرا يدويًا", "timing": "١:٤٦" },
+          { "lesson_name": "أنواع الستابلايزر", "timing": "٢:٤٧" },
+          { "lesson_name": "الحامل الثلاثي (الترايبود)", "timing": "١:٣٢" },
+          { "lesson_name": "الحامل الأحادي (المونوبود)", "timing": "٢:٤٨" },
+          { "lesson_name": "٥ نصائح لاستخدام المونوبود", "timing": "٢:٠٦" },
+          { "lesson_name": "السلايدر", "timing": "٢:٠٣" },
+          { "lesson_name": "جماليات التصوير بالسلايدر", "timing": "١:٣٥" },
+          { "lesson_name": "الچيمبل", "timing": "٣:٠٢" },
+          { "lesson_name": "كيف توزن الچيمبل", "timing": "٩:١٤" },
+          { "lesson_name": "حركات چيمبل بسيطة", "timing": "١:٣٧" },
+          { "lesson_name": "نماذج للتصوير بالچيمبل", "timing": "١:٤٤" },
+          { "lesson_name": "إعدادات الرونين إس", "timing": "٧:٣١" },
+          { "lesson_name": "إبقاء العناصر في الفوكس", "timing": "٢:٠٨" },
+          { "lesson_name": "حامل السيارة", "timing": "١:٠٢" }
+        ]
+      },
+      {
+        "SectionTitle1": "التصوير",
+        "Lessons": [
+          { "lesson_name": "مقدمة للتصوير السينمائي", "timing": "٣:٥٠" },
+          { "lesson_name": "التأطير", "timing": "٥:٣٧" },
+          { "lesson_name": "أحجام الكادر", "timing": "٢:٠٦" },
+          { "lesson_name": "اختيار العدسة المناسبة", "timing": "٣:٥٠" },
+          { "lesson_name": "زوايا التصوير", "timing": "٣:٤٧" },
+          { "lesson_name": "التحكم بالعين", "timing": "٠:٤٤" },
+          { "lesson_name": "صناعة التايم لابس", "timing": "٥:٢٩" },
+          { "lesson_name": "صناعة الهايبر لابس", "timing": "٢:٣٨" },
+          { "lesson_name": "مقدمة في الإضاءة", "timing": "٠:٥٩" },
+          { "lesson_name": "كيف تدرب عينك", "timing": "٢:٣٤" },
+          { "lesson_name": "موقع الكاميرا مقارنة بالضوء", "timing": "٣:٠٢" },
+          { "lesson_name": "درجة اللون والسي آر آي", "timing": "٥:٥٤" },
+          { "lesson_name": "أنواع الضوء", "timing": "٤:٠٩" },
+          { "lesson_name": "خصائص الضوء", "timing": "١:٠٨" },
+          { "lesson_name": "تنعيم الضوء", "timing": "٦:٥٠" },
+          { "lesson_name": "تنعيم الضوء بأدوات بسيطة", "timing": "٣:٣٦" },
+          { "lesson_name": "المناظير", "timing": "٢:٤٦" },
+          { "lesson_name": "انعكاس الضوء", "timing": "٦:٣٦" },
+          { "lesson_name": "استخدام العاكس", "timing": "٣:١٣" },
+          { "lesson_name": "اكسسوارات التحكم بالضوء", "timing": "٢:٢٢" },
+          { "lesson_name": "التحكم بالضوء", "timing": "١:٥٢" },
+          { "lesson_name": "China Ball Lighting إضاءة الـ", "timing": "٠:٥٠" },
+          { "lesson_name": "التصوير الخارجي بضوء الشمس", "timing": "٤:٢٢" },
+          { "lesson_name": "الإضاءة الخارجية", "timing": "٢:٢١" },
+          { "lesson_name": "الجلات", "timing": "١:٤٤" },
+          { "lesson_name": "إضافة الظل", "timing": "٣:٢١" },
+          { "lesson_name": "زاوية الضوء", "timing": "٥:١٠" }
+        ]
+      }
+    ]
+   ,
+   "instructors": [
+      {
+        "name": "خالد السديري",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle41.png",
+        "description": [
+          "مدير تصوير عمل على العديد من الأفلام الروائية القصيرة والتي شاركت في مهرجانات سينمائية دولية، اشتهر بفيلم انا وعيدروس وهو فيلم قصير تولّى فيه خالد السديري مسؤولية مدير التصوير بجانب كونه منتجًا مساعد في الفيلم.\n عمل خالد على العديد من الأفلام الوثائقية أثناء عمله في BMC films، كما عمل أيضًا على فيلمه الوثائقي بعنوان Doxiadis، وشارك ضمن فريق تصوير العديد من الأفلام من بينها الزيارة الأخيرة، المرشحة المثالية، وغيرهم الأمر الذي أثقله خبرة،",
+          "كما انضم إلى فريق عمل الفيلم الأميركي القصير Suburban Supernova.\n ومؤخرًا أطلق خالد السديري شركة Saudi Arabia Fixers ليجذب شركات سعودية وغير سعودية ويتولى معها مسؤولية تنفيذ الإنتاج ومرحلة ما بعد الإنتاج، ويبدأ مشواره الإنتاجي في صناع الأفلام."
+        ]
+        
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "اشتر الآن",
+    "Addtowhishlist": "أضف إلى المفضلة"
+  }
+}

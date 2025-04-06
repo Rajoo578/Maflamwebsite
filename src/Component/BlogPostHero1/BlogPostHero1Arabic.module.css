@@ -1,0 +1,49 @@
+.header{
+    margin-top: 200px;
+    min-width: 1200px;
+    background-image: url("../../assets/MaflamBlog.png");
+}
+
+.header h1 {
+    color: #FFF;
+text-align: center;
+
+margin-left: 500px;
+margin-right: 400px;
+margin-bottom: 30px;
+/* Headlines/Headline 1 */
+font-family: "Noto Kufi Arabic";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.searchBar input  {
+    display: flex;
+width: 308.796px;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+border-radius: 64px;
+border: 1px solid rgba(90, 255, 234, 0.40);
+background: rgba(255, 255, 255, 0.05);
+}
+
+
+.searchBar button {
+    border-radius: 64px;
+border: 1px solid #5AFFFF;
+background: #5AFFFF;
+display: inline-flex;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+
+}

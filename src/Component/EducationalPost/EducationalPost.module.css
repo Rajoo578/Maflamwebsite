@@ -1,0 +1,159 @@
+/* .cardsWrapper{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container {
+     margin: 200px 200px;
+}
+.mores{
+    display: flex;
+    gap: 20px;
+}
+
+.mores p {
+    color: white;
+}
+
+.card h5 {
+    color: white;
+    font-size: 20px;
+} */
+
+
+
+
+.container h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #FFF;
+text-align: center;
+margin: auto;
+max-width: 1400px;
+font-family: "Noto Kufi Arabic";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+}
+
+/* Cards wrapper for educational posts */
+.cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures posts wrap to new lines on smaller screens */
+    justify-content: center;
+    align-items: center;
+    gap: 0px;  /* Space between cards */
+}
+
+/* Styling for each individual card */
+.card {
+ 
+    border-radius: 10px;
+    width: 481px;
+    padding: 10px;
+    max-width: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; */
+}
+
+.card:hover {
+    transform: translateY(-10px);  
+}
+
+
+.card img {
+width: 100%;
+height: 451px;
+    object-fit: cover;
+
+    margin-bottom: 10px;
+}
+
+
+.card h5 {
+    color: #FFF;
+    font-family: "Noto Kufi Arabic";
+    font-size: 20px;
+    font-style: normal;
+
+    height: 100px;
+    overflow: hidden;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: start;
+}
+
+
+.mores {
+    display: flex;
+ justify-content:start ;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.mores p {
+    color: var(--Accent-Accent-400---Main, #39FFFB);
+    font-family: "Noto Kufi Arabic";
+    font-size: 17px;
+    width: auto;
+    padding: 0px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.1%; /* 15.997px */
+    letter-spacing: -0.34px;
+}
+
+
+.mores img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    text-underline-offset: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 50px 20px;  /* Adjust margin for smaller screens */
+    }
+
+    .cardsWrapper {
+        flex-direction: column;  /* Stack cards vertically on smaller screens */
+    }
+
+    .card {
+        width: 100%;  /* Make cards full width */
+        max-width: 350px;  /* Limit max width */
+    }
+}
+
+@media (max-width:1600px)
+{
+    .cardsWrapper
+    {
+        zoom: 0.8;
+    }
+}
+@media (max-width:1250px)
+{
+    .cardsWrapper
+    {
+        zoom: 0.7;
+    }
+
+    .container h1
+    {
+        font-size: x-large;
+    }
+}

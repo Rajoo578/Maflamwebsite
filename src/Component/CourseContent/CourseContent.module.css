@@ -1,0 +1,162 @@
+   
+   /* Global reset for box-sizing */
+   *,
+   *::before,
+   *::after {
+     box-sizing: border-box;
+   }
+   
+   html, body {
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden; 
+     width: 100%;
+     /* background-color: bl;  */
+   }
+   
+      
+      
+      .maincontainer {
+       width: 100%;
+       background-image: url("../../assets/keytopicbgg.jpg");
+       background-size: cover;
+       background-position: center;
+       background-color: black;
+       margin: 0 auto;
+       max-width: 1500px;
+   
+   
+       
+     }
+     
+     .collapsible {
+       margin: 10px 0;
+       border: 1px solid gray;
+       padding-left: 50px;
+       padding-right: 50px;
+       display: inline-block;
+       width: 500px;
+       /* margin-left: 35%; */
+       border-radius: 10px;
+       margin-left: 10%;
+     }
+     
+     .header {
+       display: flex;
+       align-items: center;
+       color: white;
+     }
+     
+     .toggle {
+       margin: 0;
+       padding-bottom: 0;
+     }
+     
+     .line {
+       flex-grow: 1;
+       border: none;
+       height: 1px;
+       background-color: #39FFFb;
+     }
+     
+     .toggleButton {
+       margin-right: 10px;
+       color: #39FFFb;
+       font-size: 25px;
+     }
+     
+     .content {
+       text-align: justify;
+       font-size: 11px;
+       color: white;
+     }
+    .mainAnsTab{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+     
+     .questionItem {
+       margin: 10px 0;
+     }
+     
+     .questionHeader {
+       display: flex;
+       align-items: center;
+       cursor: pointer;
+     }
+     
+     .question {
+       margin-left: 10px;
+       color: #39FFFb;
+     }
+     
+     .answer {
+       color: white;
+       text-align: justify;
+       font-size: 14px;
+       margin-left: 20px;
+       margin-bottom: 10px;
+     }
+     
+   
+   
+   /* Responsive CSS */
+   @media screen and (max-width: 1200px) {
+       .collapsible {
+           width: 400px;
+           margin-left: 25%;
+           padding-left: 40px;
+           padding-right: 40px;
+       }
+   }
+   
+   @media screen and (max-width: 992px) {
+       .collapsible {
+           width: 300px;
+           margin-left: 20%;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+   }
+   
+   @media screen and (max-width: 768px) {
+       .collapsible {
+           width: 100%;
+           margin-left: 0;
+           padding-left: 20px;
+           padding-right: 20px;
+       }
+       
+       .header {
+           flex-direction: column;
+       }
+   
+       .line {
+           margin: 10px 0;
+       }
+       
+       .toggleButton {
+           font-size: 20px;
+       }
+   
+       .content, .answer {
+           font-size: 10px;
+       }
+   }
+   
+   @media screen and (max-width: 576px) {
+       .collapsible {
+           padding-left: 15px;
+           padding-right: 15px;
+       }
+   
+       .toggleButton {
+           font-size: 18px;
+       }
+   
+       .content, .answer {
+           font-size: 9px;
+       }
+   }
+   

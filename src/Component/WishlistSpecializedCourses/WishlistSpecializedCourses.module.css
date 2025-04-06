@@ -1,0 +1,100 @@
+.coursesContainer {
+    padding: 20px;
+    min-height: 750px;
+    border-radius: 8px;
+    max-width: 1100px;
+    margin: auto;
+    /* margin-bottom: 20px !important; */
+   
+   
+    text-align: center;
+  }
+  .courseContainer{
+    max-width: 1920px;
+    width: 100vw;
+    margin: auto;
+    /* border: 1px solid #000; */
+    /* background: #030B11; */
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .coursesContainer h2 {
+   margin-top: 30px;
+    color: #FFF;
+
+text-align: start;
+font-family: "Noto Kufi Arabic";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+  }
+  
+  .coursesGrid {
+    display: grid;
+    margin-top: 20px;
+    
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 20px;
+  }
+  
+  .coursesCard {
+    margin: 5px;
+    padding: 0px;
+    position: relative;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .coursesCard:hover
+  {
+    transform: scale(1.05);
+  }
+  
+  .coursesImage {
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  /* border-radius: 8px; */
+  }
+
+  .overlay
+  {
+    transform: scaleY(-1);
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    pointer-events: none;
+    background: linear-gradient(0deg, rgba(57, 255, 251, 0) 0%, rgba(0, 122, 122, 0.2) 50%, rgba(4, 50, 50, 0.11) 100%);
+  }
+  
+  .coursesCard p {
+   
+    color: #FFF;
+    margin-top: -50px;
+text-align: center;
+font-family: "Noto Kufi Arabic";
+font-size: 15px;
+width: 100%;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+background: linear-gradient(179.97deg, rgba(3, 11, 17, 0), #030b11);
+  }
+  
+
+  @media (max-width:1250px)
+  {
+    .coursesContainer
+    {
+      zoom: 0.8;
+    }
+  }
+  @media (max-width:768px)
+  {
+    .coursesContainer
+    {
+      zoom: 0.7;
+    }
+  }

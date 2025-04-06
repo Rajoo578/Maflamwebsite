@@ -1,0 +1,128 @@
+.cointainer{
+    margin-top: 52px;
+    height: auto;
+    min-height: 600px;
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+.btndiv a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btndiv{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 90px;
+}
+.vector-icon {
+    position: absolute;
+    top: 81.93px;
+    left: -36.95px;
+    border-radius: 5px;
+    width: 236.3px;
+    height: 231.9px;
+    object-fit: contain;
+    }
+    .vector-icon1 {
+    position: absolute;
+    top: -84.43px;
+    left: 257.94px;
+    border-radius: 5px;
+    width: 333.9px;
+    height: 330.1px;
+    object-fit: contain;
+    }
+    
+
+.btnyoutube {
+    background-image: url("../../assets/instaram.png");
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;  
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 333px;
+    height: 114px;
+
+
+}
+.btninsta {
+    background-image: url("../../assets/youtube.png");
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;  
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 333px;
+    height: 114px;
+}
+.btntiktok {
+    background-image: url("../../assets/tiktok.png");
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;  
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 333px;
+    height: 114px;
+}
+
+.titles{
+   padding-top: 225px;
+}
+.titles h1 {
+text-align: center;
+color: #fff;
+text-align: center;
+font-family: "Noto Kufi Arabic";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+.titles p{
+    text-align: center;
+    color: #ebf5f4;
+    text-align: center;
+    font-family: "Noto Kufi Arabic";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+    }
+@media (max-width:1250px)
+{
+    .cointainer
+    {
+        zoom: 0.8;
+    }
+}
+@media (max-width:1250px)
+{
+    .cointainer
+    {
+        zoom: 0.7;
+    }
+    .btndiv
+    {
+        flex-direction: column;
+        padding-bottom: 150px;
+    }
+}

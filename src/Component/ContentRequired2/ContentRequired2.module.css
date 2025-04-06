@@ -1,0 +1,129 @@
+/* Page Container */
+.pageContainer {
+    /* width: 100%;
+    min-height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../../assets/failuremessage.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 900px;
+    padding: 20px; 
+  }
+  
+  .contentWrapper {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #39FFFb; 
+    color: black;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 62px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1a8f8f; 
+  }
+  
+  @media  (max-width: 1250px) {
+    .pageContainer {
+      padding: 20px;
+    }
+  
+    .contentWrapper {
+      zoom: 0.8;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .button {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pageContainer {
+      padding: 20px;
+    }
+  
+    .contentWrapper {
+      zoom: 0.7;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .title {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .button {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .title {
+      font-size: 24px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .button {
+      padding: 8px 15px;
+    }
+  }
+  

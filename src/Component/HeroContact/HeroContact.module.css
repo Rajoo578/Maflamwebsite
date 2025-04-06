@@ -1,0 +1,273 @@
+/* .heroContainer {
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    width: 100vw;
+    max-width: 1980px;
+    height: 1184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/HeroContactBackground.png");
+    background-size: cover; 
+    background-position: center;
+    padding: 0 20px;
+    margin-bottom: -300px !important;
+    margin: auto;
+  
+    
+    box-sizing: border-box;
+  }
+
+  
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 64px;
+
+    margin-bottom: 20px;
+    color: #FFF;
+text-align: center;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+  }
+  
+  .description {
+    font-size: 24px;
+    max-width: 630px;
+    margin-left: 300px;
+    margin-right: 300px;
+  
+    margin-bottom: 40px;
+    color: #b0b0b0;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+
+  .cardText a{
+    color: white;
+    
+    text-decoration: none;
+  }
+  
+  .card {
+    
+    background-size: cover;
+    padding: 40px;
+    width: 370px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out; 
+    background: linear-gradient(331deg, #091D2C 7.84%, #173434 92.51%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card:hover{
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-image: url("../../assets/ContactCardI1.png") !important;
+
+  }
+  
+  .cardIcon {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .cardIcon img{
+    width: 30px;
+  }
+  
+  .cardText {
+    font-size: 25px;
+    max-width: 500px;
+    color: white;
+  }
+  
+  @media (max-width:1250px)
+  {
+    .content
+    {
+      zoom: 0.8;
+    }
+  }
+
+  
+  @media (max-width:825px)
+  {
+    .cardsContainer
+    {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .content
+    {
+      zoom: 0.7;
+    }
+  } */
+
+
+
+/* ***************************
+ Tarun code Added In below  
+ ************************** */
+
+
+ .heroContainer {
+  position: relative;
+  color: white;
+  font-family: 'Noto Kufi Arabic';
+  height: auto;
+  /* background-image: url("../../assets/HeroContactBackground.png"); */
+  width: 100vw;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; 
+  background-position: center;
+  padding: 0 20px;
+  margin: auto; 
+  box-sizing: border-box;
+}
+
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding-top: 300px;
+  text-align: center;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.title {
+  font-size: 64px;
+
+  margin-bottom: 20px;
+  color: #FFF;
+text-align: center;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+}
+
+.description {
+  font-size: 24px;
+  max-width: 630px;
+  margin: auto;
+  margin-bottom: 80px;
+  color: #EBF5F4;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+
+.cardText a{
+  color: white;
+  
+  text-decoration: none;
+}
+
+.card {
+  /* background-image: url("../../assets/googleBackground.png"); */
+  background-size: cover;
+  padding: 80px;
+  width: 458px;
+  height: 353px;
+  font-size: 36px;
+  display: flex;
+  line-height: 160%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Noto kufi Arabic";
+  font-weight: 400;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease-in-out; 
+  background: linear-gradient(320deg, #091D2C 17.15%, #173434 104.84%);
+  background-size: cover;
+}
+.card:hover{
+  transform:  translateY(-30px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* background: linear-gradient(1deg, rgba(9, 29, 44, 0.90) 0.65%, rgba(44, 102, 109, 0.90) 108.99%), lightgray 50% / cover no-repeat; */
+}
+.card:hover {
+  background-image: url('../../assets/ContactCardI1.png'); /* Replace with image1 */
+}
+
+.card:nth-child(2):hover {
+  background-image: url('../../assets/ContactCardI2.png'); /* Replace with image2 */
+}
+
+/* Hover effect on card 3 */
+.card:nth-child(3):hover {
+  background-image: url('../../assets/ContactCardI3.png'); /* Replace with image3 */
+}
+
+.cardIcon {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.cardIcon img{
+  width: 30px;
+}
+
+.cardText {
+  font-size: 36px;
+  max-width: 500px;
+  color: white;
+}
+
+@media (max-width:1250px)
+{
+  .content
+  {
+    zoom: 0.8;
+  }
+}
+
+
+@media (max-width:825px)
+{
+  .cardsContainer
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content
+  {
+    zoom: 0.7;
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree":"false",
+  "formattedCourseData": {
+    "id": "string",
+    "courseId": "string",
+    "title": "string",
+    "description": "string",
+    "whatyoulearn": "string",
+    "price": "string",
+    "lecturecount": "string",
+    "promoPhoto": "string",
+    "promoVideo": "string",
+    "banner": "string",
+    "lessions":  [
+      {
+        "SectionTitle1": "Introduction",
+        "Lessons": [
+          {
+            "lesson_name": "Technical Introduction",
+            "timing": "0:57"
+          },
+          {
+            "lesson_name": "What is the Video?",
+            "timing": "0:43"
+          },
+          {
+            "lesson_name": "How to Create the Image",
+            "timing": "0:57"
+          }
+        ]
+      },
+      {
+        "SectionTitle1": "The Camera",
+        "Lessons": [
+          {
+            "lesson_name": "Types of Digital Cameras",
+            "timing": "4:52"
+          },
+          {
+            "lesson_name": "When to Use Each Type of Camera",
+            "timing": "8:35"
+          },
+          {
+            "lesson_name": "Camera Components",
+            "timing": "0:47"
+          },
+          {
+            "lesson_name": "Camera Sensor",
+            "timing": "3:03"
+          },
+          {
+            "lesson_name": "Sensor Sizes",
+            "timing": "2:38"
+          },
+          {
+            "lesson_name": "Sensor Size Impact",
+            "timing": "3:02"
+          },
+          {
+            "lesson_name": "Exposure Control",
+            "timing": "3:27"
+          },
+          {
+            "lesson_name": "ISO (International Standards Organization)",
+            "timing": "2:17"
+          },
+          {
+            "lesson_name": "Shutter Speed",
+            "timing": "3:35"
+          },
+          {
+            "lesson_name": "Frame Rate",
+            "timing": "8:08"
+          },
+          {
+            "lesson_name": "F-stop",
+            "timing": "3:51"
+          },
+          {
+            "lesson_name": "White Balance",
+            "timing": "5:17"
+          },
+          {
+            "lesson_name": "Aspect Ratio",
+            "timing": "4:09"
+          },
+          {
+            "lesson_name": "Resolution",
+            "timing": "3:28"
+          },
+          {
+            "lesson_name": "Picture Profile",
+            "timing": "1:42"
+          },
+          {
+            "lesson_name": "Standard or Log",
+            "timing": "3:29"
+          },
+          {
+            "lesson_name": "Codec and Bitrate",
+            "timing": "3:40"
+          },
+          {
+            "lesson_name": "How to Clean the Camera",
+            "timing": "1:56"
+          },
+          {
+            "lesson_name": "All About Memory Cards",
+            "timing": "5:48"
+          },
+          {
+            "lesson_name": "Things to Consider When Buying a Camera",
+            "timing": "3:07"
+          },
+          {
+            "lesson_name": "How Lenses Work",
+            "timing": "0:50"
+          },
+          {
+            "lesson_name": "Types of Lenses",
+            "timing": "6:04"
+          },
+          {
+            "lesson_name": "Filters",
+            "timing": "3:38"
+          },
+          {
+            "lesson_name": "ND Filters",
+            "timing": "3:12"
+          },
+          {
+            "lesson_name": "Shooting with ND Filter",
+            "timing": "2:35"
+          },
+          {
+            "lesson_name": "Which Filter Should I Buy?",
+            "timing": "5:58"
+          },
+          {
+            "lesson_name": "How to Buy a Lens?",
+            "timing": "4:52"
+          },
+          {
+            "lesson_name": "Depth of Field Elements",
+            "timing": "1:37"
+          },
+          {
+            "lesson_name": "Depth of Field Uses",
+            "timing": "4:03"
+          }
+        ]
+      },
+      {
+        "SectionTitle1": "The Grip",
+        "Lessons": [
+          {
+            "lesson_name": "Why Motion is Important in Video",
+            "timing": "1:54"
+          },
+          {
+            "lesson_name": "What is the Grip?",
+            "timing": "1:14"
+          },
+          {
+            "lesson_name": "Types of Camera Movements",
+            "timing": "2:49"
+          },
+          {
+            "lesson_name": "Harnessing Camera Movement for Storytelling",
+            "timing": "6:18"
+          },
+          {
+            "lesson_name": "Tips for Handheld Camera Operation",
+            "timing": "1:46"
+          },
+          {
+            "lesson_name": "Types of Stabilizers",
+            "timing": "2:47"
+          },
+          {
+            "lesson_name": "Tripod",
+            "timing": "1:32"
+          },
+          {
+            "lesson_name": "Monopod",
+            "timing": "2:48"
+          },
+          {
+            "lesson_name": "5 Tips for Using a Monopod",
+            "timing": "2:06"
+          },
+          {
+            "lesson_name": "Slider",
+            "timing": "2:03"
+          },
+          {
+            "lesson_name": "Aesthetics of Shooting with a Slider",
+            "timing": "1:35"
+          },
+          {
+            "lesson_name": "Gimbal",
+            "timing": "3:02"
+          },
+          {
+            "lesson_name": "How to Balance the Gimbal",
+            "timing": "9:14"
+          },
+          {
+            "lesson_name": "Simple Gimbal Movements",
+            "timing": "1:37"
+          },
+          {
+            "lesson_name": "Gimbal Shooting Examples",
+            "timing": "1:44"
+          },
+          {
+            "lesson_name": "Ronin-S Settings",
+            "timing": "7:31"
+          },
+          {
+            "lesson_name": "Keeping Subjects in Focus",
+            "timing": "2:08"
+          },
+          {
+            "lesson_name": "Car Mount",
+            "timing": "1:02"
+          }
+        ]
+      },
+      {
+        "SectionTitle1": "Cinematography",
+        "Lessons": [
+          {
+            "lesson_name": "Introduction to Cinematography",
+            "timing": "3:50"
+          },
+          {
+            "lesson_name": "Framing",
+            "timing": "5:37"
+          },
+          {
+            "lesson_name": "Shot Sizes",
+            "timing": "2:06"
+          },
+          {
+            "lesson_name": "Choosing the Right Lens",
+            "timing": "3:50"
+          },
+          {
+            "lesson_name": "Camera Angles",
+            "timing": "3:47"
+          },
+          {
+            "lesson_name": "Eye Control",
+            "timing": "0:44"
+          },
+          {
+            "lesson_name": "Time-lapse Production",
+            "timing": "5:29"
+          },
+          {
+            "lesson_name": "Hyper-lapse Production",
+            "timing": "2:38"
+          },
+          {
+            "lesson_name": "Introduction to Lighting",
+            "timing": "0:59"
+          },
+          {
+            "lesson_name": "Training Your Eye",
+            "timing": "2:34"
+          },
+          {
+            "lesson_name": "Camera Position Relative to Light",
+            "timing": "3:02"
+          },
+          {
+            "lesson_name": "Color Temperature and CRI",
+            "timing": "5:54"
+          },
+          {
+            "lesson_name": "Types of Light",
+            "timing": "4:09"
+          },
+          {
+            "lesson_name": "Light Characteristics",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Softening the Light",
+            "timing": "6:50"
+          },
+          {
+            "lesson_name": "Softening Light with Simple Tools",
+            "timing": "3:36"
+          },
+          {
+            "lesson_name": "Light Modifiers",
+            "timing": "2:46"
+          },
+          {
+            "lesson_name": "Light Reflection",
+            "timing": "6:36"
+          },
+          {
+            "lesson_name": "Using Reflectors",
+            "timing": "3:13"
+          },
+          {
+            "lesson_name": "Light Control Accessories",
+            "timing": "2:22"
+          },
+          {
+            "lesson_name": "Light Control",
+            "timing": "1:52"
+          },
+          {
+            "lesson_name": "China Ball Lighting",
+            "timing": "0:50"
+          },
+          {
+            "lesson_name": "Outdoor Shooting with Sunlight",
+            "timing": "4:22"
+          },
+          {
+            "lesson_name": "Outdoor Lighting",
+            "timing": "2:21"
+          },
+          {
+            "lesson_name": "Gels",
+            "timing": "1:44"
+          },
+          {
+            "lesson_name": "Adding Shadow",
+            "timing": "3:21"
+          },
+          {
+            "lesson_name": "Light Angle",
+            "timing": "5:10"
+          },
+          {
+            "lesson_name": "Shaping the Light",
+            "timing": "2:20"
+          },
+          {
+            "lesson_name": "Light Intensity",
+            "timing": "3:28"
+          },
+          {
+            "lesson_name": "Light Color",
+            "timing": "3:29"
+          },
+          {
+            "lesson_name": "Creating Atmosphere with Lighting",
+            "timing": "1:43"
+          },
+          {
+            "lesson_name": "Moving Elements",
+            "timing": "3:21"
+          },
+          {
+            "lesson_name": "High and Low Contrast",
+            "timing": "2:25"
+          },
+          {
+            "lesson_name": "Aesthetic Lighting",
+            "timing": "1:24"
+          },
+          {
+            "lesson_name": "Three-point Lighting",
+            "timing": "1:03"
+          },
+          {
+            "lesson_name": "Single Light Lighting",
+            "timing": "6:25"
+          },
+          {
+            "lesson_name": "Overhead Lighting",
+            "timing": "5:22"
+          },
+          {
+            "lesson_name": "Window Lighting",
+            "timing": "2:31"
+          },
+          {
+            "lesson_name": "Book Lighting",
+            "timing": "1:57"
+          },
+          {
+            "lesson_name": "Mixing Different Color Temperatures",
+            "timing": "1:29"
+          },
+          {
+            "lesson_name": "Simulating Light Sources in a Shot",
+            "timing": "2:31"
+          },
+          {
+            "lesson_name": "Simulating Sunlight",
+            "timing": "5:09"
+          },
+          {
+            "lesson_name": "Available Lighting on Location",
+            "timing": "0:32"
+          },
+          {
+            "lesson_name": "Consistency Between Shots",
+            "timing": "2:37"
+          },
+          {
+            "lesson_name": "Interview Lighting",
+            "timing": "4:55"
+          },
+          {
+            "lesson_name": "Outdoor Interview Lighting",
+            "timing": "2:05"
+          },
+          {
+            "lesson_name": "8 Steps for Shooting Interviews",
+            "timing": "4:22"
+          },
+          {
+            "lesson_name": "Building Your Own Lighting Kit",
+            "timing": "5:00"
+          },
+          {
+            "lesson_name": "5 Things to Consider When Buying LED Lights",
+            "timing": "3:03"
+          },
+          {
+            "lesson_name": "6 Mistakes Beginners Make",
+            "timing": "4:13"
+          },
+          {
+            "lesson_name": "Managing Cables",
+            "timing": "5:16"
+          }
+        ]
+      }
+    ],
+    "promoVedio": "string",
+    "estimatedLearningTime": "string",
+    "instructors": [
+      {
+        "name": "Khalid AlSudairy",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle41.png",
+        "description": [
+          "Khalid Al-Sudairy is a Director of Photography with extensive experience working on a variety of short films, many of which have participated in international film festivals. He is best known for his work on the short film Ana wa Eidros (Me and Eidros), where he served as the Director of Photography and Assistant Producer. Khalid has also worked on several documentary films during his time at BMC Films, including his own documentary Doxiadis, and has been part of the cinematography team for films such as The Last Visit and The Perfect Candidate. His experience also includes working on the American short film Suburban Supernova. Recently, he launched his own company, Saudi Arabia Fixers, with the goal of attracting both Saudi and international film companies. Through his company, he takes on the role of executing production and post-production phases, marking the beginning of his own production journey in filmmaking."
+
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "اشتر الآن",
+    "Addtowhishlist": "أضف إلى المفضلة"
+  }
+}

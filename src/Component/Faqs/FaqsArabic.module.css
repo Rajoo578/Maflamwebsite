@@ -1,0 +1,166 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  /* align-items: center; */
+  padding:0 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  
+
+  max-width: 1900px !important;
+}
+
+
+.faqContainer a {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  /* margin-bottom: 40px; */
+  color: white;
+  font-size: 27px;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.faqItem {
+  width: 1240px;
+  max-width: 90vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid transparent; 
+  padding: 8px 10px;
+  box-sizing: border-box; 
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #39FFFb;
+  transition: background-color 0.3s ease;
+
+  }
+
+.faqItem.active {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px -0.5px 2px 1px rgba(255, 255, 255, 0.25) inset;
+  backdrop-filter: blur(40px);  
+  border: 1px solid #5AFFFF;
+  opacity: 0.8;
+}
+
+.question {
+color: #5affff;
+/* text-align: right; */
+font-family: "Noto Kufi Arabic";
+font-size: 24px;
+width: 724px;
+font-style: normal;
+font-weight: 300;
+text-align: right;
+line-height: 160%; /* 38.4px */
+
+ 
+}
+
+.answer {
+  color: white;
+  /* text-align: right; */
+  display: none; 
+  text-align: right;
+  width: 724px;
+  margin: 0 auto;
+  text-wrap: wrap;
+  position: relative;
+  color: #FFF;
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.showAnswer {
+  display: block; 
+  margin-top: 10px;
+}
+
+.arrowButton {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  margin-left: 60%;
+  background-color: gray;
+  border-radius: 20px;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.arrowButton:hover {
+  transform: translateY(5px);
+}
+
+.arrowButton:focus {
+  outline: none;
+}
+
+
+
+.arrowButton {
+  margin-left: 0; 
+  font-size: 20px; 
+}
+
+
+@media (max-width:1250px)
+{
+  .faqList
+  {
+    zoom: 0.8;
+  }
+  .faqItem
+  {
+    max-width: 100vw;
+  }
+}
+
+
+@media (max-width:768px)
+{
+  .question
+  {
+    width: 140vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .answer
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 140vw;
+  }
+  .faqList
+  {
+    zoom: 0.7;
+  }
+  .faqItem
+  {
+    max-width: 140vw;
+  }
+}

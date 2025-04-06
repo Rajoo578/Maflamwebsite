@@ -1,0 +1,237 @@
+
+
+
+.container {
+    /* padding: % 12%;  */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url("../../assets/ebookBackground.png") no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    padding-top: 300px;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .containerHeader {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 700;
+    max-width: 1305px;
+    line-height: 75px;
+    font-family: 'Noto Kufi Arabic';
+  
+    }
+  
+  .cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1600px;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  /* Card styles */
+  .card {
+    border-radius: 8px;
+    color: white;
+    margin-top: 100px;
+    width: 371px;
+    position: relative;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    height: 730px;
+    overflow: hidden;
+    flex-shrink: 0;
+    max-width: 100%; 
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .content {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .btn {
+    display: flex;
+  }
+  
+  .content p {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: 'Noto Kufi Arabic';
+    color: #39fffb;
+    text-align: right;
+    display: inline-block;
+    padding-right: 0px;
+  }
+  .text{
+    font-size: 20px;
+    line-height: 160%;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    line-height: 160%;
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: right;
+    height: 59px;
+  
+  }
+  /* Button styles */
+  .downloadButton {
+    margin-top: 20px;
+    position: relative;
+    border-radius: 64px;
+    background-color: #39fffb;
+    border: none;
+    width: 215px;
+    height: 42px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px ;
+    box-sizing: border-box;
+    font-size: 17px;
+    letter-spacing: -0.02em;
+    color: #061c2b;
+    font-family: 'Sans Serif';
+    padding-left: 10px;
+    margin-left: 10px;
+    
+  }
+  .downloadIcon{
+    margin-top: 5px;
+    padding-left: 25px;
+
+  }
+
+  .downbtnspan{
+    padding-left: 20px;
+  }
+  .downloadsvg {
+    margin-top: 20px;
+  }
+  
+  /* Styles for "Coming Soon" button */
+  .soonButton {
+    display: none;
+  }
+  
+  .soonButton1 {
+    background-color: transparent;
+    color: #39fffb;
+    border: none;
+    padding: 10px 20px;
+    cursor: not-allowed;
+  
+  
+  
+  
+  
+  
+  
+  width: 338px;
+  position: relative;
+  font-size: 20px;
+  line-height: 160%;
+  font-family: 'Noto Kufi Arabic';
+  color: #5affff;
+  text-align: left;
+  display: inline-block;
+  
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  .likeicon{
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 42px;
+    height: 42px;
+  }
+    
+  .loadMoreButton {
+    font-family: 'Noto Kufi Arabic';
+    display: block;
+    margin: 20px auto; 
+    padding: 12px 24px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600;
+    color: #f6ffff;
+    background-color: #061c2b;
+    border: none;
+    border-radius: 64px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height:75px;
+  }
+  
+  @media (max-width:1600px)
+  {
+     .container
+     {
+      zoom: 0.9;
+     }
+  }
+  
+  @media (max-width:1250px)
+  {
+     .container
+     {
+      zoom: 0.8;
+     }
+  }
+  
+  @media (max-width:768px)
+  {
+     .container
+     {
+      zoom: 0.7;
+     }
+  }
+  
+  .container.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden; 
+    z-index: 999;
+  }
+  .bottombg
+{
+    z-index: 0;
+    position: absolute;
+    bottom: 0px;
+    height: 500px;
+    background-position: top;
+    width: 100%;
+    background: url('../../assets/Backgrounds/ContactUSBottomGrad.png');
+    background-size: cover;
+   
+}

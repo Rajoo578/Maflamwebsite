@@ -1,0 +1,79 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 0px;
+}
+
+.carousel-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item {
+  overflow: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  pointer-events: none;
+  opacity: 0.6; /* Default opacity for non-centered items */
+}
+
+.carousel-center {
+  pointer-events: all;
+  z-index: 1; /* Emphasize center item */
+  opacity: 1; /* Full opacity for the centered item */
+}
+
+/* Button styling */
+.carousel-btn {
+  position: absolute;
+  bottom: 40%; /* Center vertically */
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0;
+  opacity: 1;
+}
+
+.carousel-btn.left {
+  left: -50px; /* Stick to the left */
+  height: 60px;
+  width: 60px;
+}
+
+.carousel-btn.right {
+  right: -50px; /* Stick to the right */
+  height: 60px;
+  width: 60px;
+}
+
+/* Arrow Image Adjustments */
+.carousel-btn img {
+  width: 100%;
+  height: auto;
+}
+.carousel-btn.right img {
+  transform: scaleX(-1); /* Flip for right arrow */
+}
+
+@media (max-width:1250px)
+{
+  .carousel
+  {
+    flex-direction: column;
+  }
+  .carousel-btn
+  {
+    top: 50%;
+  }
+  .carousel-item
+  {
+    display: none;
+  }
+  .carousel-center
+  {
+    display: block;
+  }
+}

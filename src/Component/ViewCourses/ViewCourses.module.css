@@ -1,0 +1,135 @@
+.viewcoursecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  
+  background: linear-gradient(0deg, rgba(3, 11, 17, 0.00) 70.45%, #030B11 92.6%), linear-gradient(180deg, rgba(3, 11, 17, 0.00) 82.34%, #030B11 93.29%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+  background: black url("../../assets/viewCoursebg.png") center / cover;
+}
+
+.courseGrid {
+  max-width: 1419px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 80px;
+}
+
+.courseCard {
+  display: flex;
+  width: 197.667px;
+  height: 163.593px;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(25px);
+  color: #FFF;
+  text-align: center;
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 38.4px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnpadding {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  width: 80%;
+  max-width: 1419px;
+  height: 83.364px;
+}
+
+.fullWidthButton {
+  width: 100%;
+  padding: 25px;
+  color: white;
+  margin-top: -150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.14) 100%), linear-gradient(90deg, rgba(138, 29, 138, 0.13) 0%, rgba(90, 255, 234, 0.20) 32%, rgba(255, 0, 147, 0.16) 63.5%, rgba(54, 153, 140, 0.20) 100%);
+  backdrop-filter: blur(25px);
+}
+
+.playButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 325px;
+  margin-bottom: 75px;
+}
+
+
+.textContainer {
+  text-align: center;
+ 
+  padding-bottom: 350px;
+}
+
+.courseGrid a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.infoText {
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  max-width:575px;
+  line-height: 57.6px;
+}
+
+/* Responsive Styling */
+@media (max-width: 1600px) {
+  .container {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    zoom: 0.7;
+  }
+  .courseGrid {
+    max-width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fullWidthButton
+  {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    zoom: 0.7;
+  }
+  
+.infoText {
+    padding: 20px;
+}
+}

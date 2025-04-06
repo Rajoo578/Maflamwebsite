@@ -1,0 +1,156 @@
+.parent
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Kufi Arabic";
+}
+
+.carouselcontainer {
+    /* background-color: #030b11;
+    background-image: url("../../assets/background_banner_homepagecara.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 1300px;    
+  }
+  
+  .carouselcontainer a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1360px;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  
+.coverlay {
+  position: absolute;
+  bottom: 0px;
+  right:-100px;
+  width: 300px;
+  height: 100%;
+  filter: blur(50px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 1;
+  z-index: 100; /* Make sure overlay is above the video */
+  pointer-events: none;
+}
+.croverlay {
+  position: absolute;
+  bottom: 0px;
+  width: 300px;
+  left: -100px;
+height: 100%;
+  filter: blur(50px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 1;
+  z-index: 100; /* Make sure overlay is above the video */
+  pointer-events: none;
+}
+  .sliderContainer {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; 
+  }
+  
+  .sliderContainer::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .slider {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+   position:relative;
+    border-radius: 5px;
+    height: 850px;
+    color: #fff;
+    width: 340px;
+    z-index: 10;
+  
+  }
+  .logo89 {
+ width: 315px;
+  flex-shrink: 0;
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  flex-shrink: 0;
+
+
+  }
+  .img89 {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    overflow: hidden;
+    height: 533px;
+    /* width: 336px;
+height: 533px;
+flex-shrink: 0; */
+  }
+ 
+ 
+  .arrowLeft, .arrowRight {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 100;
+  }
+  
+  .arrowLeft {
+    left: 10px;
+
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -70px !important;
+    background-color: #4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrowRight {
+    right: -50px;
+    margin-left: 70px !important;
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px;
+    background-color: #4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width:1250px)
+  {
+    .carouselcontainer a
+    {
+      font-size: x-large;
+    }
+  }

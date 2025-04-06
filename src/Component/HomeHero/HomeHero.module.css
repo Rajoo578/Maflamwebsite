@@ -1,0 +1,124 @@
+.herosection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.heroContainer {
+  color: white;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  width: 100vw;
+  display: flex;
+  max-width: 1920px;
+  min-height: 850px;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+}
+
+.overlay {   
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 40%;
+  height: 100%;
+  filter: blur(20px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 0.6;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+.rightoverlay {
+  position: absolute;
+  left: 0px;
+  bottom: -100px;
+  width: 60%;
+  height: 40%;
+  filter: blur(40px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 1;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+.leftoverlay
+{
+  position: absolute;
+  right: 0px;
+  bottom: -100px;
+  width: 50%;
+  height: 25%;
+  filter: blur(40px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 1;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+
+.content {
+  z-index: 2; /* Content should be above the overlay */
+  text-align: start;
+  width: 100%;
+  max-width: 981px;
+  margin-inline-start: 14%;
+  position: relative;
+}
+
+.title {
+  color: #FFF;
+  font-family: "Noto Kufi Arabic";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 104px */
+}
+
+.description {
+  color: #FFF;
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px; 
+  padding-left: 0px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.4px */
+  width: 752px;
+}
+
+.signUpButton {
+  display: none;
+}
+
+.backgroundVideo {
+  transform: scaleX(-1);
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  max-width:1413px;
+  max-height:910px;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  background: linear-gradient(315deg, #030B11 29.58%, rgba(0, 0, 0, 0.00) 69.85%);
+  object-fit: cover; /* Ensures the video covers the entire container */
+  z-index: 0; /* Below the overlay */
+}
+
+@media (max-width:1220px)
+{
+  
+  .content
+  {
+    padding-right: 40px;
+    zoom: 0.7
+  }
+  .title
+  {
+     font-size: 45px;
+  }
+  .content p
+  {
+      width: auto;
+      font-size: small;
+  }
+}
+

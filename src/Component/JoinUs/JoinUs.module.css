@@ -1,0 +1,140 @@
+.joinUsParent
+{
+
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 100px;
+  background-size: cover;
+  padding-bottom: 100px;
+  background-position-y: center;
+  max-width: 1920px;
+  overflow: visible;
+  /* z-index: 1; */
+}
+
+/* .joinBackground{
+  background-image: url("../../assets/aboutJoinus.png");
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+} */
+
+.maincontainer{
+  /* background-color: #10171D; */
+  /* height: ; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100vw;
+  max-width: 960px;
+  margin: 0 auto; 
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  height: 250px;
+  margin-bottom: 30px;
+  /* background-image: url("../../assets/Frame259.png"); */
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+  padding: 40px;
+  padding-top: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.JoinUsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.JoinUsBox h2 {
+  color: var(--Accent-Accent-50, #F6FFFF);
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 160%;
+}
+.flexbox{
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 20px;
+}
+
+.serachoption {
+  display: flex;
+  gap: 8px;
+  background-color: #10171D;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 504px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputBox {
+  border: 1px solid #00e0ff;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.inputField {
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+}
+
+.button {
+  background-color: #10171D;
+  color: #39FFFB;
+  border: none;
+  font-size: 16px;
+  border: 1px solid #39FFFB;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+
+@media(max-width:1500px)
+{
+   .container
+   {
+    zoom: 0.9;
+   }
+}
+
+@media (max-width: 768px) {
+  .container {
+    zoom: 0.7;
+  }
+
+}
+
+@media(max-width:1250px)
+{
+   .container
+   {
+    zoom: 0.8;
+   }
+}

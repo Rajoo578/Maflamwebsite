@@ -1,0 +1,12 @@
+.CarouselGradient
+{
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    background-image: url('../../assets/CoursePrcBgBottom.png');
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom:200px;
+}
+

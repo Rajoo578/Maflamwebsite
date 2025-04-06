@@ -1,0 +1,343 @@
+.container {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/LoginBg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.formWrapper {
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  color: #fff;
+  border-radius: 10px;
+background: rgba(129, 156, 174, 0.15);
+backdrop-filter: blur(10px);
+  text-align: center;
+  backdrop-filter: blur(2px); 
+  background-color: #ffffff15;
+  padding-top: 4rem;
+  padding-bottom: 50px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  
+}
+
+.form
+{
+  max-width:370px ;
+}
+
+.logo {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+.dobInputsitem
+{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #121d24;
+}
+
+.select {
+  width: 90%;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.continueButton {
+  border-radius: 64px;
+  background: var(--Accent-Accent-400---Main, #39FFFB);
+  box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 64px;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 330px;
+  height: 48px;
+  box-shadow: 0px 10px 30px rgba(90, 255, 234, 0.3);
+
+}
+
+
+.signInLink {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.signInLink a {
+  text-decoration: none;
+  color: var(--Accent-Accent-400---Main, #39FFFB);
+  text-align: right;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Noto Kufi Arabic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 25.2px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+
+
+
+
+.divider {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 2rem 0;
+color: #fff;
+text-align: center;
+width: 100%;
+}
+
+.divider span {
+padding: 0 10px; 
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+background-color: rgba(0, 0, 0, 0); 
+font-weight: 500;
+}
+
+.hrLine {
+flex-grow: 1; 
+height: 2px;
+border: none;
+background-color: #39FFFb; 
+max-width: 6%;
+opacity: 0.4;
+}
+
+
+.socialLogin {
+display: flex;
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+width: 100%; 
+}
+
+select
+{
+  display: flex;
+  flex-direction:row;
+}
+
+.socialButton {
+display: flex;
+align-items: center; 
+justify-content: center; 
+color: #000; 
+font-size: 18px;
+/* font-weight: bold; */
+border: none;
+border-radius: 5px; 
+padding: 0.75rem 1rem; 
+margin-bottom: 1rem; 
+cursor: pointer; 
+width: 100%; 
+max-width: 450px; 
+height: 50px; 
+transition: background-color 0.3s; 
+}
+
+
+
+.socialButton span {
+margin-left: 10px; 
+}
+
+.socialIconImage {
+width: 24px; 
+height: 24px; 
+}
+
+
+.socialIconContainer {
+display: flex; 
+align-items: center; 
+}
+
+.form label {
+color: white; 
+padding-top: 15px;
+text-align: start; 
+font-size: 16px;
+font-weight: 700;
+line-height: 25.6px;
+margin-bottom: 10px;
+}
+
+input::placeholder {
+color: #3d5c72; 
+
+}
+.form input:focus {
+outline: none;
+border: 1px solid #39FFFb;
+}
+.dobIn:focus {
+  outline: none;
+  border: 1px solid #39FFFb;
+  }
+  
+
+
+.passwordContainer {
+position: relative; 
+background:#121d24 ;
+display: flex;
+flex-direction:row;
+border-radius: 5px;
+}
+
+.input {
+background-color: #121d24; 
+width: 100%; 
+
+border: none;
+border-radius: 5px;
+outline: none; 
+
+}
+
+.eyeIcon {
+position: absolute; 
+right: 10px; 
+top: 50%; 
+transform: translateY(-50%); 
+width: 20px; 
+height: 20px; 
+background-image: url("../../assets/eyeicon.png"); 
+background-repeat: no-repeat;
+background-size: contain; 
+cursor: pointer; 
+}
+
+.dobWrapper {
+display: flex;
+flex-direction: column; 
+flex-wrap: wrap-reverse;
+margin-bottom: 1.5rem; 
+}
+
+.dobInputs {
+display: flex; 
+flex-direction: row;
+justify-content: space-between;
+gap: 1rem; 
+
+
+}
+.dobInputs::placeholder {
+color: #3d5c72;
+background-color: #121d24;
+
+}
+
+.passwordContainer {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.visibilityToggle {
+  height: 20px;
+  width: 50px;
+  border: none;
+  background: none;
+  margin-inline-end: 20px;
+  cursor: pointer;
+  color: #007bff; /* Adjust as needed */
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.dobSelect {
+width: 95%; 
+padding: 15px; 
+border-radius: 5px; 
+outline: none; 
+background-color: #121d24;
+border: none;
+color: white;
+}
+
+.dobSelect:focus {
+border: 1px solid #39FFFb;
+
+}
+.resetlogo {
+width: 86px;
+height: 45.5px;
+position: relative;
+margin-bottom: 10px;
+}
+
+
+@media (max-width:1280px)
+{
+ .formWrapper
+ {
+  zoom: 0.8;
+ }
+}
+
+@media (max-width:768px)
+{
+.formWrapper
+{
+  margin: 20px;
+  margin-top: 150px;
+  padding: 40px;
+  zoom: 0.7;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+.mainContainers {
+  background-color: black;
+  background-image: url('../../assets/faqback.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.faqContainer {
+  padding: 35px 15px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: start;
+  color: #e0e0e0;
+  padding-top: 100px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ffff;
+}
+
+.sectionToggleSign {
+  font-size: 1.5rem;
+  color: #00ffff;
+  margin-right: 8px;
+}
+
+.questionContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.questionToggleSign {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-right: 8px;
+}
+
+.answer {
+  font-size: 16px;
+  color: #ccc;
+  padding: 10px 0;
+  padding: 0px;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.answer[style*="max-height: 0px"] {
+  display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .faqContainer {
+    padding: 30px 10px;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding-top: 80px;
+  }
+
+  .sectionTitle,
+  .question {
+    font-size: 22px;
+  }
+
+  .answer {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faqContainer {
+    padding: 25px 10px;
+    max-width: 95%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    padding-top: 60px;
+  }
+
+  .sectionTitle,
+  .question {
+    font-size: 16px;
+  }
+
+  .answer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .faqContainer {
+    padding: 20px 5px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    padding-top: 40px;
+  }
+
+  .sectionTitle,
+  .question {
+    font-size: 15px;
+  }
+
+  .answer {
+    font-size: 12px;
+  }
+}

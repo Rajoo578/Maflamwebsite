@@ -1,0 +1,251 @@
+.coursedetailsheader {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.videoTheory {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+.courseVideo {
+    
+    margin-top: 200px;
+    height: 790px;
+    max-width: 527px;
+  
+}
+
+/* .videofixed{
+    height: 200px !important;
+} */
+
+.videofixed
+{
+    
+    background:#05121C;
+}
+.videocontent {
+    border-radius:20px ;
+    position: relative;
+    top: -20px;
+    padding: 40px;
+    width: 100%;
+    background:#05121C;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.courseVideo video {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+     height: 400px;
+}
+
+.courseVideo img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+  
+}
+.courseVideo p {
+    font-size:22px ;
+    color: white;
+}
+
+.subcribebtn {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 17px;
+    padding: 30px;
+    font-weight: 700;
+    border-radius: 64px;
+    margin-bottom: 10px;
+    background-color: #39FFFb;
+    border: 1px solid #39FFFb;
+    margin-top: 20px;
+}
+
+.subcribebtn:hover {
+    background-color: black;
+    color: #39FFFb;
+}
+
+.addtowishlist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 64px;
+    font-size: 17px;
+    padding: 25px;
+    font-weight: 700;
+    color: #39FFFb;
+    border: 1px solid #39FFFb;
+    background: none;
+    margin-top: 20px;
+}
+
+.addtowishlist:hover {
+    background-color: black;
+    color: #39FFFb;
+}
+
+.headerText {
+    margin: 20px;
+    max-width: 768px;
+}   
+
+.headerText {
+    margin-top: 250px;
+}
+
+.headerText p
+{
+    padding: 0px;
+}
+
+.headerText h6 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: start;
+    color: white;
+    margin-bottom:50px;
+}
+
+.headerText p
+{
+    color: var(--Accent-Accent-50, #F6FFFF);
+
+/* Subheadline/Subheadline 2 */
+font-family: "Noto Kufi Arabic";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 39.6px */
+}
+
+.lessonsprice {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    justify-content: start;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.icon {
+    color: #39fffb;
+    vertical-align: middle;
+}
+
+.riyals,
+.lessons,
+.time {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--Primary-Primary-400, #061C2B);
+}
+
+/* Collapsible section styling */
+.maincontainer {
+
+    padding-bottom: 20px;
+    margin-top: 150px;
+}
+
+.collapsible {
+    border-radius: 20px;
+    background: transparent lightgray 50% / cover no-repeat;
+    border: 2px solid var(--Neutral-Neutral-900, #222B2B);
+    padding-right: 10px;
+    padding: 36px;
+    margin-top: 25px;  
+}
+.answer
+{
+    color: var(--Accent-Accent-50, #F6FFFF);
+    font-family: "Noto Kufi Arabic";
+    font-size: 16px !important;
+    margin-top:10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.line {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #39fffcc7;
+    margin-left: 10px;
+    opacity: 0.5px !important;
+}
+
+.toggleButton {
+    margin-right: 10px;
+    color: #39FFFb;
+    font-size: 36px;
+}
+
+.toggle {
+    font-size: 28px;
+}
+
+.content {
+    font-size: 11px;
+    color: white;
+}
+
+
+@media(max-width:1600px)
+{
+    .videoTheory
+    {
+        zoom: 0.8;
+    }
+}
+
+@media(max-width:1250px)
+{
+    .videoTheory
+    {
+        zoom:0.7;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .courseVideo
+    {
+        margin: 20px;
+    }
+}

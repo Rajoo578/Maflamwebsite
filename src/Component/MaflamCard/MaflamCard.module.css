@@ -1,0 +1,114 @@
+
+
+   /* MaflamCard.module.css */
+   .container {
+    text-align: center;
+    /* padding: 20px; */
+    min-height: 500px;
+    min-width: 400px;
+    max-width: 1550px;
+  margin: 0  auto;
+  margin-bottom: 50px;
+  }
+  
+  .container h2 {
+    color: #FFF;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 36px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: "Noto Kufi Arabic";
+    padding-bottom: 20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .image {
+    /* border-radius: 10px; */
+    /* max-width: 100%; */
+    max-width: 428px !important;
+    max-height: 421px;
+    transition: transform 0.3s ease;
+  }
+  
+  /*  */
+  
+  .overlay p {
+    text-align: center;
+    font-family: "Noto Kufi Arabic";
+    font-size: 24px;
+    max-width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+  }
+  
+  .name {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+  .card:hover .image {
+    transform: scale(1.05);
+  }
+  
+  
+  @media (max-width:1250px)
+  {
+    .container
+    {
+      zoom:0.8;
+    }
+    .grid
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width : 768px)
+  {
+    .container
+    {
+      zoom: 0.7;
+    }
+    .card
+    {
+      margin: auto;
+    }
+  }
+  
+ 

@@ -1,0 +1,212 @@
+{
+    "mesage": "details fetch successfully",
+    "getPricingCourse1DetailsSec1": {
+        "title": "نبذة عن الدورة.",
+        "description":"في هذه الدورة، ستتعلم أساسيات مونتاج الفيديو باستخدام برنامج Adobe Premiere Pro، وكيفية الانتقال بين المشاهد بشكل سلس وإضافة المؤثرات البصرية والجرافيك. ستتعرف أيضًا على تقنيات تصحيح الألوان وتطبيق هندسة الصوت، بالإضافة إلى تنفيذ أنيميشن بسيط ومتقدم. كما ستفهم التقنيات العامة للمونتاج وكيفية استخراج الفيلم بجودة عالية. أهم النقاط التي ستتعلمها تشمل أساليب المونتاج السينمائي، كيفية اختيار الانتقالات بفاعلية، مونتاج الصوت وتنسيقه، تقنيات تصحيح الألوان، إضافة الرسومات والجرافيك، استخدام المؤثرات في الانتقال بين المشاهد، وإنهاء الفيديو واستخراجه بجودة عالية."
+    },
+    "getPricingCourse1DetailsSec4": {
+        "title": "Or Choose From Our Various Courses."
+    },
+    "formattedCourseData": {
+        "id": "672c6420b3e5c110514f52f9",
+        "courseId": "24",
+        "title":"أساسيات Adobe Premiere Pro",
+        "description":"  تستهدف هذه الدورة الأشخاص الذين يرغبون في تعلم أساسيات برنامج Adobe Premiere Pro لعمل مونتاج احترافي لأفلامهم. يعد هذا البرنامج أحد الأدوات الأساسية في عالم صناعة الأفلام، ويعتبر ضروريًا لكل مونتير يتطلع إلى إتقان فن المونتاج. ستقوم الدورة بشرح كيفية التعامل مع واجهة البرنامج وأدواته المتنوعة، مما يمكنك من إنشاء مقاطع فيديو سلسة وجذابة.",
+        "price":"متاح فقط ضمن الباقة الكاملة",
+        "lecturecount":"٣٩ درس",
+        "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+        "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+        "banner": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+        "lessions": [
+          {
+            "SectionTitle1": "",
+            "Lessons": [
+              {
+                "lesson_name": "متطلبات النظام الأساسية لأدوبي بريمير برو",
+                "timing": "١:٣٢"
+              },
+              {
+                "lesson_name": "تحميل برنامج أدوبي بريمير برو من موقع أدوبي",
+                "timing": "٠:٤١"
+              },
+              {
+                "lesson_name": "صناعة الفيديو الأول لك على أدوبي بريمير برو",
+                "timing": "٤:٠١"
+              },
+              {
+                "lesson_name": "إضافة الصور والنصوص",
+                "timing": "٢:٣٦"
+              },
+              {
+                "lesson_name": "إضافة الانتقالات",
+                "timing": "٣:٠٢"
+              },
+              {
+                "lesson_name": "كيفية إعادة ربط الوسائط المفقودة",
+                "timing": "١:٥٩"
+              },
+              {
+                "lesson_name": "معاينة ايقونات الوسائط داخل لوحة المشروع + تنظيم عرض ايقونات الوسائط الخاصة بك",
+                "timing": "٤:٠٧"
+              },
+              {
+                "lesson_name": "إجراء عمليات البحث + انشاء صناديق بحث",
+                "timing": "٤:١٤"
+              },
+              {
+                "lesson_name": "تحرير مقابلة الفيلم الوثائقي مع اللقطات الثانوية",
+                "timing": "٢:١٥"
+              },
+              {
+                "lesson_name": "الخطوة الاخيرة + تنظيم مشروعك",
+                "timing": "٢:١٧"
+              },
+              {
+                "lesson_name": "العمل داخل نافذة العرض + التشغيل + التأشير",
+                "timing": "٣:٤٠"
+              },
+              {
+                "lesson_name": "إجراء عمليات التبديل فوق مسار محدد",
+                "timing": "٤:٤٢"
+              },
+              {
+                "lesson_name": "إجراء الإدراج والتحرير والنقل - الإدراج عن طريق مفتاح التعديل",
+                "timing": "٣:٠١"
+              },
+              {
+                "lesson_name": "طرق متعددة لصناعة تسلسل جديد",
+                "timing": "٥:١٥"
+              },
+              {
+                "lesson_name": "الكشف عن المقاطع المكررة والإطارات المكررة",
+                "timing": "٢:٣٧"
+              },
+              {
+                "lesson_name": "إجراء الإدراج وتعديل اللقطات المدرجة",
+                "timing": "٤:١٤"
+              },
+              {
+                "lesson_name": "مزامنة الصوت",
+                "timing": "٢:٤٢"
+              },
+              {
+                "lesson_name": "ملاحة الجدول الزمني تقنيات الاختيار",
+                "timing": "٤:١٥"
+              },
+              {
+                "lesson_name": "إعادة قص المقاطع من المخطط الزمني في شاشة المصدر",
+                "timing": "١:٣٦"
+              },
+              {
+                "lesson_name": "مونتاج الفراغات الصغيرة في المقابلة",
+                "timing": "٢:٤٨"
+              },
+              {
+                "lesson_name": "طريقة المونتاج باستخدام تقنية الاستبدال",
+                "timing": "٣:٢٠"
+              },
+              {
+                "lesson_name": "كيفية استخدام أداة ريبل للتحرير",
+                "timing": "٧:٣٧"
+              },
+              {
+                "lesson_name": "تغيير محتوى نسبي للمقطع باستخدام أدوات سليب وسلايد - الموضوع",
+                "timing": "٤:١٣"
+              },
+              {
+                "lesson_name": "تجميد الفيديو الى صورة عن طريق أداة تثبيت الإطار",
+                "timing": "٥:٤١"
+              },
+              {
+                "lesson_name": "تغيير السرعة باستخدام أداة",
+                "timing": "٢:٤٧"
+              },
+              {
+                "lesson_name": "تغيير السرعة باستخدام لوحة",
+                "timing": "٥:٤٦"
+              },
+              {
+                "lesson_name": "ضبط الصوت - الهندسة الصوتية للمقطع الصوتي والهندسة الصوتية للمسار الصوتي",
+                "timing": "٦:٢٣"
+              },
+              {
+                "lesson_name": "بدء التعامل مع مساحة عمل الجرافيك",
+                "timing": "٢:٢٢"
+              },
+              {
+                "lesson_name": "إضافة جرافيك للبريمير",
+                "timing": "٧:٤٢"
+              },
+              {
+                "lesson_name": "تعديل الجرافيك في البريمير",
+                "timing": "١٣:٤١"
+              },
+              {
+                "lesson_name": "عمل أنيميشن بسيط في البريمير",
+                "timing": "٦:٤٨"
+              },
+              {
+                "lesson_name": "عمل أنيميشن متقدم في البريمير",
+                "timing": "٦:٤٧"
+              },
+              {
+                "lesson_name": "عمل ماستر جرافيك في برنامج بريمير",
+                "timing": "٣:٤٥"
+              },
+              {
+                "lesson_name": "استخدام القوالب الجاهزة في بريمير",
+                "timing": "٧:١٩"
+              },
+              {
+                "lesson_name": "الهاندلز وخصائص الكليبات في بريمير",
+                "timing": "٣:٤٠"
+              },
+              {
+                "lesson_name": "الإنتقالات ونافذة الإفكت كنترول",
+                "timing": "٦:٤٣"
+              },
+              {
+                "lesson_name": "الإنتقالات الجاهزة في برنامج بريمير",
+                "timing": "٨:٢١"
+              },
+              {
+                "lesson_name": "صناعة إنتقال مخصص في بريمير",
+                "timing": "٥:٤٠"
+              },
+              {
+                "lesson_name": "انتقال مخصص بواسطة الكلر مات",
+                "timing": "٧:٢١"
+              },
+              {
+                "lesson_name": "كيفية استخدام أداة تصحيح الألوان (HSL Seconadry)",
+                "timing": "١٤:٥٣"
+              },
+              {
+                "lesson_name": "الخطوة الخامسة صقل وتقنية المونتاج الخام الخاص بك",
+                "timing": "٣:٣٨"
+              },
+              {
+                "lesson_name": "الخطوة السابعة الطابع اللوني",
+                "timing": "٢:٥٦"
+              }
+            ]
+          }
+        ],
+         
+        "promoVedio": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+        "estimatedLearningTime": " ٣ ساعات و٣ دقائق",
+        "instructors": [
+            {
+                "name": "أصيل رضوان",
+                "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle39.png",
+                "description": [
+                  "For Post Production courses courses we have to remove the instructors section and the , Adobe Pro , Devinci , Vegas Pro"
+                ]
+            }
+        ]
+    },
+    "getPricingCourse1DetailsSecButton": {
+        "SubscribeBtn": "اشتر الآن",
+        "Addtowhishlist":"أضف إلى المفضلة"
+    }
+}

@@ -1,0 +1,130 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree":"false",
+  "formattedCourseData": {
+    "id": "672c5ee7da73549420503e9c",
+    "courseId": "21",
+    "title": "Fundamentals of Film Production",
+    "description":"This course targets aspiring filmmakers with leadership qualities and artistic sensibilities who seek to enhance their comprehensive production skills. Participants will learn how to effectively manage film projects from planning to distribution, focusing on both creative and commercial aspects.",
+  "whatyoulearn":"In this course, you will learn the fundamentals of film production and the crucial role of producers in filmmaking. You will master the financial aspects of production, including effective planning, budgeting, and creating detailed schedules. The course will also help you develop the essential skills to oversee the film at every stage, work with distributors, and safeguard the film's intellectual property rights. Additionally, you will cover other important details of production and have access to downloadable files and worksheets for practical exercises to enhance your learning. Key topics include the definition of a producer and their responsibilities, preparing and finalizing budgets, managing daily production orders on set, understanding the role of distributors, and the importance of contracts and how to write them." ,
+   "price": "650 SAR",
+    "lecturecount": "62 Lessons",
+    "promoPhoto": "string",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/producing/2.1.650_Ayman_Producing_+%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AA%D8%A7%D8%AC_V3.mp4",
+    "banner": "string",
+  "lessions":  [
+    {
+      "SectionTitle1": "Introduction",
+      "Lessons": [
+        { "lesson_name": "Production Overview", "timing": "1:20" },
+        { "lesson_name": "Who is the Producer?", "timing": "2:38" },
+        { "lesson_name": "Types of Producers", "timing": "5:38" },
+        { "lesson_name": "Main Stages of Production", "timing": "3:28" },
+        { "lesson_name": "How to Be an Outstanding Producer", "timing": "4:20" },
+        { "lesson_name": "The Team and Their Roles", "timing": "10:27" }
+      ]
+    },
+    {
+      "SectionTitle1": "Development Phase",
+      "Lessons": [
+        { "lesson_name": "Introduction to the Development Phase", "timing": "0:38" },
+        { "lesson_name": "Film Concept", "timing": "1:49" },
+        { "lesson_name": "Developing the Script and Selecting Topics", "timing": "2:08" },
+        { "lesson_name": "Working with Creatives", "timing": "3:57" },
+        { "lesson_name": "Film Timeline", "timing": "2:10" },
+        { "lesson_name": "Initial Budget", "timing": "5:50" },
+        { "lesson_name": "Film File (Pitch Deck)", "timing": "3:01" },
+        { "lesson_name": "Example of a Film File", "timing": "4:49" },
+        { "lesson_name": "Funding Sources", "timing": "2:58" }
+      ]
+    },
+    {
+      "SectionTitle1": "Preparation Phase",
+      "Lessons": [
+        { "lesson_name": "Introduction to the Preparation Phase", "timing": "1:10" },
+        { "lesson_name": "Shooting Schedule", "timing": "5:21" },
+        { "lesson_name": "Script Breakdown", "timing": "4:21" },
+        { "lesson_name": "Detailed Budget", "timing": "8:11" },
+        { "lesson_name": "Example of the Final Budget", "timing": "11:07" },
+        { "lesson_name": "Achieving Quality with Limited Resources", "timing": "4:44" },
+        { "lesson_name": "Communication List for the Team and Cast", "timing": "2:56" },
+        { "lesson_name": "Negotiation Skills", "timing": "5:52" },
+        { "lesson_name": "Contracts", "timing": "5:00" },
+        { "lesson_name": "Non-Disclosure Agreement", "timing": "3:18" },
+        { "lesson_name": "Intellectual Property Rights", "timing": "3:56" },
+        { "lesson_name": "Preparation Meetings", "timing": "3:26" },
+        { "lesson_name": "Catering", "timing": "4:25" },
+        { "lesson_name": "Transportation and Accommodation", "timing": "2:07" },
+        { "lesson_name": "Shooting Schedule", "timing": "6:39" },
+        { "lesson_name": "Call Sheet", "timing": "9:12" },
+        { "lesson_name": "Location Scouts", "timing": "4:42" },
+        { "lesson_name": "Timeline for the Preparation Phase", "timing": "N/A" },
+        { "lesson_name": "Criteria for Selecting a Director", "timing": "3:40" },
+        { "lesson_name": "Criteria for Selecting a Director of Photography", "timing": "3:59" },
+        { "lesson_name": "Criteria for Selecting a Production Designer", "timing": "3:05" },
+        { "lesson_name": "Necessary Permits for Filming", "timing": "2:45" },
+        { "lesson_name": "Creating a Storyboard", "timing": "3:14" },
+        { "lesson_name": "Protecting the Creative Vision", "timing": "3:00" },
+        { "lesson_name": "Casting Actors", "timing": "3:00" },
+        { "lesson_name": "Final Meeting", "timing": "2:25" }
+      ]
+    },
+    {
+      "SectionTitle1": "Production Phase",
+      "Lessons": [
+        { "lesson_name": "Introduction to the Production Phase", "timing": "1:10" },
+        { "lesson_name": "Safety", "timing": "2:54" },
+        { "lesson_name": "Identifying Problems to Solve", "timing": "2:31" },
+        { "lesson_name": "Adhering to the Schedule", "timing": "2:18" },
+        { "lesson_name": "Creating Marketing Content", "timing": "2:41" },
+        { "lesson_name": "Managing Production Files", "timing": "1:53" },
+        { "lesson_name": "Communicating with Distributors", "timing": "1:51" },
+        { "lesson_name": "Set Protocols", "timing": "3:10" }
+      ]
+    },
+    {
+      "SectionTitle1": "Editing Phase",
+      "Lessons": [
+        { "lesson_name": "Introduction to the Editing Section", "timing": "1:25" },
+        { "lesson_name": "Editing Team", "timing": "4:06" },
+        { "lesson_name": "Editing Workflow", "timing": "2:57" },
+        { "lesson_name": "Production Timeline for the Film", "timing": "3:86" },
+        { "lesson_name": "Feedback and Notes on Film Cuts", "timing": "2:08" },
+        { "lesson_name": "Working on Marketing Videos for the Film", "timing": "2:14" },
+        { "lesson_name": "Credits", "timing": "3:25" },
+        { "lesson_name": "Export Files", "timing": "1:15" }
+      ]
+    },
+    {
+      "SectionTitle1": "Marketing and Distribution",
+      "Lessons": [
+        { "lesson_name": "Introduction to Marketing and Distribution", "timing": "1:04" },
+        { "lesson_name": "Marketing the Film", "timing": "3:50" },
+        { "lesson_name": "Marketing the Film Industry and Engaging with the Audience", "timing": "2:27" },
+        { "lesson_name": "IMDb", "timing": "1:32" },
+        { "lesson_name": "Distribution Stages", "timing": "2:54" },
+        { "lesson_name": "Film Distribution License", "timing": "3:21" },
+        { "lesson_name": "Film Festival Circuits (Local and International)", "timing": "3:54" }
+      ]
+    }
+  ],
+    "promoVedio": "string",
+    "estimatedLearningTime":" 3 hours and 30 minutes",
+    "instructors": [
+      {
+        "name": "Ayman Khoja",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle2.png",
+        "description":["Ayman Khoja, a Saudi producer and director who has won numerous awards in the film industry. He holds a master's degree in cinema with honors from the New York Film Academy in Los Angeles. With 10 years of experience in film production and direction, Ayman has collaborated with international studios and global production companies, such as MBC Studios, the largest broadcasting operator in the Middle East, and Viu, the largest streaming platform in Asia. His debut feature film, \"The Arabian Warrior,\" achieved success in theaters and on digital platforms. Currently, Ayman works with top industry experts worldwide to assist film studios, streaming platforms, and investors in achieving profitable results with a genuine impact."
+]
+        
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Subscribe Now",
+    "Addtowhishlist": "Add To Wishlist"
+  }
+}

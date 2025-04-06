@@ -1,0 +1,193 @@
+
+
+.showcasecontainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../assets/ebooktwobg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 70px;
+    max-width: 1500px;
+  
+     
+    }
+  .heading{
+      width: 100%;
+      position: relative;
+      font-size: 47px;
+      line-height: 150%;
+      display: inline-block;
+      font-family: 'Noto Kufi Arabic';
+      color: #fff;
+      text-align: left;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  .secondarycontainer{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 70px;
+  
+  }
+  .imagesec{
+      padding-left: 120px;
+  }
+  
+  .textheader{
+      width: 698px;
+      font-size: 20px; 
+      line-height: 160%;
+      font-family: 'Noto Kufi Arabic';
+      color: #39fffb;
+      text-align: start;
+  
+  }
+  .textpara{
+      color: white;
+      text-align: start;
+      font-size: 23px;
+      line-height: 160%;
+      margin-top: 30px;
+      padding-right: 100px;
+  }
+  .downloadsbtn {
+      display: flex;
+      align-items: center;
+      padding: 8px 16px;
+      font-size: 18px;
+      border: none;
+      color: #061c2b;
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0px 10px 30px rgba(90, 255, 234, 0.3);
+      border-radius: 64px;
+      background-color: #39fffb;
+      margin-top: 220px;
+    
+  }
+  
+  .icon {
+      width: 40px; 
+      height: 40px;
+      margin-left: 15px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Tablet: Width up to 1024px */
+  @media (max-width: 1024px) {
+      .heading {
+        font-size: 36px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .secondarycontainer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      .textheader {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+      }
+      .textpara {
+        font-size: 20px;
+        padding-right: 0;
+        text-align: start;
+      }
+      .downloadsbtn {
+        font-size: 16px;
+        margin-top: 150px;
+      }
+    }
+    
+    /* Mobile: Width up to 768px */
+    @media (max-width: 768px) {
+      .heading {
+        font-size: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+      }
+      .secondarycontainer {
+        gap: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .imagesec {
+        padding-left: 0;
+        text-align: center;
+      }
+      .textheader {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+      }
+      .textpara {
+        font-size: 18px;
+        padding-right: 0;
+        margin-top: 15px;
+        text-align: start;
+      }
+      .downloadsbtn {
+        font-size: 14px;
+        padding: 6px 12px;
+        margin-top: 100px;
+      }
+      .icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+      }
+    }
+    
+    /* Small Mobile: Width up to 480px */
+    @media (max-width: 480px) {
+      .heading {
+        font-size: 24px;
+        padding: 0 10px;
+        line-height: 1.2;
+        text-align: center;
+      }
+      .secondarycontainer {
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .textheader {
+        font-size: 14px;
+        width: 100%;
+      }
+      .textpara {
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: start;
+        padding-left: 50px;
+        padding-right: 50px;
+  
+      }
+      .downloadsbtn {
+        font-size: 12px;
+        padding: 5px 50px;
+        margin-top: 50px;
+        margin-left: 50px;
+        
+      }
+      .icon {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+      }
+    }

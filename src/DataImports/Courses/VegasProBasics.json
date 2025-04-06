@@ -1,0 +1,353 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree": "true",
+  "formattedCourseData": {
+    "id": "672c73b06191fae5fb669530",
+    "courseId": "28",
+    "title": "Fundamentals of Vegas Pro",
+    "description": "This course is designed for individuals looking to enhance their post-production skills using Vegas Pro. You will learn how to use this software to create professional film edits, focusing on its intricate details and features. You will explore all the tools available to help you achieve outstanding results, enabling you to deliver creative and professional works.",
+    "whatyoulearn": "In this course, you will discover the essential features of Vegas Pro, including how to create a new project, organize files, and effectively adjust segments. You will gain skills in adding effects and graphics, as well as working with both audio and video, along with a comprehensive understanding of editing principles. Key Points You Will Learn in this Course: Introduction to the software and how to download it, Understanding frame rates, Organizing files, Working with the timeline and using the toolbar, Splitting clips, Unique features of the software.",
+    "price": " Only Available with Bundle",
+    "lecturecount": "79 Lessons",
+    "promoPhoto": "string",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/SONY+VEGAS/00.%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9.mp4",
+    "banner": "string",
+    "lessions": [
+      {
+        "SectionTitle1": "Fundamentals of Vegas Pro",
+        "Lessons": [
+          {
+            "lesson_name": "Introduction",
+            "timing": "1:05"
+          },
+          {
+            "lesson_name": "Downloading VEGAS Pro",
+            "timing": "1:00"
+          },
+          {
+            "lesson_name": "Video Orientation",
+            "timing": "1:06"
+          },
+          {
+            "lesson_name": "What is Frame Rate",
+            "timing": "1:02"
+          },
+          {
+            "lesson_name": "What is Resolution",
+            "timing": "1:00"
+          },
+          {
+            "lesson_name": "Saving Projects",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Resetting the Workspace",
+            "timing": "0:53"
+          },
+          {
+            "lesson_name": "Media Section",
+            "timing": "1:34"
+          },
+          {
+            "lesson_name": "Timeline",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Preview Window",
+            "timing": "1:01"
+          },
+          {
+            "lesson_name": "Master Bus",
+            "timing": "0:55"
+          },
+          {
+            "lesson_name": "Importing Files (1)",
+            "timing": "1:04"
+          },
+          {
+            "lesson_name": "Importing Files (2)",
+            "timing": "1:09"
+          },
+          {
+            "lesson_name": "Adding Clips to the Timeline",
+            "timing": "1:18"
+          },
+          {
+            "lesson_name": "Playing Clips on the Timeline (Part 1)",
+            "timing": "2:04"
+          },
+          {
+            "lesson_name": "Playing Clips on the Timeline (Part 2)",
+            "timing": "1:53"
+          },
+          {
+            "lesson_name": "Speeding Up and Rewinding",
+            "timing": "1:30"
+          },
+          {
+            "lesson_name": "Using Undo and Redo",
+            "timing": "1:45"
+          },
+          {
+            "lesson_name": "Cut, Copy, and Paste",
+            "timing": "1:53"
+          },
+          {
+            "lesson_name": "Using the Trimming Tool",
+            "timing": "1:17"
+          },
+          {
+            "lesson_name": "Section Borders",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Splitting Clips",
+            "timing": "1:10"
+          },
+          {
+            "lesson_name": "Trimming the Beginning of a Clip",
+            "timing": "1:23"
+          },
+          {
+            "lesson_name": "Trimming the End of a Clip",
+            "timing": "1:10"
+          },
+          {
+            "lesson_name": "Audio Track",
+            "timing": "1:22"
+          },
+          {
+            "lesson_name": "Track Heights",
+            "timing": "1:03"
+          },
+          {
+            "lesson_name": "Arranging Tracks",
+            "timing": "1:19"
+          },
+          {
+            "lesson_name": "Audio Levels",
+            "timing": "1:29"
+          },
+          {
+            "lesson_name": "Fade In of Audio",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Fade Out of Audio",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Audio Control Points (Envelopes) - Method 1",
+            "timing": "1:40"
+          },
+          {
+            "lesson_name": "Audio Control Points (Envelopes) - Method 2",
+            "timing": "1:24"
+          },
+          {
+            "lesson_name": "Using the Silence Tool",
+            "timing": "1:07"
+          },
+          {
+            "lesson_name": "Using Solo",
+            "timing": "1:18"
+          },
+          {
+            "lesson_name": "Selection Tool",
+            "timing": "1:23"
+          },
+          {
+            "lesson_name": "Switching Clips",
+            "timing": "1:15"
+          },
+          {
+            "lesson_name": "Navigating the Timeline",
+            "timing": "1:26"
+          },
+          {
+            "lesson_name": "Linking and Unlinking Clips",
+            "timing": "1:14"
+          },
+          {
+            "lesson_name": "Deleting Video Only",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Deleting Audio Only",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Linking Clips",
+            "timing": "1:06"
+          },
+          {
+            "lesson_name": "Snapping Feature",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Using the Ripple Tool",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Deleting a Clip and Leaving a Gap",
+            "timing": "1:04"
+          },
+          {
+            "lesson_name": "Positioning the Cursor",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Changing Opacity",
+            "timing": "1:20"
+          },
+          {
+            "lesson_name": "Fade In of the Clip",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Fade Out of the Clip",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Video Edge Gradients (Fade In and Fade Out)",
+            "timing": "1:12"
+          },
+          {
+            "lesson_name": "Video Control Points (Envelopes) - Method 1",
+            "timing": "1:36"
+          },
+          {
+            "lesson_name": "Video Control Points (Envelopes) - Method 2",
+            "timing": "1:11"
+          },
+          {
+            "lesson_name": "Lock Tool",
+            "timing": "1:17"
+          },
+          {
+            "lesson_name": "Markers Tool",
+            "timing": "1:09"
+          },
+          {
+            "lesson_name": "Notes Section",
+            "timing": "1:37"
+          },
+          {
+            "lesson_name": "Adjusting Clip Lengths",
+            "timing": "1:11"
+          },
+          {
+            "lesson_name": "Speeding Up Clips",
+            "timing": "1:05"
+          },
+          {
+            "lesson_name": "Review",
+            "timing": "1:00"
+          },
+          {
+            "lesson_name": "Using the Zoom Tool",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Using Keyframes",
+            "timing": "1:16"
+          },
+          {
+            "lesson_name": "Video Effects",
+            "timing": "1:15"
+          },
+          {
+            "lesson_name": "Adding Effects",
+            "timing": "1:29"
+          },
+          {
+            "lesson_name": "Adjusting Effects",
+            "timing": "1:03"
+          },
+          {
+            "lesson_name": "Cropping",
+            "timing": "1:33"
+          },
+          {
+            "lesson_name": "Adding Borders",
+            "timing": "1:09"
+          },
+          {
+            "lesson_name": "Brightness and Contrast",
+            "timing": "1:18"
+          },
+          {
+            "lesson_name": "Black and White",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Digital Processor Section",
+            "timing": "1:14"
+          },
+          {
+            "lesson_name": "Adding Generators",
+            "timing": "1:01"
+          },
+          {
+            "lesson_name": "Adding Color Only",
+            "timing": "1:08"
+          },
+          {
+            "lesson_name": "Adding Titles",
+            "timing": "1:28"
+          },
+          {
+            "lesson_name": "Adding Animated Titles",
+            "timing": "1:25"
+          },
+          {
+            "lesson_name": "Adding Credits",
+            "timing": "2:11"
+          },
+          {
+            "lesson_name": "Overview of Transitions",
+            "timing": "1:13"
+          },
+          {
+            "lesson_name": "Applying Transitions",
+            "timing": "0:59"
+          },
+          {
+            "lesson_name": "Adjusting Transition Lengths",
+            "timing": "1:16"
+          },
+          {
+            "lesson_name": "Transition Adjustment Options (Example 1)",
+            "timing": "1:23"
+          },
+          {
+            "lesson_name": "Transition Adjustment Options (Example 2)",
+            "timing": "1:24"
+          },
+          {
+            "lesson_name": "Final Video Settings",
+            "timing": "1:52"
+          }
+        ]
+      }
+    ],
+    "promoVedio": "string",
+    "estimatedLearningTime": "1 hour and 41 minutes",
+    "instructors": [
+      {
+        "name": "string",
+        "photoUrl": "string",
+        "description": [
+          "string"
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Only Available with Bundle",
+    "Addtowhishlist": "Add To Wishlist"
+  }
+}

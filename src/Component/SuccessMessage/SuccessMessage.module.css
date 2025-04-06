@@ -1,0 +1,140 @@
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../../assets/failuremessage.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    padding: 20px; 
+}
+
+.secondcontainer {
+    display: block;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    padding-top: 50px;
+}
+.btn {
+margin-top: 30px !important;
+    border:  1px solid green !important;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 20PX;
+    background-color: #39FFFB;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.header h1 {
+    text-align: center;
+    color: white;
+    line-height: 144%;
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    background-color: rgb(249, 11, 11);
+    padding: 3px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.resetlogo {
+    width: 50px;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+}
+
+.form {
+    position: relative;
+    line-height: 144%;
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.form h2 {
+    font-size: 24px;
+    position: relative;
+    line-height: 144%;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form p {
+    font-size: 17.5px;
+
+    line-height: 144%;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .secondcontainer {
+        width: 85%; /* Shrinks width for medium screens */
+        padding: 20px;
+    }
+
+    .resetlogo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .form p {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .secondcontainer {
+        width: 95%; /* Almost full width on small devices */
+        padding: 15px;
+    }
+
+    .resetlogo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .form h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .form p {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

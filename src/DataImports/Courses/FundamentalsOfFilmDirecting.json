@@ -1,0 +1,115 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree":"false",
+  "formattedCourseData": {
+    "id": "672c5bb6a7c24e51d0db091e",
+    "courseId": "20",
+    "title":"Fundamentals of Directing",
+    "description":"This course targets individuals passionate about the art of cinematic directing who aspire to bring impactful stories to the screen. It will help enhance your creative skills and craft narratives that captivate audiences. By mastering technical details, you'll develop your unique directorial style and effectively convey your cinematic vision.",
+    "whatyoulearn":"In this course, you'll learn how to become a director and effectively manage a film set. You'll develop skills in selecting scripts and understanding key aspects of the preparation phase. The course will guide you through the process of choosing actors and communicating with them, as well as mastering the art of camera work, including understanding camera movements and creating impactful scenes. You'll also learn essential production management strategies to optimize each day of filming before moving into the editing phase. By the end, you'll grasp the foundational principles of directing that will allow you to professionally direct your first film. Key topics include the director's authority, camera language, the 30-degree and 180-degree rules, the differences between outdoor and studio shooting, and choosing the right soundtrack.",
+    "price": "650 SAR",
+    "lecturecount": "56 Lessons",
+    "promoPhoto": "string",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Diracting/3.1.582_ODAY_DIRECTING_%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D9%88%D8%AD%D8%AF%D8%A9+%D8%A7%D9%84%D8%A7%D9%95%D8%AE%D8%B1%D8%A7%D8%AC_V02.mp4",
+    "banner": "string",
+    
+      "lessions": [
+        {
+          "SectionTitle1": "Introduction to Directing",
+          "Lessons": [
+            { "lesson_name": "Introduction to Directing", "timing": "0:56" },
+            { "lesson_name": "What is Directing?", "timing": "3:09" },
+            { "lesson_name": "Characteristics of a Successful Director", "timing": "5:58" },
+            { "lesson_name": "Director's Authority", "timing": "2:54" },
+            { "lesson_name": "Directorial Vision", "timing": "7:32" },
+            { "lesson_name": "Types of Directors", "timing": "1:40" },
+            { "lesson_name": "Directorial Statement", "timing": "3:39" }
+          ]
+        },
+        {
+          "SectionTitle1": "Preparation",
+          "Lessons": [
+            { "lesson_name": "Choosing the Team", "timing": "2:26" },
+            { "lesson_name": "Empowering the Team", "timing": "1:47" },
+            { "lesson_name": "Controlling the Viewer’s Eye", "timing": "3:44" },
+            { "lesson_name": "Stay Logical", "timing": "3:14" },
+            { "lesson_name": "The 30-Degree Rule", "timing": "2:10" },
+            { "lesson_name": "The Distance Rule", "timing": "2:57" },
+            { "lesson_name": "The 180-Degree Rule", "timing": "3:55" },
+            { "lesson_name": "Camera Language", "timing": "5:10" },
+            { "lesson_name": "Impact of Production Elements", "timing": "2:29" },
+            { "lesson_name": "Save Time and Money", "timing": "4:49" },
+            { "lesson_name": "Outdoor vs. Studio Shooting", "timing": "3:33" },
+            { "lesson_name": "Show Me, Don't Tell Me", "timing": "2:22" },
+            { "lesson_name": "Reading the Script", "timing": "1:58" },
+            { "lesson_name": "Between the Lines", "timing": "5:20" },
+            { "lesson_name": "Script Breakdown (Part 1)", "timing": "8:45" },
+            { "lesson_name": "Script Breakdown (Part 2)", "timing": "7:36" },
+            { "lesson_name": "What is Coverage?", "timing": "1:13" },
+            { "lesson_name": "Scene Coverage", "timing": "4:39" },
+            { "lesson_name": "Overall Coverage", "timing": "3:09" },
+            { "lesson_name": "Set Us There", "timing": "2:52" },
+            { "lesson_name": "Shot Selection (Part 1)", "timing": "6:49" },
+            { "lesson_name": "Shot Selection (Part 2)", "timing": "10:45" },
+            { "lesson_name": "Shot Selection (Part 3)", "timing": "10:51" },
+            { "lesson_name": "Shot List (Part 1)", "timing": "8:40" },
+            { "lesson_name": "Shot List (Part 2)", "timing": "9:16" },
+            { "lesson_name": "Storyboard / Shot List", "timing": "5:44" },
+            { "lesson_name": "Establishing Shots", "timing": "2:02" },
+            { "lesson_name": "Technical Visit", "timing": "2:42" },
+            { "lesson_name": "Casting Actors", "timing": "3:17" },
+            { "lesson_name": "Table Read", "timing": "3:21" },
+            { "lesson_name": "Rehearsals", "timing": "2:34" },
+            { "lesson_name": "Blocking and Staging", "timing": "4:29" }
+          ]
+        },
+        {
+          "SectionTitle1": "Production",
+          "Lessons": [
+            { "lesson_name": "Clapboard (Part 1)", "timing": "9:06" },
+            { "lesson_name": "Clapboard (Part 2)", "timing": "5:53" },
+            { "lesson_name": "Shot Log", "timing": "3:29" },
+            { "lesson_name": "How to Shoot the Scene", "timing": "3:41" },
+            { "lesson_name": "Practical Exercise for Scene Shooting", "timing": "4:54" },
+            { "lesson_name": "Common Mistakes", "timing": "2:21" },
+            { "lesson_name": "Script Supervision", "timing": "7:04" },
+            { "lesson_name": "Protecting Actors", "timing": "4:11" },
+            { "lesson_name": "Working with Actors", "timing": "10:53" },
+            { "lesson_name": "Working with Beginner Actors", "timing": "8:17" },
+            { "lesson_name": "Useful Resources", "timing": "7:10" }
+          ]
+        },
+        {
+          "SectionTitle1": "Editing",
+          "Lessons": [
+            { "lesson_name": "Sharing Vision with the Editor", "timing": "1:25" },
+            { "lesson_name": "First Cut Overview", "timing": "2:25" },
+            { "lesson_name": "The Film is Made Again in Editing", "timing": "3:48" },
+            { "lesson_name": "Music Placement", "timing": "3:06" },
+            { "lesson_name": "Color Grading", "timing": "2:30" },
+            { "lesson_name": "Screening the Film for Friends", "timing": "2:31" }
+          ]
+        }
+      ]
+    ,
+    "promoVedio": "string",
+    "estimatedLearningTime": "4 Hours and 12 Minutes",
+    "instructors": [
+      {
+        "name": "Oday Abid",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle42.png",
+        "description": [
+            "Oday began his directing career in 2011, after leaving his primary job to pursue his passion for content creation. He founded his production company, 77 Films, where he took on various roles including screenwriting, directing, and producing.",
+"Throughout his career, Oday has directed over six television programs and two seasons of the comedy series Al3aila, which aired during Ramadan on SBC Channel. He has also directed more than 120 commercials and promotional videos for companies."
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Subscribe Now",
+    "Addtowhishlist": "Add To Wishlist"
+  }
+}

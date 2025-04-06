@@ -1,0 +1,22 @@
+.elements
+{
+    width: 100vw;
+    max-width: 1920px;
+    min-height: 2200px;
+    margin: auto;
+    background-image: url('../../assets/CoursePricingPageBg.png');
+    background-repeat: no-repeat;
+}
+.bottombg
+{
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 50px;
+    background: url("../../assets/JoinUsNewsGrad.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}

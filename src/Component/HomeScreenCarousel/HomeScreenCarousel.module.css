@@ -1,0 +1,260 @@
+.carouselcontainer {
+  /* background-color: #030b11; */
+  /* background-image: url("../../assets/backgrondcr.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 500px; */
+  width: 100%; 
+  max-width: 1220px; 
+  margin: auto;
+  /* margin-bottom: 100px; */
+}
+
+/* .carouselcontainer h2{
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Noto Kufi Arabic";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; 
+} */
+
+.carouselcontainer a {
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Noto Kufi Arabic";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  top: 40px;
+  line-height: 160%; 
+}
+
+.carouselcontainer h2 {
+  color: #FFF;
+  text-align: center;
+  justify-content: center;
+  font-family: "Noto Kufi Arabic";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 20px;
+  line-height: 160%;
+  width: 100%;
+
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1245px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* padding: 20px 90px; */
+}
+
+.sliderContainer {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+
+
+
+.sliderContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  flex: 0 0 auto;
+  margin: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  height: 670px;
+  color: #fff;
+  overflow-y: hidden;
+  padding: 5px;
+  padding-top: 50px;
+  width: 405px;
+}
+
+.card:hover
+{
+  height: 700px;
+}
+
+.overlay {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 420px;
+  height: 100%;
+  filter: blur(10px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 0.8;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+.roverlay {
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 420px;
+  height: 100%;
+  filter: blur(10px);
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  opacity: 0.9;
+  z-index: 1; /* Make sure overlay is above the video */
+}
+/* .card :hover
+{
+  zoom: 1.1;
+} */
+
+
+
+.card videobook{
+  width: 395px;
+
+}
+.card video:hover
+{
+  transform: scaleY(1.01) translateY(-20px);
+  transition: transform 0.3s ease;
+  
+} 
+.card h2 {
+  font-size: 17px;
+  text-align: right;
+}
+
+.contentvideo p {
+  font-size: 11px;
+  width: 100px;
+}
+
+.contentvideo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 20px 170px;
+}
+
+.arrowLeft, .arrowRight {
+  position: absolute;
+  bottom: 100px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+}
+
+.arrowLeft {
+  transform: scaleX(-1);
+  left: -50px;
+  border-radius: 50%;
+  background-color: #4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+height: 66px;
+flex-shrink: 0;
+}
+
+.arrowRight {
+  right: -60px;
+  bottom: 80px;
+  border-radius: 50%;
+  width: 60px; 
+  height: 60px;
+  background-color: #4444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowLeft:hover, .arrowRight:hover {
+   background-color: #4444;
+}
+.contentpara p{
+color: #FFF;
+text-align: center;
+color: #FFF;
+text-align: center;
+font-family: "Noto Kufi Arabic";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 38.4px */
+padding: 10px 20px;
+margin: 0 auto;
+margin-top: 100px;
+padding-bottom: 120px;
+max-width: 1000px;
+}
+@media (max-width:1500px)
+{
+  .carouselcontainer
+  {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width:1250px)
+{
+  .carouselcontainer
+  {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width:1024)
+{
+    .carouselcontainer
+    {
+      zoom: 0.7;
+    }
+}
+
+@media (max-width:1100px)
+{
+  .carouselcontainer
+  {
+    zoom: 0.6;
+  }
+    .carousel
+    {
+      max-width: 415px;
+    }
+    .overlay
+    {
+      display: none;
+    }
+    .roverlay
+    {
+      display: none;
+    }
+    .contentpara p
+    {
+        font-size: small;
+    }
+}

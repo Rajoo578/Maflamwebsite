@@ -1,0 +1,274 @@
+.container {
+  /* background-color: #000; */
+  padding: 20px;
+  font-family: "Noto Kufi Arabic";
+  padding-bottom: 0px;
+  background: url('../../assets/MWFormGrad.png');
+  background-repeat: no-repeat;
+  background-position: -200px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  background: rgba(22, 38, 50, 0.70);
+  backdrop-filter: blur(50px);
+  max-width: 1400px;
+  margin: 50px auto;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.formcontact
+{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 80%;
+  max-width: 961px;
+  margin: auto;
+}
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between inputs */
+}
+.downloadIcon {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Increase width for a larger circle */
+  height: 40px; /* Increase height for a larger circle */
+  border-radius: 50%;
+  padding: 0; /* Remove padding to keep icon centered */
+  background: transparent;
+  border: none; /* Optional: remove border for a cleaner look */
+  cursor: pointer;
+}
+
+/* Form Input Styling */
+.inputGroup label {
+  font-size:20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700; 
+  margin-bottom: 5px;
+  display: block;
+  color: #ffffff;
+}
+
+.inputGroup input, .inputGroup textarea {
+  width: 100%;
+  padding: 15px;
+  border: 0px;
+  
+  /* background-color: #1a374b; */
+
+
+}
+.inputGroup textarea:hover{
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  /* background-color: #1a374b; */
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  /* background-color: #1a374b; */
+  color: white;
+  border-radius: 5px;
+border: 1px solid #5AFFFF !important;
+background: var(--Primary-Primary-300, #1A374B);
+  font-size: 16px;
+  border-radius: 5px;
+  background: var(--Primary-Primary-300, #1A374B);
+
+}
+.inputGroup input:hover{
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  /* background-color: #1a374b; */
+  color: white;
+  border-radius: 5px;
+border: 1px solid #5AFFFF !important;
+background: var(--Primary-Primary-300, #1A374B);
+  font-size: 16px;
+  border-radius: 5px;
+  background: var(--Primary-Primary-300, #1A374B);
+}
+
+.inputGroup input
+{
+  border: 0px;
+}
+input
+{
+  border: none;
+}
+.inputGroup textarea {
+  resize: none;
+  height: 100px;
+}
+/* Existing styles... */
+
+/* Add the selected state styling */
+.selected {
+  background-color: #3d5c72;
+}
+
+/* Hover effect for radio buttons */
+.radioButton:hover,
+.radioButton.selected {
+  background-color: #3d5c72;
+}
+
+
+/* Radio Group and File Upload */
+.radioGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.radioButton {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  background-color: #1a374b;
+  color: white;
+   border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.radioButton:hover {
+  background-color: #3d5c72;
+}
+
+.inputGroup input[type="file"] {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  
+  cursor: pointer;
+}
+/* Submit Button */
+.submitButton {
+  margin-top: 20px;
+  width: 185px;
+  background-color: #00e3e3;
+  border: none;
+  color: black;
+  padding: 12px 0;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.deleteButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Increase width for a larger circle */
+  height: 50px; /* Increase height for a larger circle */
+  border-radius: 50%;
+  padding: 0; /* Remove padding to keep icon centered */
+  background-color: #00c9c9;
+  border: none; /* Optional: remove border for a cleaner look */
+  cursor: pointer;
+background: var(--Accent-Accent-400---Main, #39FFFB);
+box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+}
+.imgUpload span {
+  background: #39FFFB;
+  border: solid 1px #39FFFB;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+.deleteButtons i {
+  margin-top: 10px;
+font-size: 30px;
+}
+.btnstyless{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.submitButton:hover {
+  background-color: #00c9c9;
+}
+.imgUpload{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.downloadIcon p{
+gap: 300px;
+}
+
+/* Responsive Styles */
+
+@media (max-width:1600px)
+{
+   .formContainer
+   {
+    zoom: 0.7;
+   }
+}
+
+
+
+@media (max-width:1600px)
+{
+   .formContainer
+   {
+    zoom: 0.7;
+   }
+}
+
+@media (max-width:768px)
+{
+   .formContainer
+   {
+    zoom: 0.7;
+   }
+   .radioGroup
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .title
+   {
+    font-size: x-large;
+   }
+}
+
+
+

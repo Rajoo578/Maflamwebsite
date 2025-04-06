@@ -1,0 +1,136 @@
+.herosection
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.heroContainer {
+  color: white;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  width: 100vw;
+  display: flex;
+  max-width: 1920px;
+  min-height: 850px;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
+}
+
+.overlay, .rightoverlay, .leftoverlay {
+  position: absolute;
+  background: var(--Neutral-Website-Bakground---Dark, #030B11);
+  z-index: 1; /* Ensure all overlays are above the video */
+}
+
+.overlay {
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  height: 100%;
+  filter: blur(20px);
+  opacity: 0.6;
+}
+
+.rightoverlay {
+  right: 0;
+  bottom: -100px;
+  width: 60%;
+  height: 40%;
+  filter: blur(40px);
+}
+
+.leftoverlay {
+  left: 0;
+  bottom: -100px;
+  width: 50%;
+  height: 30%;
+  filter: blur(100px);
+}
+
+.content {
+  color: #FFF;
+  z-index: 2;
+  padding-inline-start: 14%;
+  font-family: "Noto Kufi Arabic";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 104px */
+}
+
+.title {
+  max-width:770px;
+  color: #FFF;
+  text-align: right;
+  font-family: "Noto Kufi Arabic";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 104px */
+}
+
+.description {
+  width: 694px;
+  color: #FFF;
+  padding-right: 0px !important;
+  text-align: right;
+  font-family: "Noto Kufi Arabic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.4px */
+}
+
+.signUpButton {
+  border-radius: 50px;
+  background-color: #39fffb;
+  padding: 10px 20px;
+  color: #030b11;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 50px;
+  border: none;
+  position: relative;
+  z-index: 3; /* Above everything else */
+}
+
+.backgroundVideo {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  max-width:1920px;
+  max-height:910px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background: linear-gradient(315deg, #030B11 29.58%, rgba(0, 0, 0, 0.00) 69.85%);
+  object-fit: cover; /* Ensures the video covers the entire container */
+  z-index: 0; /* Below the overlay */
+}
+
+
+@media (max-width:1220px)
+{
+  
+  .content
+  {
+    padding-left: 40px;
+    zoom: 0.7
+  }
+}
+
+@media (max-width:768px)
+{
+  
+  .title
+  {
+     font-size: 40px;
+  }
+  .content p
+  {
+      width: auto;
+      font-size: small;
+  }
+}

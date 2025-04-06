@@ -1,0 +1,268 @@
+.container {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/LoginBack.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.formWrapper {
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  backdrop-filter: blur(2px); 
+  background-color: #ffffff15;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 50px;
+  padding-left: 8rem;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.welcome {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+   
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.continueButton {
+  background-color: #00e5ff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 64px;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 330px;
+  height: 48px;
+  box-shadow: 0px 10px 30px rgba(90, 255, 234, 0.3);
+
+}
+
+
+.signInLink {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.signInLink a {
+  color: #00e5ff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+
+
+
+
+.divider {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 2rem 0;
+color: #fff;
+text-align: center;
+width: 100%;
+}
+
+.divider span {
+padding: 0 10px; 
+color: #fff;
+font-size: 14px;
+background-color: rgba(0, 0, 0, 0); 
+font-weight: 500;
+}
+
+.hrLine {
+flex-grow: 1; 
+height: 2px;
+border: none;
+background-color: #39FFFb; 
+max-width: 20%;
+}
+
+
+.socialLogin {
+display: flex;
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+width: 100%; 
+}
+
+.socialButton {
+display: flex;
+align-items: center; 
+justify-content: center; 
+background-color: #BBFFFF; 
+color: #000; 
+font-size: 18px;
+/* font-weight: bold; */
+border: none;
+border-radius: 5px; 
+padding: 0.75rem 1rem; 
+margin-bottom: 1rem; 
+cursor: pointer; 
+width: 100%; 
+max-width: 450px; 
+height: 50px; 
+transition: background-color 0.3s; 
+}
+
+
+
+.socialButton span {
+margin-left: 10px; 
+}
+
+.socialIconImage {
+width: 24px; 
+height: 24px; 
+}
+
+
+.socialIconContainer {
+display: flex; 
+align-items: center; 
+}
+
+.form label {
+color: white; 
+text-align: right;
+font-size: 16px;
+font-weight: 700;
+line-height: 25.6px;
+margin-bottom: 10px;
+}
+
+input::placeholder {
+color: #3d5c72; 
+
+}
+.form input:focus {
+outline: none;
+border: 1px solid #39FFFb;
+}
+
+
+.passwordContainer {
+position: relative; 
+}
+
+.input {
+background-color: #121d24; 
+width: 100%; 
+padding: 0.75rem 2.5rem; 
+border: none;
+border-radius: 5px;
+outline: none; 
+margin-bottom: 10px;
+}
+
+.eyeIcon {
+position: absolute; 
+right: 10px; 
+top: 50%; 
+transform: translateY(-50%); 
+width: 20px; 
+height: 20px; 
+background-image: url("../../assets/eyeicon.png"); 
+background-repeat: no-repeat;
+background-size: contain; 
+cursor: pointer; 
+}
+
+.dobWrapper {
+display: flex;
+flex-direction: column; 
+margin-bottom: 1.5rem; 
+}
+
+.dobInputs {
+display: flex; 
+justify-content: space-between;
+gap: 1rem; 
+
+
+}
+.dobInputs::placeholder {
+color: #3d5c72; 
+
+}
+
+.dobSelect {
+width: 30%; 
+padding: 0.75rem; 
+border-radius: 5px; 
+outline: none; 
+background-color: #121d24;
+border: none;
+color: white;
+}
+
+.dobSelect:focus {
+border: 1px solid #39FFFb;
+
+}
+.resetlogo {
+width: 86px;
+height: 45.5px;
+position: relative;
+margin-bottom: 10px;
+}
+
+
+@media (max-width:1280px)
+{
+ .formWrapper
+ {
+  zoom: 0.8;
+ }
+}
+
+@media (max-width:768px)
+{
+.formWrapper
+{
+  margin: 20px;
+  margin-top: 150px;
+  padding: 40px;
+  zoom: 0.7;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

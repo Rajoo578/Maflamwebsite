@@ -1,0 +1,140 @@
+
+
+
+
+  .maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../../assets/failuremessage.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    padding: 20px; /* Added padding for smaller screens */
+}
+.btn {
+    margin-top: 30px !important;
+        border:  1px solid green !important;
+        padding: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: black;
+        font-size: 20PX;
+        background-color: #39FFFB;
+    }
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+
+.secondcontainer {
+    display: block;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url("../../assets/failureback.png");
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
+    line-height: 144%;
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    background-color: rgb(249, 11, 11);
+    padding: 3px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+/* Styling the form content */
+.form {
+    position: relative;
+    line-height: 144%;
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.form h2 {
+    font-size: 24px;
+    position: relative;
+    line-height: 144%;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 144%;
+    font-family: 'Noto Kufi Arabic';
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .secondcontainer {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .header h1 {
+        height: 40px;
+        width: 40px;
+        font-size: 18px;
+    }
+
+    .form h2 {
+        font-size: 20px;
+    }
+
+    .form p {
+        font-size: 14px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .secondcontainer {
+        width: 100%; /* Full width for very small screens */
+        padding: 15px;
+    }
+
+    .header h1 {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+    }
+
+    .form h2 {
+        font-size: 18px;
+    }
+
+    .form p {
+        font-size: 12px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+}

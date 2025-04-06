@@ -1,0 +1,146 @@
+.parentfundamental
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  margin-top: 250px;
+  color: #fff;
+
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 125px;
+}
+.Fundamental {
+  /* background-color: #030b11; */
+  height: auto;
+  width: 100vw;
+  padding: 50px;
+  max-height: 482px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1400px;
+  background-image: url("../../assets/bgpodcast.png"); /* Set a max-width for the container */
+  margin: 0 auto; /* Center the Fundamental container */
+  margin-bottom: 200px;
+}
+.content {
+  text-align: start;
+  position: relative;
+  margin:auto;
+  max-width: 474px;
+  border-radius: 20px;  
+  margin-bottom: 30px;
+}
+
+.content p {
+  max-width: 474px;
+  color: #FFFFFF;
+  line-height: 45px;
+  /* text-align: left; */
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.subscribe {
+  
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 2px;
+  padding-right: 60px;
+  max-width: 1127.255px;
+  border-radius: 20px;
+  position: relative;
+  opacity: 1;
+  height: 400px;
+}
+.imgcontainer  {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.imgcontainer img
+{
+    width: 100%;  
+}
+
+.ctn {
+  height: auto;
+}
+
+
+.ctn p {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.ctn img{
+  height: 100px;
+  width: auto;
+}
+.ctn h6 {
+  font-size: 20px;
+  padding: 20px;
+  color: #fff;
+  font-weight: 400;
+  color: #39fffb;
+}
+
+.item b {
+  margin-right: 2px;
+  color: aqua;
+  font-size: 25px;
+}
+
+.item span {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+@media (max-width:1600px)
+{
+    .title
+    {
+      zoom: 0.8;
+    }
+    .parentfundamental
+    {
+      zoom: 0.8;
+    }
+}
+
+@media (max-width: 1250px)
+{
+  .title, .parentfundamental
+  {
+    zoom: 0.7;
+  }
+  .Fundamental
+  {
+    max-height: 1500px;
+    background-size: cover;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+  }
+  .title
+  {
+    padding-bottom: 50px;
+  }
+  .imgcontainer
+  {
+    width: 100%;
+  }
+}

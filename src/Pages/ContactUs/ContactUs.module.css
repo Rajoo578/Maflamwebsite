@@ -1,0 +1,32 @@
+
+
+.container{
+    width:100vw;
+    max-width: 1980px;
+    margin: auto;
+    background: url("../../assets/Backgrounds/ContactPageBg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+
+.formcontainer
+{
+    position: relative;
+    z-index: 10;
+}
+.bottombg
+{
+    z-index: 0;
+    position: absolute;
+    bottom: 0px;
+    height: 500px;
+    background-position: top;
+    width: 100%;
+    background: url('../../assets/Backgrounds/ContactUSBottomGrad.png');
+    background-size: cover;
+   
+}

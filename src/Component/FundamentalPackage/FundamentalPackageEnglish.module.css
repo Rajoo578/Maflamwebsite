@@ -1,0 +1,275 @@
+.parentfundamental
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Fundamental {
+  background-color: #030b11;
+  height: auto;
+  width: 100vw;
+  max-width: 1500px; /* Set a max-width for the container */
+  margin: 0 auto; /* Center the Fundamental container */
+  margin-top: 125px;
+  margin-bottom: 100px;
+}
+
+.secondcontainer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  text-align: left;
+  margin:50px;
+  padding-left: 0px !important;
+  padding-left:50px ;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.content p {
+  width: 720px;
+  margin-inline-start: 100px;
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 57.6px */
+  
+}
+
+.subscribe {
+  background-image: url("../../assets/pricing-3.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 40px;
+  padding-right: 60px;
+  max-width: 1427.255px;
+  border-radius: 20px;
+  position: relative;
+  height: 328px;
+}
+.imgcontainer  {
+  width: 549px;
+    position: absolute;
+    right: 50px;
+    top: -120px;
+    z-index: 1;
+  }
+
+.ctn {
+ 
+  height: auto;
+  margin-left: 50px;
+
+  
+}
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.checkico {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(46, 202, 202);
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+}
+.ctn p {
+  font-size: 24px;
+  font-style: normal;
+  color: var(--Accent-Accent-50, #F6FFFF);
+  font-weight: 400; 
+  line-height: 180%; /* 43.2px */
+}
+.checkicobuttun {
+  position: relative;
+  box-shadow: 0px 10px 30px rgba(90, 255, 234, 0.3);
+  border-radius: 64px;
+  background-color: #39fffb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 17px;
+  width: 160px;
+  color: #000;
+  font-family: 'Noto Kufi Arabic';
+  font-weight: 600;
+  border: none;
+  margin: 10px;
+}
+.item b {
+  margin-right: 2px;
+  color: aqua;
+  font-size: 25px;
+}
+mrpprice {
+  margin-top: 10px;
+  color: aqua;
+  font-weight: bold !important;
+  text-decoration: line-through !important;
+  color: red;
+
+}
+
+.lines1{
+  margin-top: 10px;
+  font-weight: bold !important;
+  text-decoration: line-through !important;
+  color: aqua;
+  font-size: 30px;
+}
+.mrpprice span{
+  font-weight: bold !important;
+  font-size: 70px
+  
+  ;
+ 
+
+}
+
+.price {
+  font-weight: bold;
+  color: black; /* Adjust this color as per your design */
+}
+
+
+.item span {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 3px;
+}
+
+@media (max-width:1500px)
+{
+  .Fundamental
+  {
+    zoom: 0.8;
+  }
+  .imgcontainer
+  {
+    right: 5px;
+  }
+}
+
+@media (max-width:1350px)
+{
+  .Fundamental
+  {
+    zoom: 0.8;
+  }
+  .imgcontainer
+  {
+    right: -35px;
+  }
+}
+@media (max-width:1250px)
+{
+  .secondcontainer
+  {
+    zoom: 0.9;
+  }
+  .content
+  {
+    padding-top: 150px;
+    zoom: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgcontainer
+  {
+    position: relative;
+    top: -50px;
+   
+  }
+  .content p
+  {
+    margin-inline-start: 0px;
+    width: auto;
+    text-align: center;
+  }
+  .subscribe
+  {
+    padding-left: 0px;
+    position: relative;
+    top: -250px;
+  }
+
+  .content p{
+    font-size: xx-large;
+    line-height: 75px;
+
+}
+}
+@media (max-width:768px)
+{
+  .content p
+  {
+    
+    padding-top: 150px;
+    font-size: x-large;
+ 
+    padding-bottom: 40px;
+    
+  }
+  .content
+  {
+    padding-left: 0px;
+  }
+  .Fundamental
+  {
+    margin-top: 350px;
+    margin-bottom: 0px;
+  }
+    .secondcontainer
+    {
+      zoom:0.7;
+    }
+    .subscribe
+    {
+      height: auto;
+    }
+}
+
+@media (max-width:542px)
+{
+
+  .content p{
+    font-size: 45px;
+    margin: 0px;
+}
+  .subscribe
+  {
+    font-size: 10px;
+  }
+
+  .imgcontainer{
+    left: 20px;    
+  }
+}
+.checkico
+{
+  top: 25px !;
+}
+p b
+{
+    position: relative;
+    top: 12px;
+}

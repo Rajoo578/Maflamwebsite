@@ -1,0 +1,125 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "Course Introduction"
+  },
+  "isfree": "false",
+  "formattedCourseData": {
+    "id": "672c6420b3e5c110514f52f9",
+    "courseId": "24",
+    "title": "Fundamentals of Acting",
+    "description": " This course is designed for individuals seeking to discover the actor within themselves and enhance their skills in the art of on-camera performance. You will learn how to effectively portray realistic and impactful characters by mastering performance techniques that ensure your acting is genuine and authentic. By exploring various approaches, you will gain the tools needed to deeply understand scripts and analyze characters effectively.",
+    "whatyoulearn": "In this course, you will explore the concept of acting and its various schools while acquiring essential tools for becoming a skilled actor. Through exercises designed to enhance your acting talent, you will delve into the art of improvisation and learn its rules. The course will also guide you in creating harmony with fellow actors and mastering effective preparation techniques for filming scenes. Additionally, you will gain valuable insights into delivering powerful performances that captivate your audience. Key topics include different schools of acting, improvisation, practical tips for filming preparation, understanding acting contracts, and strategies for self-promotion as an actor.",
+    "price": "750 SAR",
+    "lecturecount": "67 lessons",
+    "promoPhoto": "string",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+    "banner": "string",
+    "lessions": [
+    {
+      "SectionTitle1": "Introduction",
+      "Lessons": [
+        { "lesson_name": "About the Unit", "timing": "1:22" },
+        { "lesson_name": "What is Acting", "timing": "1:45" },
+        { "lesson_name": "Introduction to Acting Schools", "timing": "1:03" },
+        { "lesson_name": "Classical School - Francois Delsarte", "timing": "3:25" },
+        { "lesson_name": "Realism School - Constantin Stanislavski", "timing": "3:17" },
+        { "lesson_name": "Realism School - Strasberg", "timing": "2:43" },
+        { "lesson_name": "Realism School - Meisner", "timing": "2:48" },
+        { "lesson_name": "Realism School - Stella Adler", "timing": "3:48" },
+        { "lesson_name": "Realism School - Brecht", "timing": "2:35" },
+        { "lesson_name": "Types of Actors", "timing": "3:43" },
+        { "lesson_name": "Differences Between Theater and Film/TV Acting", "timing": "5:49" },
+        { "lesson_name": "Actor's Tools - Face", "timing": "1:36" },
+        { "lesson_name": "Actor's Tools - Body Movement and Gestures", "timing": "2:51" },
+        { "lesson_name": "Actor's Tools - Voice Techniques and Projection", "timing": "5:28" },
+        { "lesson_name": "Dialects", "timing": "1:45" },
+        { "lesson_name": "Eye Contact", "timing": "4:37" }
+      ]
+    },
+    {
+      "SectionTitle1": "Preparation",
+      "Lessons": [
+        { "lesson_name": "Casting", "timing": "3:26" },
+        { "lesson_name": "Auditions", "timing": "4:18" },
+        { "lesson_name": "Script Formats (French and American)", "timing": "1:23" },
+        { "lesson_name": "Defining Dialogue", "timing": "4:33" },
+        { "lesson_name": "Reading Between the Lines", "timing": "2:40" },
+        { "lesson_name": "The Message Behind Each Scene", "timing": "3:18" },
+        { "lesson_name": "Connecting Events and Character Timeline", "timing": "2:21" },
+        { "lesson_name": "Ignoring Knowledge", "timing": "1:44" },
+        { "lesson_name": "Suggestions for Script Changes", "timing": "3:10" },
+        { "lesson_name": "Memorization", "timing": "2:25" },
+        { "lesson_name": "Actor's Responsibility in Portraying Characters", "timing": "2:36" },
+        { "lesson_name": "Exploring Emotions", "timing": "2:29" },
+        { "lesson_name": "Using Personal Experiences to Connect with Characters", "timing": "3:02" },
+        { "lesson_name": "Creating a Character Biography", "timing": "6:09" },
+        { "lesson_name": "Avoiding Stereotypes", "timing": "3:09" },
+        { "lesson_name": "Adding Quirks to the Character", "timing": "2:40" },
+        { "lesson_name": "Table Read", "timing": "3:02" },
+        { "lesson_name": "Rehearsals", "timing": "2:35" },
+        { "lesson_name": "Improvisation", "timing": "2:23" },
+        { "lesson_name": "Actor Synergy Before Filming", "timing": "3:39" },
+        { "lesson_name": "Props", "timing": "2:00" },
+        { "lesson_name": "Acting Coach", "timing": "4:24" }
+      ]
+    },
+    {
+      "SectionTitle1": "Production",
+      "Lessons": [
+        { "lesson_name": "Call Sheet", "timing": "5:32" },
+        { "lesson_name": "Preparing for Shooting Day", "timing": "6:09" },
+        { "lesson_name": "Using Spaces (Blocking)", "timing": "1:56" },
+        { "lesson_name": "The Camera", "timing": "7:40" },
+        { "lesson_name": "Using Props", "timing": "2:10" },
+        { "lesson_name": "Cuts", "timing": "2:23" },
+        { "lesson_name": "Continuity", "timing": "2:03" },
+        { "lesson_name": "Microphone Techniques", "timing": "4:39" },
+        { "lesson_name": "Costumes", "timing": "3:51" },
+        { "lesson_name": "Stunt Scenes", "timing": "4:30" },
+        { "lesson_name": "Working with Colleagues", "timing": "3:46" },
+        { "lesson_name": "Working with Children in Scenes", "timing": "2:52" },
+        { "lesson_name": "Stay Focused", "timing": "2:45" },
+        { "lesson_name": "On-Set Protocols", "timing": "6:26" }
+      ]
+    },
+    {
+      "SectionTitle1": "General Tips",
+      "Lessons": [
+        { "lesson_name": "Importance of the Director's Role", "timing": "2:00" },
+        { "lesson_name": "Harmonizing with the Director", "timing": "4:44" },
+        { "lesson_name": "Understanding the Director's Style", "timing": "2:18" },
+        { "lesson_name": "Types of Directors", "timing": "1:55" },
+        { "lesson_name": "Al-Hamour - Abdul Elah Al-Qurashi", "timing": "3:11" },
+        { "lesson_name": "Rashash - Colin Teague", "timing": "3:50" },
+        { "lesson_name": "Safar Barlek - Laith Hajjo", "timing": "4:38" },
+        { "lesson_name": "Sukar - Tamer Mahdi", "timing": "3:29" },
+        { "lesson_name": "Acting as a Profession", "timing": "4:08" },
+        { "lesson_name": "Acting Contracts", "timing": "4:03" },
+        { "lesson_name": "The Role of Talent Agents (Casting Agencies)", "timing": "4:58" },
+        { "lesson_name": "Marketing Yourself", "timing": "4:32" },
+        { "lesson_name": "Challenges of the Profession", "timing": "5:06" },
+        { "lesson_name": "Choosing Roles", "timing": "3:08" },
+        { "lesson_name": "General Advice", "timing": "8:13" }
+      ]
+    }
+  ]
+,
+    "promoVedio": "string",
+    "estimatedLearningTime": "3 hours and 51 minutes",
+    "instructors": [
+      {
+        "name": "Khalid Yaslam",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle43.png",
+        "description": [
+          "Khalid is a Saudi actor who transitioned from the advertising field and journalism to pursue acting. His first experience came in 2016 with the film \"Barakah Meets Barakah,\" after which he participated in several projects, including \"Madinah,\" \"Mamsous,\" \"After Midnight,\" \"Saadiyah Sabit,\" and \"Rashash.\"", 
+ "Khalid took on his first lead role in \"Rolm,\" the first commercially released Saudi film in the Kingdom. He also appeared in the successful box office hit \"Al-Hamour H.A.,\" and his most recent participation was in the musical film \"Sukar.\""
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Subscribe Now",
+    "Addtowhishlist": "Add to Wishlist"
+  }
+}

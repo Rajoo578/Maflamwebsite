@@ -1,0 +1,2 @@
+import useScrollToElementWithDelay from './useScrollToElementWithDelay.jsx'
+export default useScrollToElementWithDelay;

@@ -1,0 +1,86 @@
+
+.maincontainer {
+  width: 100%;
+  max-width: 1397px;
+  margin: auto;
+  justify-content: baseline;
+  align-items: baseline;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.header {
+  max-width: 768px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.toggle {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  margin: 10px;
+  height: 0.5px !important;
+  background-color: #39FFFb;
+  opacity: 0.5px !important;
+}
+
+.toggleButton {
+  margin-right: 10px;
+  color: #39FFFb;
+  
+  font-size: 36px;
+  font-weight: bold;
+
+}
+
+.content {
+  text-align: justify;
+  font-size: 11px;
+  color: white;
+}
+
+.instructorName {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0; 
+}
+.instructorName 
+{
+  font-size: 28px !important;
+}
+.paragraph {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+  font-family: 'Work Sans';
+}
+
+/* Collapsible for LTR */
+.collapsibleLtr {
+  border: 1px solid white;
+  display: inline-block;
+  width: 100%;
+  max-width: 768px; 
+  padding: 36px;
+  border-radius: 10px;
+  
+  border-radius: 20px;
+border: 1px solid #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Collapsible for RTL */
+
+
+

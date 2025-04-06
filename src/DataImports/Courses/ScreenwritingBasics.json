@@ -1,0 +1,112 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+      "videotitle": "نبذة عن الدورة."
+    
+  },
+  "isfree":"false",
+  "formattedCourseData": {
+      "id": "672c62b61f099bf569d0f8eb",
+      "courseId": "23",
+ "title": "Fundamentals of Screenwriting"    ,
+  "description":"This course targets writers with vivid imaginations who aspire to bring their ideas and stories to the big screen. You will learn how to write a professional screenplay and understand the essential elements that producers seek in a successful script.",
+  "whatyoulearn":"In this course, you will learn how to generate creative ideas and transform them into a fully developed story. You'll master the art of building a strong plot, creating complex characters, and defining the central conflict and purpose of your narrative. The course will guide you through writing a treatment, structuring your screenplay, understanding different types of dialogue, and planning your scenes. You'll also learn how to craft your ideas into a written screenplay, preparing it for the big screen. Additionally, you will have access to downloadable worksheets for practical exercises to refine your skills. Key topics include constructing a scene, types of characters, creating conflict and purpose, understanding treatments and their types, writing dialogue, crafting a screenplay's conclusion, and revising for production purposes.",
+      "price": "750 SAR",
+      "lecturecount": "54 Lessons",
+      "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+      "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Writing/1.1.169_AFNAN_WRITING_%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D8%AF%D9%88%D8%B1%D8%A9+%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_V03.mp4",
+      "banner": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+      "lessions":[
+        {
+          "SectionTitle1": "Introduction to the Course",
+          "Lessons": [
+            { "lesson_name": "Introduction to the Course", "timing": "2:28" }
+          ]
+        },
+        {
+          "SectionTitle1": "From Idea to Story",
+          "Lessons": [
+            { "lesson_name": "Creative Idea", "timing": "7:31" },
+            { "lesson_name": "Workshop on Creative Idea", "timing": "7:58" },
+            { "lesson_name": "What is a Story?", "timing": "5:20" },
+            { "lesson_name": "Workshop on Story Writing", "timing": "5:50" },
+            { "lesson_name": "Theme", "timing": "4:30" },
+            { "lesson_name": "Workshop on Theme", "timing": "7:41" },
+            { "lesson_name": "Plot", "timing": "5:53" },
+            { "lesson_name": "Workshop on Building the Plot", "timing": "8:31" },
+            { "lesson_name": "Types of Characters", "timing": "5:53" },
+            { "lesson_name": "Workshop on Types of Characters", "timing": "5:49" },
+            { "lesson_name": "Building Character Profiles", "timing": "8:37" },
+            { "lesson_name": "Workshop on Character Profiles", "timing": "15:50" },
+            { "lesson_name": "Backgrounds", "timing": "8:52" },
+            { "lesson_name": "Workshop on Backgrounds", "timing": "7:26" },
+            { "lesson_name": "Conflict", "timing": "8:38" },
+            { "lesson_name": "Workshop on Conflict", "timing": "4:11" },
+            { "lesson_name": "General Review", "timing": "1:29" }
+          ]
+        },
+        {
+          "SectionTitle1": "From Story to Treatment",
+          "Lessons": [
+            { "lesson_name": "Overview of Unit Two", "timing": "2:32" },
+            { "lesson_name": "Dramatic Structure and Logic", "timing": "3:59" },
+            { "lesson_name": "Cognitive Development of the Work: Research Lab", "timing": "3:43" },
+            { "lesson_name": "Workshop: Research Lab", "timing": "8:23" },
+            { "lesson_name": "Character Treatment: Defining Desire and Need", "timing": "5:50" },
+            { "lesson_name": "Workshop: Character Treatment", "timing": "4:17" },
+            { "lesson_name": "Character Treatment: Character Models", "timing": "15:56" },
+            { "lesson_name": "Workshop: Character Models", "timing": "6:11" },
+            { "lesson_name": "Treatment of Backgrounds", "timing": "7:09" },
+            { "lesson_name": "Workshop: Treatment of Backgrounds", "timing": "6:45" },
+            { "lesson_name": "Treatment of the Plot", "timing": "7:04" },
+            { "lesson_name": "Workshop: Treatment of the Plot", "timing": "6:23" },
+            { "lesson_name": "Conflict Treatment (Part 1)", "timing": "8:54" },
+            { "lesson_name": "Conflict Treatment (Part 2)", "timing": "12:28" },
+            { "lesson_name": "Workshop on Conflict Treatment", "timing": "3:54" },
+            { "lesson_name": "What is Treatment?", "timing": "10:14" },
+            { "lesson_name": "Workshop on Treatment Writing", "timing": "6:29" }
+          ]
+        },
+        {
+          "SectionTitle1": "From Treatment to Script",
+          "Lessons": [
+            { "lesson_name": "What is a Screenplay?", "timing": "6:23" },
+            { "lesson_name": "Screenplay Structure: Acts and Scene Paragraphs (Part 1)", "timing": "12:30" },
+            { "lesson_name": "Screenplay Structure: Acts and Scene Paragraphs (Part 2)", "timing": "13:11" },
+            { "lesson_name": "Workshop on Scene Paragraphs", "timing": "3:36" },
+            { "lesson_name": "Screenplay Structure: Types of Scenes", "timing": "7:06" },
+            { "lesson_name": "Screenplay Structure: Moments", "timing": "6:27" },
+            { "lesson_name": "Elements of Scene Construction", "timing": "11:39" },
+            { "lesson_name": "Technical Rules for Writing Scenes", "timing": "13:57" },
+            { "lesson_name": "Types of Dialogue", "timing": "12:00" },
+            { "lesson_name": "Fundamentals of Writing Dialogue", "timing": "11:08" },
+            { "lesson_name": "Screenwriting Software", "timing": "3:16" },
+            { "lesson_name": "Techniques for Writing Tabs and Descriptions", "timing": "11:31" },
+            { "lesson_name": "Dialogue Writing Techniques", "timing": "11:24" },
+            { "lesson_name": "Workshop on Dialogue Writing", "timing": "5:34" },
+            { "lesson_name": "Techniques for Writing Transitions", "timing": "6:40" },
+            { "lesson_name": "Scene Outline", "timing": "11:47" },
+            { "lesson_name": "Workshop on Scene Outline", "timing": "4:00" },
+            { "lesson_name": "Revisions for Production Purposes", "timing": "6:49" },
+            { "lesson_name": "Conclusion", "timing": "1:08" }
+          ]
+        }
+      ],
+      "promoVedio": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+      "estimatedLearningTime": " 6 hours and 43 minutes",
+      "instructors": [
+          {
+            "name":"Afnan Linjawi",
+              "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle40.png",
+              "description": [
+                   "A Screenwriter with a Master’s degree in Screenwriting from Falmouth University in the UK. Afnan has 10 years of experience in dramatic writing. She began her career writing plays before transitioning to screenwriting in 2017. Afnan has received several awards for her screenwriting, including the ScreenCraft Award for Short Films, the Shockis American Award for Feature Film Treatments, and the Discop Award for Series Treatments. Three of her short films have been produced, with some earning festival awards. She has also contributed to several television series and feature films. Additionally, Afnan has facilitated screenwriting workshops at In5 Media in Dubai and has developed curriculum for screenwriting courses."
+
+              ]
+          }
+      ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Subscribe Now",
+    "Addtowhishlist": "Add To Wishlist"
+  }
+}

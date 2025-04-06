@@ -1,0 +1,120 @@
+
+.container {
+    padding: 10px 10px; 
+    /* background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url("../../assets/ebookBackground.png") no-repeat center center; */
+    background-size: cover;
+    /* background-color: black; */
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+position: relative;
+font-size: 36px;
+line-height: 160%;
+display: inline-block;
+/* font-family: 'Work Sans'; */
+color: #fff;
+justify-content: baseline;
+align-items: baseline;
+height: 64.9px;
+
+  }
+  .containerHeader {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    height: Hug(208px);
+    font-weight: 700;
+    line-height: 75px;
+    font-family: 'Work Sans';
+  
+    }
+  
+  .cardsContainer {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Card styles */
+  .card {
+    border-radius: 8px;
+    color: white;  
+    width: 338px;
+    position: relative;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+
+    overflow: hidden;
+    flex-shrink: 0;
+    max-width: 100%;
+    padding: 10px;  
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .content {
+    /* margin-top: 15px; */
+    text-align: left;
+  }
+  
+    
+  .content p {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: 'Work Sans';
+    color: #39fffb;
+    text-align: left;
+    display: inline-block;
+  }
+  .text{
+    font-size: 20px;
+    line-height: 160%;    
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    line-height: 160%;
+    display: inline-block;
+    /* font-family: 'Work Sans'; */
+    color: #fff;
+    text-align: left;
+    height: 59px;
+  
+  }
+  
+  @media (max-width:1250px)
+  {
+    .container
+    {
+      zoom: 0.8;
+    }
+  }
+
+  
+  @media (max-width:768px)
+  {
+    .container
+    {
+      zoom: 0.7;
+    }
+  }

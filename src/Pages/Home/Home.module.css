@@ -1,0 +1,53 @@
+
+
+.Home{
+  border: 1px solid #000;
+  background: #030B11;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Footer{
+  height: 1400px;
+  width: 100vw;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: url('../../assets/FooterBg.png');
+  background-position: bottom;
+}
+
+.BlogContainer{
+
+  background-image: url("../../assets//blg.png");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  height: auto;
+  background-position: top;
+  background-size: auto;
+}
+
+@media (max-width:1250px)
+{
+  .Footer
+  {
+    height: 1000px;
+    min-height: 600px;
+  }
+}
+
+
+
+
+/* .Home {
+   
+  }
+  
+  .Home[dir="rtl"] {
+  
+  } */

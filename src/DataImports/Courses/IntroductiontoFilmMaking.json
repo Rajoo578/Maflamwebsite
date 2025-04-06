@@ -1,0 +1,47 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree":"false",
+  "formattedCourseData": {
+    "id": "29",
+    "courseId": "672c76cc9a9df20599166ca0",
+    "title": "Introduction to Filmmaking",
+"description":"This course targets individuals looking to enter the world of filmmaking and understand the foundations of planning and preparation for a film. You will learn the best methods to start planning and preparing, as well as the various stages of filmmaking based on global industry standards. Additionally, you'll explore the Maflam platform and how to easily access all the necessary resources and tools, enabling you to turn your creative ideas into reality in the cinematic world." ,
+"whatyoulearn":"In this course, you will learn how to effectively and systematically plan and prepare for a film, from pre-production to post-production, emphasizing the importance of each stage in achieving your artistic vision. You will gain a comprehensive understanding of how to create a detailed plan, starting from scriptwriting to managing the production team. Additionally, you will explore the MAFLAM platform and how to utilize it to access essential filmmaking resources.",
+"price": "Only Available with Bundle",
+    "lecturecount": "5 Lessons",
+    "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle42.png",
+    "promoVideo": "",
+    "banner": "string",
+    "lessions": [
+      {
+        "SectionTitle1": "Introduction to Filmmaking",
+        "Lessons": [
+          { "lesson_name": "Importance of Filmmaking", "timing": "3:59" },
+          { "lesson_name": "Stages of Filmmaking", "timing": "2:49" },
+          { "lesson_name": "Production Team Sections", "timing": "3:20" },
+          { "lesson_name": "Understanding the Hierarchical Organization of the Production Team", "timing": "2:39" },
+          { "lesson_name": "About Maflam’s Platform", "timing": "1:39" }
+        ]
+      }
+    ],
+    "promoVedio": "string",
+    "estimatedLearningTime": "14 Minutes",
+    "instructors": [
+      {
+        "name": "Oday Abid",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle42.png",
+        "description": [
+          "Oday began his directing career in 2011, after leaving his primary job to pursue his passion for content creation. He founded his production company, 77 Films, where he took on various roles including screenwriting, directing, and producing.",
+"Throughout his career, Oday has directed over six television programs and two seasons of the comedy series Al3aila, which aired during Ramadan on SBC Channel. He has also directed more than 120 commercials and promotional videos for companies."
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Only Available with Bundle",
+    "Addtowhishlist": "Add To Wishlist"
+  }
+}

@@ -1,0 +1,220 @@
+{
+    "mesage": "details fetch successfully",
+    "getPricingCourse1DetailsSec1": {
+        "title": "نبذة عن الدورة.",
+   
+          "description": "في هذه الدورة، ستتعلم دور مهندس الصوت وأهمية الصوت في تعزيز الصورة السينمائية، وستكتسب معرفة شاملة حول الأدوات والأجهزة التي يستخدمها مهندس الصوت. كما ستتعلم كيفية تحليل النص بشكل دقيق لتجنب الأخطاء أثناء التصوير. سنستعرض أيضًا التحديات التي قد يواجهها مهندس الصوت وطرق التعامل معها بفعالية، بالإضافة إلى أهم النقاط التي ستتعلمها مثل دور مهندس الصوت في صناعة الأفلام، مهام فريق الصوت، أنواع المايكات واستخداماتها، جهاز التسجيل وكيفية عمله، وكيفية معالجة الصدى في الغرف."
+      
+    },
+    "getPricingCourse1DetailsSec4": {
+        "title": "Or Choose From Our Various Courses."
+    },
+    "formattedCourseData": {
+        "id": "672c6420b3e5c110514f52f9",
+        "courseId": "24",
+        "title":"أساسيات تسجيل الصوت",
+        "description": "تستهدف هذه الدورة المهتمين بدخول عالم هندسة الصوت والذين يسعون لفهم دور الصوت في تعزيز تجربة المشاهد. ستركز الدورة على أهمية الأصوات المحيطة وكيفية تسجيلها بشكل واضح ونقي. من خلال تقنيات ومعدات الهندسة الصوتية، ستتعلم كيفية دمج الأصوات بفاعلية في المشاهد، مما يسهم في تعزيز السرد وإضافة عمق للأعمال السينمائية.",
+        "price": "٥٥٠ ر.س",
+        "lecturecount":"٤٠ درس",
+        "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+        "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+        "banner": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+        "lessions":[
+            {
+              "SectionTitle1": "مقدمة",
+              "Lessons": [
+                {
+                  "lesson_name": "أهمية الصوت في صناعة الأفلام",
+                  "timing": "٢:٣٨"
+                },
+                {
+                  "lesson_name": "دور مهندس الصوت في صناعة الأفلام",
+                  "timing": "١:٤٧"
+                },
+                {
+                  "lesson_name": "مهام فريق الصوت",
+                  "timing": "١:٠٢"
+                },
+                {
+                  "lesson_name": "أساسيات الصوت",
+                  "timing": "١:٢٩"
+                },
+                {
+                  "lesson_name": "شرائح صوت المشهد",
+                  "timing": "١:٣٢"
+                }
+              ]
+            },
+            {
+              "SectionTitle1": "الجانب التقني",
+              "Lessons": [
+                {
+                  "lesson_name": "المعدات الأساسية لتسجيل الصوت",
+                  "timing": "١:٤٤"
+                },
+                {
+                  "lesson_name": "أنواع المايكات",
+                  "timing": "٠:٣٩"
+                },
+                {
+                  "lesson_name": "الميكروفون الديناميكي",
+                  "timing": "١:٣٧"
+                },
+                {
+                  "lesson_name": "الميكروفون المكثف الكوندنسر",
+                  "timing": "١:٤٩"
+                },
+                {
+                  "lesson_name": "الميكروفون الشريطي الريبون",
+                  "timing": "٠:٥١"
+                },
+                {
+                  "lesson_name": "نمط التقاط الميكروفونات",
+                  "timing": "٢:٠٠"
+                },
+                {
+                  "lesson_name": "رحلة الصوت مع الممثل للفيلم",
+                  "timing": "١:٠١"
+                },
+                {
+                  "lesson_name": "عناصر الميكروفونات اللاسلكية",
+                  "timing": "٣:٣٣"
+                },
+                {
+                  "lesson_name": "تسجيل الصوت على الكاميرا مباشرة السنجل سيستم",
+                  "timing": "٣:٣٤"
+                },
+                {
+                  "lesson_name": "تسجيل الصوت على مكسر بسيط (الدبل سيستم)",
+                  "timing": "٥:٣٠"
+                },
+                {
+                  "lesson_name": "مداخل جهاز التسجيل",
+                  "timing": "٢:١٩"
+                },
+                {
+                  "lesson_name": "جهاز التسجيل",
+                  "timing": "١:١٣"
+                },
+                {
+                  "lesson_name": "إعداد مستوى التضخيم وتفادي تشوه الصوت",
+                  "timing": "٢:٠٥"
+                },
+                {
+                  "lesson_name": "اللفت والرايت مكس",
+                  "timing": "٤:٣٤"
+                },
+                {
+                  "lesson_name": "البري فيدر والبوست فيدر",
+                  "timing": "٠:٥٢"
+                },
+                {
+                  "lesson_name": "مخارج جهاز التسجيل",
+                  "timing": "١:٥٤"
+                },
+                {
+                  "lesson_name": "الهيدفون مكس",
+                  "timing": "٥:١٥"
+                },
+                {
+                  "lesson_name": "إعداد مكس العميل",
+                  "timing": "٢:٠٣"
+                },
+                {
+                  "lesson_name": "إرسال الصوت للكاميرا  السكراتش أوديو",
+                  "timing": "٢:٠٧"
+                },
+                {
+                  "lesson_name": "طريقة إعداد الهيدفون رواتينج",
+                  "timing": "٢:٣٠"
+                }
+              ]
+            },
+            {
+              "SectionTitle1": "التحضير",
+              "Lessons": [
+                {
+                  "lesson_name": "تفريغ النص",
+                  "timing": "٣:٠٨"
+                },
+                {
+                  "lesson_name": "كيف ترتب الشنطة",
+                  "timing": "٦:١٣"
+                }
+              ]
+            },
+            {
+              "SectionTitle1": "التسجيل",
+              "Lessons": [
+                {
+                  "lesson_name": "اتيكيت اللاف مايك",
+                  "timing": "١:٥٠"
+                },
+                {
+                  "lesson_name": "طريقة تركيب اللاف مايك",
+                  "timing": "١١:٣٤"
+                },
+                {
+                  "lesson_name": "التعامل مع ارتداد الصوت",
+                  "timing": "٦:١٢"
+                },
+                {
+                  "lesson_name": "مقابل لشخصين",
+                  "timing": "٤:٥٤"
+                },
+                {
+                  "lesson_name": "البوم أوبريتر",
+                  "timing": "٤:٤٥"
+                },
+                {
+                  "lesson_name": "استخدام البوم من الأسفل",
+                  "timing": "١:٥٠"
+                },
+                {
+                  "lesson_name": "إخفاء المايك في بيئة التصوير",
+                  "timing": "٣:١٢"
+                },
+                {
+                  "lesson_name": "تركيب المايك في السيارة",
+                  "timing": "٣:٣٩"
+                },
+                {
+                  "lesson_name": "نصائح لتسجيل الصوت الخارجي",
+                  "timing": "٣:١٥"
+                },
+                {
+                  "lesson_name": "الكيابل والوصلات",
+                  "timing": "٢:٥٧"
+                },
+                {
+                  "lesson_name": "تقرير الصوت",
+                  "timing": "٣:٢٨"
+                },
+                {
+                  "lesson_name": "كماليات الصوت",
+                  "timing": "٢:٣٧"
+                },
+                {
+                  "lesson_name": "نصائح تساعدك في الموقع",
+                  "timing": "١:٥٣"
+                }
+              ]
+            }
+          ],
+        "promoVedio": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+        "estimatedLearningTime": "٣ ساعات و ٣٠ دقيقة",
+        "instructors": [
+            {
+                "name": "أصيل رضوان",
+                "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle39.png",
+                "description": [
+                  "مهندس صوت، بدأ مشواره في العمل منذ عام ٢٠١٦، ليعمل في العديد من المسلسلات التليفزيونية الشهيرة مثل تكي، العيلة، سكة سفر٢، وغيرها. عمل أصيل أيضًا في البرامج التليفزيونية، ليتولى هندسة الصوت العديد من البرامج الشهيرة مثل سين لأحمد الشقيري، وورشة إنعاش، وشجعان، كما شارك في أفلام قصيرة مثل خوخ، لعبة الحياة، ١٢:٠٠."
+                ]
+            }
+        ]
+    },
+    "getPricingCourse1DetailsSecButton": {
+        "title": "اشتر الآن",
+        "Addtowhishlist":"أضف إلى المفضلة"
+    }
+}

@@ -1,0 +1,167 @@
+.resourcesSection {
+    padding: 40px 20px;
+    background-color: #0f1624;
+  }
+  
+  .heading {
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .resourcesContainer {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px; /* Set positive gap */
+    flex-wrap: wrap;
+  }
+  
+  .resourceCard {
+    position: relative;
+    flex: 1;
+    min-width: 250px; /* Minimum width for smaller screens */
+    height: 280px;
+    max-width: 23%; /* Flexible width that adapts */
+    background-color: #1c2537;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .resourceCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .resourceImage {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-bottom: 3px solid #39FFFB;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .resourceCard:hover .overlay {
+    opacity: 1;
+  }
+  
+  .category {
+    font-size: 14px;
+    color: var(--Accent-Accent-400---Main, #39FFFB);
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .readMore {
+    color: #39FFFB;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .resourcesContainer {
+      padding: 0 40px;
+    }
+  
+    .resourceCard {
+      max-width: 30%; /* Make cards slightly wider on large screens */
+    }
+  
+    .heading {
+      margin-left: 40px;
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .resourcesContainer {
+      padding: 0 20px;
+      justify-content: center; /* Center align cards */
+    }
+  
+    .resourceCard {
+      max-width: 45%; /* Adjust card width for medium devices */
+      margin-bottom: 20px;
+    }
+  
+    .resourceImage {
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .resourcesContainer {
+      padding: 0 10px;
+      gap: 15px; /* Reduce gap for smaller screens */
+    }
+  
+    .resourceCard {
+      max-width: 100%; /* Stack cards vertically on small screens */
+    }
+  
+    .resourceImage {
+      height: 140px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .readMore {
+      font-size: 18px;
+    }
+  
+    .heading {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .resourcesContainer {
+      padding: 0;
+      gap: 10px;
+    }
+  
+    .resourceImage {
+      height: 120px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .readMore {
+      font-size: 16px;
+    }
+  
+    .heading {
+      font-size: 18px;
+      margin-left: 10px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+
+
+   /* Main container styling */
+   .maincontainer {
+    background-image: url('../../assets/pricing1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 1400px ;
+    background-position: center;
+    border-radius: 15px;
+    /* padding: 20px; */
+  }
+  
+  /* General container styles */
+  .container {
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.6);  */
+    max-width: 800px;
+    color: white;
+  }
+  
+  .heading {
+    color: #FFF;
+    font-family: "Noto Kufi Arabic";
+    font-size: 42px;
+    /* width: 100%; */
+    margin-bottom: 30px !important;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  
+  
+  /* Button styling */
+  .button {
+    padding: 12px 30px;
+    margin-top: 20px;
+    background-color: #39FFFB;
+    color: black;
+    border: none;
+    border-radius: 33px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button a{
+     text-decoration: none;
+     color : black
+  }
+  .button:hover {
+    background-color: #39FFFB;
+  }
+  
+  @media (max-width:1450px)
+  {
+    .maincontainer
+    {
+        zoom: 0.8;
+    }
+  }
+  
+  
+  @media (max-width:1250px)
+  {
+    .maincontainer
+    {
+        zoom: 0.7;
+    }
+  }
+  
+  

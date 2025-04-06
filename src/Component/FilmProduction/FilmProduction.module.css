@@ -1,0 +1,164 @@
+
+.hoverimagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        width: 100vw;
+    max-width: 1920px;
+    position: relative;
+   top: 100px;
+    margin: auto; 
+  }
+
+  
+  .imagewrapper {
+    margin-top: 50px !important;
+    position: relative;
+    width: 100%;
+  }
+  .imagewrapper img {
+    /* background-image: linear-gradient(white, black); */
+    max-width: 1660px;
+    width: 100%;
+    position: relative;
+    /* background: linear-gradient(130deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),no-repeat center center; */
+  }
+  
+
+  
+  /* .imagewrapper:hover .hoverimage {
+    transform: scale(.05); 
+  } */
+  
+  .overlay {
+    position: absolute; 
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .overlay p{
+   width: 1205px;
+   max-width: 100%;
+color: var(--Accent-Accent-50, #F6FFFF);
+text-align: center;
+/* background-color: rgba(0, 0, 0, 0.6); */
+font-family: "Noto Kufi Arabic";
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+  }
+  
+  .subscribebutton {
+    
+    display: flex;
+padding: 24px 32px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+font-weight: bold;
+margin-top: 30px;
+margin-left: 400px;
+margin-right: 400px;
+gap: 8px;
+border-radius: 64px;
+background: var(--Accent-Accent-400---Main, #39FFFB);
+box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+cursor:pointer;
+text-decoration: none;
+color: #000;
+  }
+  
+@media (max-width:1600px)
+{
+
+    .overlay
+    {
+      bottom: 350px;
+    }
+    .overlay p
+    {
+      width: 800px;
+        font-size: 45px;
+        zoom: 0.8;
+    }
+}
+
+@media (max-width:1250px)
+{
+    .overlay
+    {
+      bottom: 250px;
+    }
+    .overlay p
+    {
+      width: 600px;
+        font-size: 32px;
+        zoom: 0.8;
+    }
+    .imagewrapper
+    {
+      width: 100%;
+    }
+    .subscribebutton
+    {
+      zoom: 0.8;
+    }
+}
+@media (max-width:950px)
+{
+    .overlay
+    {
+      bottom: 200px;
+    }
+  }
+@media (max-width:768px)
+{
+    .overlay
+    {
+      bottom: 400px;
+    }
+    .imagewrapper
+    {
+      width: 200%;
+    }
+    .overlay p
+    {
+      width: 600px;
+        font-size: 32px;
+        zoom: 0.7;
+    }
+    .subscribebutton
+    {
+      zoom: 0.7;
+    }
+}
+@media (max-width:600px)
+{
+    .overlay
+    {
+      bottom: 200px;
+    }
+}
+@media (max-width:450px)
+{
+    .overlay
+    {
+      padding: 40px;
+      padding-bottom: 0px;
+      bottom: 100px;
+    }
+    .overlay p
+    {
+      max-width: 80%;
+      font-size: 24px;
+    }
+}

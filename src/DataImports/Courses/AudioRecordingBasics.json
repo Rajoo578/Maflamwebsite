@@ -1,0 +1,101 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+      "videotitle": "نبذة عن الدورة."
+    
+  },
+  "isfree":"false",
+  "getPricingCourse1DetailsSec4": {
+      "title": "Or Choose From Our Various Courses."
+  },
+  "formattedCourseData": {
+      "id": "672c609ae90c3d8357705c73",
+      "courseId": "22",
+      "title":"Fundamentals of Sound Recording",
+      "description": "This course targets individuals interested in entering the field of sound engineering and aims to enhance their understanding of how sound enriches the viewer's experience. It will focus on the significance of ambient sounds and how to record them clearly and cleanly. Through the exploration of sound engineering techniques and equipment, you will learn how to effectively integrate sounds into scenes, thereby enhancing storytelling and adding depth to cinematic works.",
+     "whatyoulearn":"In this course, you will explore the essential role of the sound engineer and the significant impact sound has on enhancing the cinematic experience. You will gain a thorough understanding of the tools and equipment used by sound engineers and learn how to analyze scripts to prevent mistakes during filming. The course will also cover the challenges sound engineers often face and provide effective strategies to overcome them. Key topics include the responsibilities of the sound team, different types of microphones and their uses, how recording devices operate, and techniques for managing echo in recording environments.",
+      "price": "550 SAR",
+      "lecturecount":"40 Lessons",
+      "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+      "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Sound/5.1.804_A9eel_Sound_%D8%A7%D9%94%D9%87%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%B5%D9%88%D8%AA+%D9%81%D9%8A+%D8%B5%D9%86%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D8%A7%D9%94%D9%81%D9%84%D8%A7%D9%85_V1.mp4",
+      "banner": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+      "lessions": [
+        {
+          "SectionTitle1": "Introduction",
+          "Lessons": [
+            { "lesson_name": "The Importance of Sound in Filmmaking", "timing": "2:38" },
+            { "lesson_name": "The Role of the Sound Engineer in Filmmaking", "timing": "1:47" },
+            { "lesson_name": "Responsibilities of the Sound Team", "timing": "1:02" },
+            { "lesson_name": "Basics of Sound", "timing": "1:29" },
+            { "lesson_name": "Sound Layers in Scenes", "timing": "1:32" }
+          ]
+        },
+        {
+          "SectionTitle1": "Technical Side",
+          "Lessons": [
+            { "lesson_name": "Essential Equipment for Sound Recording", "timing": "1:44" },
+            { "lesson_name": "Types of Microphones", "timing": "0:39" },
+            { "lesson_name": "Dynamic Microphone", "timing": "1:37" },
+            { "lesson_name": "Condenser Microphone", "timing": "1:49" },
+            { "lesson_name": "Ribbon Microphone", "timing": "0:51" },
+            { "lesson_name": "Microphone Pickup Patterns", "timing": "2:00" },
+            { "lesson_name": "Sound Journey with the Actor", "timing": "1:01" },
+            { "lesson_name": "Elements of Wireless Microphones", "timing": "3:33" },
+            { "lesson_name": "Direct Audio Recording on Camera (Single System)", "timing": "3:34" },
+            { "lesson_name": "Recording Audio on a Simple Mixer (Double System)", "timing": "5:30" },
+            { "lesson_name": "Inputs of the Recording Device", "timing": "2:19" },
+            { "lesson_name": "The Recording Device", "timing": "1:13" },
+            { "lesson_name": "Setting Gain Levels and Avoiding Sound Distortion", "timing": "2:05" },
+            { "lesson_name": "Left and Right Mix", "timing": "4:34" },
+            { "lesson_name": "Pre-Fader and Post-Fader", "timing": "0:52" },
+            { "lesson_name": "Outputs of the Recording Device", "timing": "1:54" },
+            { "lesson_name": "Headphone Mix", "timing": "5:15" },
+            { "lesson_name": "Setting Up the Client Mix", "timing": "2:03" },
+            { "lesson_name": "Sending Audio to Camera (Scratch Audio)", "timing": "2:07" },
+            { "lesson_name": "How to Set Up Headphone Routing", "timing": "2:30" }
+          ]
+        },
+        {
+          "SectionTitle1": "Preparation",
+          "Lessons": [
+            { "lesson_name": "Script Breakdown", "timing": "3:08" },
+            { "lesson_name": "How to Organize Your Bag", "timing": "6:13" }
+          ]
+        },
+        {
+          "SectionTitle1": "Recording",
+          "Lessons": [
+            { "lesson_name": "Etiquette of the Lav Mic", "timing": "1:50" },
+            { "lesson_name": "How to Attach the Lav Mic", "timing": "11:34" },
+            { "lesson_name": "Managing Sound Reflections", "timing": "6:12" },
+            { "lesson_name": "Interviewing Two People", "timing": "4:54" },
+            { "lesson_name": "Boom Operator", "timing": "4:45" },
+            { "lesson_name": "Using the Boom from Below", "timing": "1:50" },
+            { "lesson_name": "Hiding the Mic in the Shooting Environment", "timing": "3:12" },
+            { "lesson_name": "Installing the Mic in a Car", "timing": "3:39" },
+            { "lesson_name": "Tips for Recording Outdoor Sound", "timing": "3:15" },
+            { "lesson_name": "Cables and Connectors", "timing": "2:57" },
+            { "lesson_name": "Sound Report", "timing": "3:28" },
+            { "lesson_name": "Sound Accessories", "timing": "2:37" },
+            { "lesson_name": "Helpful Tips for the Set", "timing": "1:53" }
+          ]
+        }
+      ],
+      "promoVedio": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Acting/7.1.945_Kaled_Acting_%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9_V01.mp4",
+      "estimatedLearningTime": "1 hour and 56 minutes",
+      "instructors": [
+          {
+              "name": "Aseel Radwan",
+              "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle39.png",
+              "description": [
+                  "Aseel is a sound engineer who began his career in 2016, working on several popular TV series, including \"Takki,\" \"Al3aila,\" and \"Sikkat Safar 2.\" He has also worked on various television programs, overseeing sound engineering for shows like \"Seen\" with Ahmad Al-Shuqairi, \"Warshat En3ash,\" and \"Braves\". Additionally, Aseel has contributed to short films such as \"Khawkh,\" \"The Game of Life,\" and \"12:00.\""
+
+              ]
+          }
+      ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+      "SubscribeBtn":"Subscribe Now",
+      "Addtowhishlist":"Add To WishList"
+  }
+}

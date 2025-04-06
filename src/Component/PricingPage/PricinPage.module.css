@@ -1,0 +1,73 @@
+.invsetMainContainer {
+    /* border: 1px solid rgb(202, 45, 45);  */
+    position: relative;
+    height: auto;
+    background-color: #030b11;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+ }
+ 
+ .backimgcontainer {
+     background-image: url('../../assets/Group 119.png');
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 300px;
+ }
+ 
+ .paracontainer {
+    width: 100%; /* Use percentage for better responsiveness */
+    max-width: 928px; /* Set a max-width for larger screens */
+    height: auto; /* Let the height adjust automatically */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto 20px auto;
+ }
+ 
+ .paracontainer h2 {
+    color: #EBF5F4;
+    text-align: center;
+    max-width: 928px;
+    justify-content: center;
+    /* Headlines/Headline 1 */
+    font-family: "Noto Kufi Arabic";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 97.5px */
+ }
+ .paracontainer2{
+     margin: 0 auto;
+ }
+ 
+ .paracontainer p {
+    color: #EBF5F4;
+    text-align: center;
+
+/* Subheadline/Subheadline 1 */
+font-family: "Noto Kufi Arabic";
+font-size: 24px;
+max-width: 684px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 43.2px */
+ }
+ 
+@media (max-width:1250px)
+{
+    .paracontainer
+    {
+        padding: 20px;
+        zoom: 0.8;
+    }
+}
+@media (max-width:768px)
+{
+    .paracontainer
+    {
+        zoom: 0.8;
+    }
+}

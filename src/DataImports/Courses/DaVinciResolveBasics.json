@@ -1,0 +1,134 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree":"true",
+  "formattedCourseData": {
+    "id": "672c6ec66bea317c7bb13078",
+    "courseId": "27",
+    "title":"Fundamentals of DaVinci Resolve",
+"description":" This course targets individuals looking to learn video editing using DaVinci Resolve, one of the leading tools in film production and video editing. The course will equip you with the skills needed to leverage its advanced features, including color grading and visual effects. By the end of the course, you will be able to turn your creative vision into a tangible product, making you stand out in the field of editing.",
+"whatyoulearn":"In this course, you will explore a variety of functions within DaVinci Resolve, including cutting, editing, merging, and coloring techniques. You will gain skills in using the media pool, adding effects and graphics, and professionally setting up your project. Additionally, you will learn how to adjust audio tracks and gain full control over all program options. Key Points You Will Learn in this Course: Understanding the editing tools in the software, Working on the timeline, Adding and editing audio and music, Incorporating effects and transitions, Color grading and correction, Assembling elements and exporting the film.",
+"price":"Only Available with Bundle",
+    "lecturecount": "81 Lessons",
+    "promoPhoto": "string",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/DaVinci/0_Intro_%D9%85%D9%82%D8%AF%D9%85%D8%A9+%D9%81%D9%8A+%D8%AF%D8%A7%D9%81%D9%8A%D9%86%D8%B4%D9%8A+%D8%B1%D9%8A%D8%B3%D9%88%D9%84%DA%A4.mp4",
+    "banner": "string",
+    
+      "lessions": [
+        {
+          "SectionTitle1": "Fundamentals of DaVinci Resolve",
+          "Lessons": [
+            { "lesson_name": "Introduction", "timing": "0:53" },
+            { "lesson_name": "Downloading DaVinci Resolve", "timing": "0:57" },
+            { "lesson_name": "Creating a Project File", "timing": "0:42" },
+            { "lesson_name": "Quick Overview of the Software", "timing": "1:13" }
+   ,
+            { "lesson_name": "Step One", "timing": "0:43" },
+            { "lesson_name": "Media Section", "timing": "1:14" },
+            { "lesson_name": "Cut Section", "timing": "0:51" },
+            { "lesson_name": "Edit Section", "timing": "1:00" },
+            { "lesson_name": "Fusion Section", "timing": "0:51" },
+            { "lesson_name": "Color Section", "timing": "0:56" },
+            { "lesson_name": "Deliver Section", "timing": "1:00" }
+ ,
+            { "lesson_name": "Media Pool", "timing": "1:06" },
+            { "lesson_name": "Effects Library", "timing": "1:19" },
+            { "lesson_name": "Index", "timing": "1:16" },
+            { "lesson_name": "Audio Library", "timing": "0:53" },
+            { "lesson_name": "Mixer", "timing": "0:50" },
+            { "lesson_name": "Integrated Information", "timing": "0:58" },
+            { "lesson_name": "Browsing", "timing": "1:05" },
+            { "lesson_name": "Screens", "timing": "1:37" }
+,
+            { "lesson_name": "Importing Media (1)", "timing": "0:59" },
+            { "lesson_name": "Frame Rate", "timing": "1:08" },
+            { "lesson_name": "Importing Media (2)", "timing": "1:09" },
+            { "lesson_name": "Border Lab (Timeline)", "timing": "1:28" },
+            { "lesson_name": "Formatting Project Settings", "timing": "1:37" },
+            { "lesson_name": "Organizing Files", "timing": "1:39" },
+            { "lesson_name": "Previewing Media in the Viewer", "timing": "1:31" }
+  ,
+            { "lesson_name": "Adding Clips to the Timeline (1)", "timing": "1:15" },
+            { "lesson_name": "Adding Clips to the Timeline (2)", "timing": "1:16" },
+            { "lesson_name": "Setting Start and End Points", "timing": "1:27" },
+            { "lesson_name": "Adding Video Only to the Timeline", "timing": "1:03" },
+            { "lesson_name": "Adding Audio Only to the Timeline", "timing": "1:06" },
+            { "lesson_name": "Timeline Appearance Options", "timing": "1:42" },
+            { "lesson_name": "Moving Clips", "timing": "1:27" },
+            { "lesson_name": "Deleting Clips and Leaving Gaps", "timing": "1:05" },
+            { "lesson_name": "Deleting Clips Directly", "timing": "1:09" }
+,
+            { "lesson_name": "Direct Deletion from Start", "timing": "1:23" },
+            { "lesson_name": "Direct Deletion from End", "timing": "1:08" },
+            { "lesson_name": "Moving the Cut", "timing": "1:21" },
+            { "lesson_name": "Fade In Effect", "timing": "1:11" },
+            { "lesson_name": "Fade Out Effect", "timing": "1:16" },
+            { "lesson_name": "Fade In Audio", "timing": "1:30" },
+            { "lesson_name": "Fade Out Audio", "timing": "1:15" },
+            { "lesson_name": "Transform", "timing": "1:18" },
+            { "lesson_name": "Crop", "timing": "1:00" },
+            { "lesson_name": "Other Options", "timing": "1:01" }
+,
+            { "lesson_name": "Audio Settings in Browser", "timing": "1:14" },
+            { "lesson_name": "Timeline Zoom Tools", "timing": "0:58" },
+            { "lesson_name": "Scrolling Down the Timeline", "timing": "0:57" },
+            { "lesson_name": "Vertical Zoom", "timing": "1:01" },
+            { "lesson_name": "Horizontal Zoom", "timing": "0:59" },
+            { "lesson_name": "Adding Tracks", "timing": "1:32" },
+            { "lesson_name": "Video Track Icons", "timing": "1:14" },
+            { "lesson_name": "Audio Track Icons", "timing": "1:19" }
+,
+            { "lesson_name": "Switching Clips", "timing": "1:14" },
+            { "lesson_name": "Magnet Tool", "timing": "0:54" },
+            { "lesson_name": "Link and Unlink", "timing": "0:54" },
+            { "lesson_name": "Review", "timing": "0:51" },
+            { "lesson_name": "Quick Editing", "timing": "1:08" },
+            { "lesson_name": "Flags", "timing": "1:17" },
+            { "lesson_name": "Markers", "timing": "1:12" }
+,
+            { "lesson_name": "Cut Editing Mode", "timing": "1:30" },
+            { "lesson_name": "Restart Option", "timing": "1:21" },
+            { "lesson_name": "Export Memory", "timing": "1:39" },
+            { "lesson_name": "Speeding Up Clips", "timing": "1:36" },
+            { "lesson_name": "Overview of Transitions", "timing": "1:09" },
+            { "lesson_name": "Adding Transitions", "timing": "0:54" },
+            { "lesson_name": "Modifying Clip Lengths", "timing": "1:06" }
+,
+            { "lesson_name": "Problem Solving", "timing": "1:41" },
+            { "lesson_name": "Customizing Transitions", "timing": "1:51" },
+            { "lesson_name": "Customizing Transitions (2)", "timing": "1:06" },
+            { "lesson_name": "Generators", "timing": "1:11" },
+            { "lesson_name": "Adding a Solid Color Background", "timing": "1:17" },
+            { "lesson_name": "Text Editing in the Program", "timing": "1:20" },
+            { "lesson_name": "Modifying Pre-made Text", "timing": "2:02" }
+,
+            { "lesson_name": "Overview of Effects", "timing": "1:23" },
+            { "lesson_name": "Customizing Effects", "timing": "1:28" },
+            { "lesson_name": "Overview of Filters", "timing": "1:05" },
+            { "lesson_name": "Customizing Filters", "timing": "1:00" },
+            { "lesson_name": "Final Video Settings", "timing": "2:16" }
+          ]
+        }
+      ]
+    
+  
+,
+
+    "estimatedLearningTime":"1 Hour and 40 Minutes",
+    "instructors": [
+      {
+        "name": "string",
+        "photoUrl": "string",
+        "description": [
+          "string"
+        ]
+      }
+    ]
+},
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Only Available with Bundle",
+    "Addtowhishlist": "Add to WishList"
+  }
+}

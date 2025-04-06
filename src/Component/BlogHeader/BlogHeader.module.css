@@ -1,0 +1,145 @@
+.banner {
+    position: relative;
+    background-image: url('../../assets/Rectangle5.png'),url("../../assets/Group138.png"); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    height:525px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .upperoverlay{
+    /* background-image: url("../../assets/Group138.png"); */
+    height: 525px;
+    position: relative;
+    top: 120px;
+    z-index: 2;
+    width: 100%;    
+  }
+  .overlay {
+    position: relative;
+   
+    min-width: 100%;
+    /* width: 100%; */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 525px;
+    text-align: end;
+    top: 40px;
+    padding-right: 150px;
+    
+    /* right: 100px; */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .date {
+    font-size: 1rem;
+  }
+  
+
+
+/* components/ArticleLayout.module.css */
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d1117; /* Background similar to the screenshot */
+    color: #fff; /* White text */
+  }
+
+  .imageContainer{
+    text-align: center;
+   
+    
+  }
+  .imageContainer img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .textContainer {
+    max-width: 46vw;
+    padding: 25px;
+    line-height: 1.6;
+    text-align: right; /* Left-align for English */
+  }
+  
+  .textContainer h1 {
+    /* width: 1058px; */
+    position: relative;
+    font-size: 18px;
+    /* line-height: 160%; */
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    color: #ebf5f4;
+    text-align: right;
+  }
+ 
+  .textContainer h2 {
+    /* width: 1058px; */
+    position: relative;
+    margin-top: 15px;
+    font-size: 18px;
+    /* line-height: 160%; */
+    display: inline-block;
+    font-family: 'Noto Kufi Arabic';
+    color: #ebf5f4;
+    text-align: right;
+  }
+ 
+
+
+  
+  .textContainer p {
+    /* width: 1058px; */
+    margin-top: 2px;
+position: relative;
+font-size: 12px;
+/* line-height: 160%; */
+font-family: 'Noto Kufi Arabic';
+color: #fff;
+text-align: right;
+display: inline-block;
+font-weight: 300;
+  }
+
+
+.topContainer{
+  background-image: url("../../assets/upperblogdet.png");
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  height: 300%;
+  position: absolute;
+  object-fit: contain;
+  top: 40%;
+  /* left: 20%; */
+}
+  
+  .textContainer2 {
+    background-image: url("../../assets/blogpage3.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 1000px;
+    position: absolute;
+    object-fit: contain;
+    top: 200%;
+    left: 50%;
+  }
+  
+  

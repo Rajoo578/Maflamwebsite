@@ -1,0 +1,204 @@
+{
+  "mesage": "details fetch successfully",
+  "getPricingCourse1DetailsSec1": {
+    "videotitle": "نبذة عن الدورة"
+  },
+  "isfree": "true",
+  "formattedCourseData": {
+    "id": "672c6cb662d002aa55e9229c",
+    "courseId": "26",
+    "title": "Fundamentals of Adobe Premiere Pro",
+    "description": "This course is designed for individuals looking to learn the basics of Adobe Premiere Pro for professional video editing. This software is a fundamental tool in the film industry, essential for any editor aiming to master the art of editing. The course will guide you through navigating the program's interface and its various tools, enabling you to create smooth and engaging videos.",
+    "whatyoulearn": "In this course, you will grasp the fundamentals of video editing using Adobe Premiere Pro, including seamless transitions between scenes and adding visual effects and graphics. You'll also learn color correction techniques and audio engineering, as well as how to implement both basic and advanced animations. The course will provide you with a general understanding of editing techniques and how to export your film in high quality. Key Points You Will Learn in this Course: Cinematic editing techniques, Effective transition choices, Audio editing and mixing, Color correction techniques, Adding graphics and visuals, Utilizing effects for scene transitions, Finalizing and exporting your video in high quality.",
+    "price": "Only Available with Bundle",
+    "lecturecount": "39 Lessons",
+    "promoPhoto": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+    "promoVideo": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/course+teasers/Premiere/1.+Basic+System+Requirements+of+Premiere+Pro+-+%D9%85%D8%AA%D8%B7%D9%84%D8%A8%D8%A7%D8%AA+%D8%A7%D9%84%D9%86%D8%B8%D8%A7%D9%85+%D8%A7%D9%84%D8%A7%D9%94%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9+%D9%84%D8%A7%D9%94%D8%AF%D9%88%D8%A8%D9%8A+%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D8%B1+%D8%A8%D8%B1%D9%88.mp4",
+    "banner": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/pricing12.png",
+    "lessions": [
+      {
+        "SectionTitle1": "Adobe Premiere Pro",
+        "Lessons": [
+          {
+            "lesson_name": "Basic System Requirements for Adobe Premiere Pro",
+            "timing": "1:32"
+          },
+          {
+            "lesson_name": "Downloading Adobe Premiere Pro from the Adobe Website",
+            "timing": "0:41"
+          },
+          {
+            "lesson_name": "Creating Your First Video in Adobe Premiere Pro",
+            "timing": "4:01"
+          },
+          {
+            "lesson_name": "Adding Images and Text",
+            "timing": "2:36"
+          },
+          {
+            "lesson_name": "Adding Transitions",
+            "timing": "3:02"
+          },
+          {
+            "lesson_name": "How to Relink Missing Media",
+            "timing": "1:59"
+          },
+          {
+            "lesson_name": "Previewing Media Icons in the Project Panel + Organizing Your Media Icons",
+            "timing": "4:07"
+          },
+          {
+            "lesson_name": "Conducting Searches + Creating Search Boxes",
+            "timing": "4:14"
+          },
+          {
+            "lesson_name": "The Final Step + Organizing Your Project",
+            "timing": "2:17"
+          },
+          {
+            "lesson_name": "Working in the Program Monitor + Playback + Marking",
+            "timing": "3:40"
+          },
+          {
+            "lesson_name": "Performing Switches Over a Defined Track",
+            "timing": "4:42"
+          },
+          {
+            "lesson_name": "Inserting, Editing, and Moving Clips - Insert with the Edit Key",
+            "timing": "3:01"
+          },
+          {
+            "lesson_name": "Multiple Ways to Create a New Sequence",
+            "timing": "5:15"
+          },
+          {
+            "lesson_name": "Identifying Duplicate Clips and Frames",
+            "timing": "2:37"
+          },
+          {
+            "lesson_name": "Inserting and Modifying Inserted Clips",
+            "timing": "4:14"
+          },
+          {
+            "lesson_name": "Syncing Audio",
+            "timing": "2:42"
+          },
+          {
+            "lesson_name": "Timeline Navigation and Selection Techniques",
+            "timing": "4:15"
+          },
+          {
+            "lesson_name": "Trimming Clips from the Timeline in the Source Monitor",
+            "timing": "1:36"
+          },
+          {
+            "lesson_name": "Editing Small Gaps in the Interview",
+            "timing": "2:48"
+          },
+          {
+            "lesson_name": "Editing Using the Replace Technique",
+            "timing": "3:20"
+          },
+          {
+            "lesson_name": "Using the Ripple Edit Tool",
+            "timing": "7:37"
+          },
+          {
+            "lesson_name": "Changing Relative Clip Content Using Slip and Slide Tools",
+            "timing": "4:13"
+          },
+          {
+            "lesson_name": "Freezing Video to a Frame Using the Frame Hold Tool",
+            "timing": "5:41"
+          },
+          {
+            "lesson_name": "Adjusting Speed Using the Tool",
+            "timing": "2:47"
+          },
+          {
+            "lesson_name": "Adjusting Speed Using the Panel",
+            "timing": "5:46"
+          },
+          {
+            "lesson_name": "Audio Adjustment - Audio Engineering for Clips and Audio Tracks",
+            "timing": "6:23"
+          },
+          {
+            "lesson_name": "Starting to Work with the Graphics Workspace",
+            "timing": "2:22"
+          },
+          {
+            "lesson_name": "Adding Graphics in Premiere",
+            "timing": "7:42"
+          },
+          {
+            "lesson_name": "Editing Graphics in Premiere",
+            "timing": "13:41"
+          },
+          {
+            "lesson_name": "Creating Basic Animation in Premiere",
+            "timing": "6:48"
+          },
+          {
+            "lesson_name": "Creating Advanced Animation in Premiere",
+            "timing": "6:47"
+          },
+          {
+            "lesson_name": "Creating Master Graphics in Premiere",
+            "timing": "3:45"
+          },
+          {
+            "lesson_name": "Using Pre-Made Templates in Premiere",
+            "timing": "7:19"
+          },
+          {
+            "lesson_name": "Handles and Clip Properties in Premiere",
+            "timing": "3:40"
+          },
+          {
+            "lesson_name": "Transitions and Effect Control Window",
+            "timing": "6:43"
+          },
+          {
+            "lesson_name": "Pre-Made Transitions in Premiere",
+            "timing": "8:21"
+          },
+          {
+            "lesson_name": "Creating Custom Transitions in Premiere",
+            "timing": "5:40"
+          },
+          {
+            "lesson_name": "Custom Transition Using Color Matting",
+            "timing": "7:21"
+          },
+          {
+            "lesson_name": "How to Use the Color Correction Tool (HSL Secondary)",
+            "timing": "14:53"
+          },
+          {
+            "lesson_name": "Step Five: Refining Your Raw Edit Technique",
+            "timing": "3:38"
+          },
+          {
+            "lesson_name": "Step Seven: Color Grading",
+            "timing": "2:56"
+          }
+        ]
+      }
+    ],
+    "estimatedLearningTime": "3 Hours and 39 Minutes",
+    "instructors": [
+      {
+        "name": "",
+        "photoUrl": "https://maflamlmsnew.s3.me-central-1.amazonaws.com/marketingphotos/Rectangle39.png",
+        "description": [
+          "For Post Production courses courses we have to remove the instructors section and the , Adobe Pro , Devinci , Vegas Pro"
+        ]
+      }
+    ]
+  },
+  "getPricingCourse1DetailsSecButton": {
+    "SubscribeBtn": "Only Available with Bundle",
+    "Addtowhishlist": "Add to Wishlist"
+  }
+}

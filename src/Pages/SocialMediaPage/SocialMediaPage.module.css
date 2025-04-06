@@ -1,0 +1,28 @@
+.bgContainer{
+    width: 100vw;
+    max-width: 1920px;
+    background: url("../../assets/SocialMediaBg.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.bottombg
+{
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 50px;
+    background: url("../../assets/JoinUsNewsGrad.png");
+    background-repeat: no-repeat;
+    background-position:  bottom;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px)
+{
+    .bottombg
+    {
+        background-position: top ;
+    }
+}

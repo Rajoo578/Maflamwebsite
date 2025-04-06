@@ -1,0 +1,124 @@
+.articleSection {
+    padding: 40px 0;
+    text-align: start;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .heading {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .articlesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .articleCard {
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 350px;
+       
+  } 
+  
+
+   .articleImage {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+  
+  .articleContent {
+    padding: 20px;
+  }
+  
+  .readMore {
+    color: #39fffb;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .readMore:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+
+
+/* Responsive Styles */
+
+/* Tablet: Width up to 1024px */
+@media (max-width: 1024px) {
+    .articleSection {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .heading {
+      font-size: 24px;
+    }
+    .articleCard {
+      width: 45%;
+    }
+    .articleImage {
+      height: 400px;
+    }
+  }
+  
+  /* Mobile: Width up to 768px */
+  @media (max-width: 768px) {
+    .articleSection {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .heading {
+      font-size: 22px;
+    }
+    .articlesContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .articleCard {
+      width: 90%;
+    }
+    .articleImage {
+      height: 300px;
+    }
+    .articleContent {
+      padding: 15px;
+    }
+  }
+  
+  /* Small Mobile: Width up to 480px */
+  @media (max-width: 480px) {
+    .articleSection {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .heading {
+      font-size: 20px;
+    }
+    .articleCard {
+      width: 100%;
+    }
+    .articleImage {
+      height: 250px;
+    }
+    .articleContent {
+      padding: 10px;
+    }
+    .readMore {
+      font-size: 14px;
+    }
+  }
+  

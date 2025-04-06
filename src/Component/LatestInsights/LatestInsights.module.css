@@ -1,0 +1,135 @@
+.insightsSection {
+  /* background-color: #0f1624; */
+  width: 100vw;
+  max-width: 1550px;
+  padding: 50px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.heading {
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 40px; 
+}
+
+.insightsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.insightCard {
+  width: 692px;
+  height: 484px;
+  margin: 10px;
+
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.insightCard:hover {
+  transform: translateY(-5px);
+}
+
+.insightImage {
+  width: 100%;
+  height: 314px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 20px;
+  color: #ffffff;
+}
+.cardContent h4
+{
+  color: #39FFFB ;
+  font-size: 16px;
+  padding: 0px;
+  font-weight: 400;
+}
+.cardContent p
+{
+  color: white ;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: 400;
+}
+.cardContent a
+{
+  color: #39FFFB;
+  font-size: 17px;
+  font-weight: 800;
+}
+.title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.readMore {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.loadMoreBtn {
+  background-color: #1c2537;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  width: 379px;
+  font-size: 14px;
+}
+
+.loadMoreBtn:hover {
+  background-color: var(--Accent-Accent-400---Main, #39FFFB);
+  color: #000;
+}
+
+@media (max-width :1600px)
+{
+    .heroSection
+    {
+      zoom: 0.9;
+    }
+}
+@media (max-width :1250px)
+{
+   .heroSection
+   {
+    zoom: 0.8;
+   }
+}
+
+@media (max-width :768px)
+{
+    .heading
+    {
+      font-size: large;
+    
+    }
+
+   .insightCard
+   {
+    zoom: 0.5;
+   }
+   .insightCard
+   {
+    height: 600px;
+   }
+   .loadMoreBtn
+   {
+    width: 200px;
+   }
+}

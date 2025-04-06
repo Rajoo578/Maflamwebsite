@@ -1,0 +1,353 @@
+
+.profileContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+margin-top: 100px;
+    color: white;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    background-image: url("../../assets/myprofilecertificate.png");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    margin-top: 100px;
+}
+.downloadIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Increase width for a larger circle */
+    height: 40px; /* Increase height for a larger circle */
+    border-radius: 50%;
+    padding: 0; /* Remove padding to keep icon centered */
+    background-color: #00c9c9;
+    border: none; /* Optional: remove border for a cleaner look */
+    cursor: pointer;
+  background: var(--Accent-Accent-400---Main, #39FFFB);
+  box-shadow: 0px 10px 30px 0px rgba(90, 255, 234, 0.30);
+  }
+
+.profileHeader {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.profileHeader h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.activeTab a{
+    color: white;
+    text-decoration: none;
+}
+.activeTab1 a{
+    color: white;
+    text-decoration: none;
+}
+.profileTabs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footerHr {
+    border: none;
+    border-top: 1px solid #39FFFb;
+    opacity: 0.2;
+    margin: 20px 0;
+}
+
+.profileTabs li {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.activeTab {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+.certificateSection h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.courseCard {
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: stretch;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.certificateSection h2{
+    color: white;
+    text-align: start;
+    margin-left: 30px;
+margin-right: 30px;
+}
+
+.getCertificateDiv {
+    flex: 0 0 15%; 
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block; 
+    margin-left: 20px;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 8px;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+    padding-top: 50px;
+}
+
+.resetlogo {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 0; 
+    display: block; 
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.courseImageWrapper {
+    flex: 0 0 15%;
+    margin-left: 10px;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+    margin-right: 5px;
+}
+
+.courseImage {
+    width: 100%;
+    height: 100%;
+}
+
+.courseCategory {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.courseTitle {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.courseProgress {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #ffffffb3;
+}
+
+.courseInfo {
+    flex: 0 0 65%;
+    color: #ffffffb3;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff15;
+    padding-left: 20px;
+    position: relative;
+}
+
+.progressBarWrapper {
+    margin: 10px 0;
+    background-color: #333;
+    height: 3px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 85%;
+}
+
+.progress {
+    height: 100%;
+    background-color: #00ff00;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
+.progressText {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+    .profileHeader h1 {
+        font-size: 28px;
+    }
+    .profileTabs {
+        gap: 30px;
+    }
+    .profileTabs li {
+        font-size: 16px;
+    }
+    .certificateSection h2 {
+        font-size: 22px;
+    }
+    .courseCard {
+        flex-direction: column;
+    }
+    .courseImageWrapper {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .profileContainer {
+        padding: 15px;
+    }
+    .profileHeader h1 {
+        font-size: 24px;
+    }
+    .profileTabs li {
+        font-size: 14px;
+    }
+    .courseTitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profileHeader {
+        text-align: center;
+    }
+    .profileTabs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileTabs li {
+        padding: 8px 10px;
+    }
+    .courseCard {
+        flex-direction: column; 
+    }
+    
+    
+ 
+    .courseImageWrapper {
+        flex: 0 0 100%;
+        margin: 5px 0;
+    }
+    .courseInfo {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profileContainer {
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .profileHeader h1 {
+        font-size: 20px;
+    }
+    .profileTabs li {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .certificateSection h2 {
+        font-size: 20px;
+    }
+    .courseTitle {
+        font-size: 16px;
+    }
+    .courseProgress {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .getCertificateDiv {
+        display: flex; 
+        flex-direction: row; 
+        width: 100%; 
+        padding-top: 20px; 
+        margin: 10px 0; 
+    }
+
+    .resetlogo {
+        width: 30px; 
+        margin: 0 10px; 
+        display: inline-block; 
+    }
+}
+
+@media (max-width: 576px) {
+    .getCertificateDiv {
+        width: 100%; 
+        padding-top: 10px; 
+    }
+
+    .resetlogo {
+        width: 25px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 820px) {
+    .getCertificateDiv {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        width: 100%; 
+        padding-top: 20px; 
+        margin: 10px 0; 
+    }
+
+    .resetlogo {
+        width: 30px; 
+        margin: 0 10px; 
+        display: inline-block; 
+    }
+}
+
+@media (max-width: 576px) {
+    .getCertificateDiv {
+        width: 100%; 
+        padding-top: 10px; 
+    }
+
+    .resetlogo {
+        width: 25px; 
+        margin: 0 5px; 
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .getCertificateDiv {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between; 
+        width: 100%; 
+        padding-top: 20px; 
+        margin: 10px 0; 
+    }
+
+    .resetlogo {
+        width: 30px; 
+        margin: 0 10px; 
+        display: inline-block; 
+    }
+}

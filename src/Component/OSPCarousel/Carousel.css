@@ -1,0 +1,86 @@
+.carouselOSP {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 0px;
+}
+
+.carousel-trackOSP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-itemOSP {
+  overflow: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  pointer-events: none;
+  height: 729px !important;
+  overflow: hidden;
+  opacity: 0.6; /* Default opacity for non-centered items */
+}
+
+.carousel-centerOSP {
+  pointer-events: all;
+  transform: translateY(80px) !important;
+  height: 900px !important;
+  scale: 1.1;
+  overflow: visible;
+  z-index: 1; /* Emphasize center item */
+  opacity: 1; /* Full opacity for the centered item */
+}
+
+/* Button styling */
+.carousel-btnOSP {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0;
+  opacity: 1;
+}
+
+.carousel-btnOSP.left {
+  left: 0; /* Stick to the left */
+  height: 60px;
+  width: 60px;
+}
+
+.carousel-btnOSP.right {
+  right: 0; /* Stick to the right */
+  height: 60px;
+  width: 60px;
+}
+
+/* Arrow Image Adjustments */
+.carousel-btnOSP img {
+  width: 100%;
+  height: auto;
+}
+.carousel-btn.right img {
+  transform: scaleX(-1); /* Flip for right arrow */
+}
+
+@media (max-width:1250px)
+{
+  .carouselOSP
+  {
+    flex-direction: column;
+  }
+  .carousel-btnOSP
+  {
+    top: 50%;
+  }
+  .carousel-itemOSP
+  {
+    display: none;
+  }
+  .carousel-centerOSP
+  {
+    display: block;
+  }
+}
